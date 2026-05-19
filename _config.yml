@@ -1,0 +1,9 @@
+title: Papan Kerja — Dokumen Hukum
+description: Syarat & Ketentuan dan Kebijakan Privasi Papan Kerja
+theme: jekyll-theme-cayman
+markdown: kramdown
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
