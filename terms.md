@@ -166,8 +166,8 @@ Pemberi Tugas dapat melakukan top-up Dompet melalui metode pembayaran yang terse
 #### 8.3. Penarikan Dana (Withdrawal)
 
 Pekerja dan Pemberi Tugas dapat menarik saldo Dompet ke rekening bank yang terdaftar dan tervalidasi, dengan ketentuan:
-- **Biaya penarikan**: Rp 5.000 untuk penarikan di bawah Rp 100.000; Rp 3.000 untuk penarikan Rp 100.000 atau lebih.
-- **Batas penarikan per transaksi**: Rp 5.000.000.
+- **Biaya penarikan**: Rp 5.000 flat untuk semua jumlah penarikan.
+- **Batas penarikan per transaksi**: Rp 15.000.000.
 - **Batas penarikan harian**: Rp 30.000.000 per pengguna per hari kalender WIB.
 - **Saldo minimum Xendit Cash**: Penarikan akan ditolak jika saldo Xendit Cash Papan Kerja di bawah ambang batas yang ditetapkan. Pemberitahuan akan ditampilkan di Aplikasi pada kondisi tersebut.
 - **Periode pemrosesan**: Umumnya 1×24 jam kerja setelah permintaan penarikan, tergantung jam operasional bank tujuan.
@@ -236,7 +236,7 @@ Setelah Tugas diselesaikan, kedua pihak memiliki waktu 12 jam untuk memberikan r
 
 #### 10.2. Rangking Pekerja
 
-Pekerja memiliki rangking berdasarkan kinerja: **Kayu → Perunggu → Perak → Emas → Platina → Berlian**. Rangking mempengaruhi:
+Pekerja memiliki rangking berdasarkan kinerja: **Kayu → Perunggu → Perak → Emas → Platinum**. Rangking mempengaruhi:
 - Biaya Tugas maksimum yang dapat dilamar;
 - Jumlah Tugas aktif yang dapat diambil secara bersamaan;
 - Visibilitas profil Pekerja kepada Pemberi Tugas.

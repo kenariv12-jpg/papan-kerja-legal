@@ -23,6 +23,7 @@ Kebijakan ini berlaku efektif sejak **[Tanggal publikasi resmi di Google Play St
 ### 3. Data Pribadi yang Kami Kumpulkan
 
 #### 3.1. Data yang Anda berikan secara langsung
+
 | Kategori | Contoh data | Saat dikumpulkan |
 |---|---|---|
 | Identitas akun | Nomor telepon, nama tampilan, tanggal lahir, alamat email (opsional jika menggunakan Google Sign-In) | Saat pendaftaran |
@@ -33,6 +34,7 @@ Kebijakan ini berlaku efektif sejak **[Tanggal publikasi resmi di Google Play St
 | Laporan dan keluhan | Isi laporan terhadap pengguna lain, tiket dukungan, banding terhadap keputusan | Saat melaporkan atau membuat tiket |
 
 #### 3.2. Data yang dikumpulkan secara otomatis
+
 | Kategori | Contoh data |
 |---|---|
 | Data perangkat | Model perangkat, sistem operasi Android, versi aplikasi, pengidentifikasi perangkat (Android Advertising ID, Firebase Installation ID), token Firebase Cloud Messaging (FCM) untuk notifikasi push *(akan diaktifkan pada rilis mendatang)* |
@@ -177,6 +179,7 @@ This policy is effective as of **[Tanggal publikasi resmi di Google Play Store]*
 ### 3. Personal Data We Collect
 
 #### 3.1. Data you provide directly
+
 | Category | Examples | When collected |
 |---|---|---|
 | Account identity | Phone number, display name, date of birth, email (optional with Google Sign-In) | At registration |
@@ -187,6 +190,7 @@ This policy is effective as of **[Tanggal publikasi resmi di Google Play Store]*
 | Reports and complaints | Report content against other users, support tickets, appeals against decisions | When reporting or creating tickets |
 
 #### 3.2. Data collected automatically
+
 | Category | Examples |
 |---|---|
 | Device data | Device model, Android OS, app version, device identifiers (Android Advertising ID, Firebase Installation ID), FCM push notification token *(to be enabled in future releases)* |
