@@ -37,7 +37,7 @@ Kebijakan ini berlaku efektif sejak **[Tanggal publikasi resmi di Google Play St
 
 | Kategori | Contoh data |
 |---|---|
-| Data perangkat | Model perangkat, sistem operasi Android, versi aplikasi, pengidentifikasi perangkat (Android Advertising ID, Firebase Installation ID), token Firebase Cloud Messaging (FCM) untuk notifikasi push *(akan diaktifkan pada rilis mendatang)* |
+| Data perangkat | Model perangkat, sistem operasi Android, versi aplikasi, pengidentifikasi perangkat (Android Advertising ID, Firebase Installation ID), token Firebase Cloud Messaging (FCM) untuk notifikasi push |
 | Data penggunaan | Peristiwa pembukaan aplikasi, layar yang dikunjungi, fitur yang digunakan, durasi sesi (melalui Firebase Analytics) |
 | Data error | Catatan crash, stack trace, kondisi perangkat saat error (melalui Firebase Crashlytics) |
 | Saldo dan riwayat dompet | Saldo dompet aplikasi, riwayat top-up, riwayat penarikan, riwayat transaksi |
@@ -84,7 +84,9 @@ Sebagian Data Pribadi Anda dapat ditransfer ke negara di luar Indonesia (khususn
 |---|---|
 | Akun aktif (data dasar pengguna) | Selama akun masih aktif |
 | Foto dan media obrolan | 365 hari sejak diunggah (kebijakan siklus hidup Cloud Storage) |
-| Pesan obrolan (teks) | Diarsipkan 12 jam setelah pekerjaan ditutup; akses pengguna terbatas setelah arsip; penghapusan total mengikuti retensi 365 hari |
+| Pesan obrolan tugas (teks) | Diarsipkan 12 jam setelah pekerjaan ditutup ATAU 122 jam setelah pesan terakhir (mana yang lebih dulu); akses pengguna terbatas setelah arsip; penghapusan total mengikuti retensi 365 hari |
+| Pesan langsung dari Tim Papan Kerja (admin↔pengguna) | Disimpan tanpa pengarsipan otomatis untuk menjaga kelanjutan riwayat dukungan; pengguna dapat membalas kapan saja; penghapusan total mengikuti retensi 365 hari |
+| Riwayat notifikasi dalam aplikasi (`/notifications`) | 90 hari setelah notifikasi dibuat |
 | Foto dan media bukti pekerjaan | 365 hari sejak pekerjaan diselesaikan |
 | Riwayat transaksi dompet dan pembayaran | Disimpan untuk keperluan audit dan kepatuhan pajak, sekurang-kurangnya 5 tahun sebagaimana disyaratkan oleh peraturan perpajakan Indonesia |
 | Log audit administratif (`/userAccountLog`, `/walletReviewLog`) | 365 hari setelah pencatatan |
@@ -193,7 +195,7 @@ This policy is effective as of **[Tanggal publikasi resmi di Google Play Store]*
 
 | Category | Examples |
 |---|---|
-| Device data | Device model, Android OS, app version, device identifiers (Android Advertising ID, Firebase Installation ID), FCM push notification token *(to be enabled in future releases)* |
+| Device data | Device model, Android OS, app version, device identifiers (Android Advertising ID, Firebase Installation ID), FCM push notification token |
 | Usage data | App open events, screens visited, features used, session duration (via Firebase Analytics) |
 | Error data | Crash logs, stack traces, device state at error time (via Firebase Crashlytics) |
 | Wallet and transaction history | App wallet balance, top-up history, withdrawal history, transaction history |
@@ -239,7 +241,9 @@ Some of your Personal Data may be transferred to countries outside Indonesia (in
 |---|---|
 | Active account (basic user data) | While the account is active |
 | Chat photos and media | 365 days from upload (Cloud Storage lifecycle policy) |
-| Chat messages (text) | Archived 12 hours after job closure; user access limited post-archive; full deletion follows 365-day retention |
+| Job chat messages (text) | Archived 12 hours after job closure OR 122 hours after last message (whichever earlier); user access limited post-archive; full deletion follows 365-day retention |
+| Direct messages from Tim Papan Kerja (admin↔user) | Retained without automatic archival to preserve support history continuity; users may reply at any time; full deletion follows 365-day retention |
+| In-app notification history (`/notifications`) | 90 days after the notification is created |
 | Proof photos and media | 365 days after job completion |
 | Wallet and payment transaction history | Retained for audit and tax compliance, minimum 5 years as required by Indonesian tax regulations |
 | Administrative audit logs (`/userAccountLog`, `/walletReviewLog`) | 365 days after the event |

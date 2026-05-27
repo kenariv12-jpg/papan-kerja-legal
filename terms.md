@@ -128,6 +128,8 @@ Sebagai Pekerja, Anda wajib:
 7. **Mematuhi peraturan keselamatan kerja** dan menggunakan peralatan pelindung diri yang sesuai untuk Tugas berisiko fisik.
 8. **Tidak membatalkan Tugas yang telah diterima tanpa alasan yang sah** — pembatalan akan memicu strike sesuai sistem di Pasal 12.
 
+**Lamaran ganda.** Pekerja dapat melamar beberapa Tugas secara bersamaan untuk meningkatkan peluang diterima. Begitu Anda diterima pada sebanyak batas "Tugas Bersamaan" yang berlaku bagi Rangking Anda (lihat Pasal 10.2), sistem secara otomatis menarik seluruh lamaran Anda yang masih berstatus tertunda pada Tugas lain agar Anda dapat fokus menyelesaikan Tugas yang sudah diterima. Pemberi Tugas akan melihat jumlah pelamar pada Tugas mereka diperbarui secara otomatis.
+
 ### 7. Tindakan Terlarang ⚠️ LEGAL
 
 Dilarang menggunakan Aplikasi untuk:
@@ -287,6 +289,10 @@ Papan Kerja berhak menghapus Konten Pengguna yang melanggar S&K tanpa pemberitah
 Tim Papan Kerja akan mengambil salah satu tindakan berikut tergantung temuan: penghapusan/penyembunyian konten, peringatan tertulis kepada pelaku, penangguhan sementara Akun, atau pemblokiran permanen Akun. Pelapor akan menerima notifikasi hasil melalui Aplikasi atau email.
 
 **Moderasi otomatis**. Aplikasi menerapkan sistem moderasi otomatis yang menyaring kata-kata terlarang dan pola komunikasi mencurigakan dalam fitur chat. Pesan yang teridentifikasi melanggar dapat disembunyikan secara otomatis sambil menunggu tinjauan manusia.
+
+**Pesan langsung dari Tim Papan Kerja**. Tim Papan Kerja dapat memulai percakapan pribadi (direct message) dengan Pengguna untuk keperluan dukungan, verifikasi tambahan, atau klarifikasi atas suatu laporan/sengketa. Percakapan ini muncul di Kotak Pesan Anda dengan label "Tim Papan Kerja" dan Anda dapat membalas kapan saja. Percakapan tersebut tidak dianggap sebagai komunikasi pemasaran. Berbeda dengan obrolan tugas yang otomatis ditutup setelah 122 jam tanpa aktivitas, percakapan dengan Tim Papan Kerja tetap aktif tanpa pengarsipan otomatis.
+
+**Siklus hidup obrolan tugas**. Obrolan antara Pemberi Tugas dan Pekerja pada suatu Tugas akan menjadi hanya-baca (tidak dapat lagi mengirim pesan baru) ketika: (a) Tugas mencapai status final (selesai, dibatalkan, kedaluwarsa) lebih dari 12 jam, ATAU (b) tidak ada pesan baru dalam 122 jam terakhir, mana yang lebih dulu terjadi. Riwayat tetap dapat dibaca dalam jangka waktu yang ditetapkan pada Kebijakan Privasi.
 
 #### 11.5. Hak Memblokir Pengguna Lain
 
