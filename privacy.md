@@ -69,7 +69,7 @@ Data Anda dapat dibagikan kepada pihak ketiga berikut, hanya sebatas yang diperl
 | **Google LLC (Firebase)** — Firebase Authentication, Firestore, Cloud Storage, Cloud Functions, Cloud Messaging, Crashlytics, Analytics | Infrastruktur teknis: penyimpanan data, autentikasi, fungsi backend, analitik | Asia Tenggara (region `asia-southeast2`, Jakarta), Amerika Serikat untuk beberapa layanan |
 | **PT Xendit Indonesia** (Xendit) | Pemrosesan pembayaran (top-up dompet, pembayaran pekerjaan, pencairan dana ke Pekerja). Xendit adalah Penyelenggara Jasa Sistem Pembayaran (PJSP) berlisensi OJK. | Indonesia |
 | **Google LLC (Google Play Services, Google Sign-In, Google Maps API)** | Verifikasi keaslian aplikasi (Play Integrity), otentikasi opsional dengan akun Google, pemetaan lokasi tugas | Global |
-| **Penyedia jaringan pengiriman SMS Firebase** | Pengiriman kode OTP (One-Time Password) untuk verifikasi nomor telepon | Variasi berdasarkan operator |
+| **Fazpass** (penyedia layanan verifikasi OTP) | Pengiriman kode OTP (One-Time Password) untuk verifikasi nomor telepon, dikirim melalui WhatsApp | Indonesia; pengiriman WhatsApp melalui infrastruktur Meta Platforms (global) |
 
 Kami **tidak menjual** Data Pribadi Anda kepada pihak ketiga manapun untuk tujuan pemasaran.
 
@@ -227,7 +227,7 @@ Your data may be shared with the following third parties, only to the extent nec
 | **Google LLC (Firebase)** — Firebase Authentication, Firestore, Cloud Storage, Cloud Functions, Cloud Messaging, Crashlytics, Analytics | Technical infrastructure: data storage, authentication, backend functions, analytics | Southeast Asia (`asia-southeast2`, Jakarta), United States for some services |
 | **PT Xendit Indonesia** (Xendit) | Payment processing (wallet top-up, job payments, disbursements to Workers). Xendit is an OJK-licensed Payment System Service Provider (PJSP). | Indonesia |
 | **Google LLC (Google Play Services, Google Sign-In, Google Maps API)** | App integrity verification (Play Integrity), optional authentication with Google account, location mapping for jobs | Global |
-| **Firebase SMS delivery network providers** | OTP code delivery for phone number verification | Varies by carrier |
+| **Fazpass** (OTP verification service provider) | Delivery of OTP (One-Time Password) codes for phone number verification, sent via WhatsApp | Indonesia; WhatsApp delivery via Meta Platforms infrastructure (global) |
 
 We do **NOT sell** your Personal Data to any third party for marketing purposes.
 
