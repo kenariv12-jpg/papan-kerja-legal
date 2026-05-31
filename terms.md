@@ -442,7 +442,7 @@ Papan Kerja tidak bertanggung jawab atas keterlambatan atau kegagalan dalam meny
 Pemberitahuan resmi dari Papan Kerja akan disampaikan melalui:
 - Notifikasi dalam Aplikasi;
 - Email ke alamat email yang terdaftar di Akun;
-- (Setelah Stage 8 diaktifkan) push notification.
+- Notifikasi push (push notification) ke perangkat Anda, apabila Anda mengizinkan notifikasi.
 
 Anda setuju untuk menerima komunikasi tersebut secara elektronik, yang memiliki kekuatan hukum setara dengan komunikasi tertulis.
 
