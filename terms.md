@@ -147,6 +147,7 @@ Dilarang menggunakan Aplikasi untuk:
 12. **Mengumpulkan data pengguna lain** tanpa izin (scraping, harvesting, dsb.);
 13. **Menggunakan kata-kata terlarang** yang dimoderasi oleh sistem Papan Kerja dalam chat atau Konten Pengguna.
 14. **Materi pelecehan atau eksploitasi seksual anak (CSAE)** atau konten apa pun yang menyeksualisasi, mengeksploitasi, atau membahayakan anak — berlaku kebijakan tanpa toleransi (zero tolerance), lihat Pasal 11.7.
+15. **Mengunggah, mengirim, atau menyebarkan perangkat lunak atau berkas berbahaya** — termasuk virus, malware, ransomware, spyware, kode berbahaya, tautan berbahaya, atau berkas (file) yang dirancang atau berpotensi merusak, mengganggu, mengakses secara tidak sah, atau membahayakan perangkat, data, akun, atau sistem Pengguna lain maupun Papan Kerja, baik melalui bukti pekerjaan, lampiran obrolan, maupun fitur lain di Aplikasi.
 
 Pelanggaran Pasal 7 dapat berakibat pada penangguhan langsung, pemblokiran permanen, pembekuan saldo Dompet, dan/atau pelaporan kepada pihak berwenang.
 
@@ -271,7 +272,10 @@ Anda bertanggung jawab penuh atas seluruh Konten Pengguna yang Anda unggah. Anda
 - Tidak melanggar hak kekayaan intelektual pihak lain;
 - Tidak mengandung ujaran kebencian, fitnah, pornografi, atau materi ilegal;
 - Tidak melanggar privasi pihak lain;
+- Tidak mengandung virus, malware, atau kode berbahaya, dan aman untuk diunduh serta dibuka oleh penerima;
 - Akurat dan tidak menyesatkan.
+
+Anda bertanggung jawab penuh atas setiap berkas (file) yang Anda unggah atau kirim, dan Anda membebaskan Papan Kerja dari segala kerugian yang dialami Pengguna lain akibat berkas yang Anda kirim (lihat Pasal 17 — Ganti Rugi).
 
 Papan Kerja berhak menghapus Konten Pengguna yang melanggar S&K tanpa pemberitahuan terlebih dahulu.
 
@@ -312,6 +316,7 @@ Setiap Pengguna bertanggung jawab untuk menggunakan pertimbangan dan kehati-hati
 - menjaga keamanan barang pribadi;
 - tidak memberikan akses terhadap uang, dokumen penting, akun pribadi, atau barang berharga tanpa pengawasan yang memadai;
 - memastikan lokasi pelaksanaan Tugas aman dan sesuai;
+- berhati-hati sebelum membuka atau mengunduh berkas (file) yang dikirim oleh Pengguna lain, dan memindainya dengan perangkat lunak antivirus sebelum membukanya;
 - menghentikan interaksi apabila dirasa berpotensi membahayakan.
 
 Pengguna dianjurkan untuk segera melaporkan aktivitas mencurigakan kepada Tim Papan Kerja dan/atau pihak berwenang yang berwenang.
@@ -398,7 +403,8 @@ APLIKASI DAN SELURUH LAYANAN DISEDIAKAN "SEBAGAIMANA ADANYA" (AS IS) DAN "SEBAGA
 - Jaminan keserasian untuk tujuan tertentu;
 - Jaminan kualitas, keamanan, ketepatan waktu, atau hasil Tugas;
 - Jaminan ketersediaan Aplikasi tanpa interupsi atau bebas dari kesalahan;
-- Jaminan keakuratan informasi yang disampaikan Pengguna lain.
+- Jaminan keakuratan informasi yang disampaikan Pengguna lain;
+- Jaminan bahwa Konten Pengguna, berkas (file), atau media yang diunggah, dikirim, atau dibagikan oleh Pengguna lain bebas dari virus, malware, atau kode berbahaya. Papan Kerja tidak memindai, memverifikasi, atau menjamin keamanan berkas yang dipertukarkan antar-Pengguna; Anda mengunduh dan membukanya atas risiko Anda sendiri.
 
 Pemberi Tugas dan Pekerja melaksanakan Tugas atas risiko masing-masing.
 
@@ -413,6 +419,7 @@ DALAM BATAS MAKSIMAL YANG DIIZINKAN OLEH HUKUM YANG BERLAKU:
   - Hasil, kualitas, atau keamanan Tugas yang dilaksanakan;
   - Kehilangan, kerusakan, atau cedera selama pelaksanaan Tugas;
   - Sengketa antara Pengguna terkait Tugas;
+  - Kerusakan, kehilangan, atau kebocoran data, infeksi virus/malware, atau gangguan pada perangkat atau sistem Anda yang diakibatkan oleh berkas (file), tautan, atau konten yang diunggah, dikirim, atau dibagikan oleh Pengguna lain melalui Aplikasi — Anda mengunduh dan membuka berkas dari Pengguna lain sepenuhnya atas risiko sendiri;
   - Penundaan atau kegagalan pemrosesan pembayaran oleh Xendit atau mitra perbankan;
   - Force majeure (lihat Pasal 19).
 
