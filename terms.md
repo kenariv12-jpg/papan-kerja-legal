@@ -29,7 +29,7 @@ S&K ini berlaku efektif sejak **[Tanggal publikasi resmi di Google Play Store]**
 | **Komisi Layanan** | Biaya layanan yang dipungut Papan Kerja dari setiap Tugas yang diselesaikan, sebesar 10% (sepuluh persen) dari nilai Tugas |
 | **Dompet Aplikasi** | Saldo virtual milik Pengguna di Aplikasi, yang dikelola melalui mitra pemroses pembayaran Xendit |
 | **Escrow** | Pemegangan sementara dana pembayaran Tugas oleh Papan Kerja (melalui Xendit) sampai Tugas diselesaikan |
-| **Xendit** | PT Xendit Indonesia, Penyelenggara Jasa Sistem Pembayaran (PJSP) berlisensi OJK yang memproses pembayaran di Aplikasi |
+| **Xendit** | Penyedia Jasa Pembayaran (PJP) berlisensi Bank Indonesia yang memproses pembayaran di Aplikasi |
 | **Tim Papan Kerja** | Tim resmi Papan Kerja yang berwenang mengelola, memoderasi, dan menyelesaikan sengketa di Aplikasi |
 | **Konten Pengguna** | Setiap teks, foto, video, dokumen, ulasan, rating, atau informasi lain yang diunggah Pengguna ke Aplikasi |
 
@@ -83,7 +83,7 @@ Pengguna menyetujui bahwa Papan Kerja hanya menyediakan platform teknologi untuk
 
 #### 4.2. Papan Kerja Bukan Lembaga Keuangan
 
-Papan Kerja **BUKAN** bank, lembaga keuangan, penyelenggara jasa pembayaran, atau penerbit uang elektronik. Seluruh pemrosesan pembayaran di Aplikasi dilaksanakan oleh **Xendit**, mitra PJSP berlisensi OJK. Dompet Aplikasi berfungsi sebagai catatan saldo virtual; dana sebenarnya disimpan dan dikelola oleh Xendit sesuai izin dan ketentuan OJK.
+Papan Kerja **BUKAN** bank, lembaga keuangan, penyelenggara jasa pembayaran, atau penerbit uang elektronik. Seluruh pemrosesan pembayaran di Aplikasi dilaksanakan oleh **Xendit**, mitra Penyedia Jasa Pembayaran (PJP) berlisensi Bank Indonesia. Dompet Aplikasi berfungsi sebagai catatan saldo virtual; dana sebenarnya disimpan dan dikelola oleh Xendit sesuai izin dan ketentuan Bank Indonesia.
 
 #### 4.3. Tanpa Hubungan Ketenagakerjaan ⚠️ LEGAL
 
@@ -146,6 +146,7 @@ Dilarang menggunakan Aplikasi untuk:
 11. **Penggunaan bot atau skrip otomatis** untuk berinteraksi dengan Aplikasi;
 12. **Mengumpulkan data pengguna lain** tanpa izin (scraping, harvesting, dsb.);
 13. **Menggunakan kata-kata terlarang** yang dimoderasi oleh sistem Papan Kerja dalam chat atau Konten Pengguna.
+14. **Materi pelecehan atau eksploitasi seksual anak (CSAE)** atau konten apa pun yang menyeksualisasi, mengeksploitasi, atau membahayakan anak — berlaku kebijakan tanpa toleransi (zero tolerance), lihat Pasal 11.7.
 
 Pelanggaran Pasal 7 dapat berakibat pada penangguhan langsung, pemblokiran permanen, pembekuan saldo Dompet, dan/atau pelaporan kepada pihak berwenang.
 
@@ -168,10 +169,10 @@ Pemberi Tugas dapat melakukan top-up Dompet melalui metode pembayaran yang terse
 #### 8.3. Penarikan Dana (Withdrawal)
 
 Pekerja dan Pemberi Tugas dapat menarik saldo Dompet ke rekening bank yang terdaftar dan tervalidasi, dengan ketentuan:
-- **Biaya penarikan**: Rp 3.000 flat untuk semua jumlah penarikan.
+- **Biaya penarikan**: Rp 5.000 flat untuk semua jumlah penarikan.
 - **Batas penarikan per transaksi**: Rp 15.000.000.
 - **Batas penarikan harian**: Rp 30.000.000 per pengguna per hari kalender WIB.
-- **Saldo minimum Xendit Cash**: Penarikan akan ditolak jika saldo Xendit Cash Papan Kerja di bawah ambang batas yang ditetapkan. Pemberitahuan akan ditampilkan di Aplikasi pada kondisi tersebut.
+- **Saldo minimum dana pencairan**: Penarikan akan ditolak jika saldo dana pencairan Papan Kerja di bawah ambang batas yang ditetapkan. Pemberitahuan akan ditampilkan di Aplikasi pada kondisi tersebut.
 - **Periode pemrosesan**: Umumnya 1×24 jam kerja setelah permintaan penarikan, tergantung jam operasional bank tujuan.
 - **Pencocokan nama wajib**: Nama pemilik rekening bank tujuan harus sesuai dengan nama di KTP Pengguna; rekening akan divalidasi melalui Xendit sebelum penarikan.
 
@@ -314,6 +315,16 @@ Setiap Pengguna bertanggung jawab untuk menggunakan pertimbangan dan kehati-hati
 - menghentikan interaksi apabila dirasa berpotensi membahayakan.
 
 Pengguna dianjurkan untuk segera melaporkan aktivitas mencurigakan kepada Tim Papan Kerja dan/atau pihak berwenang yang berwenang.
+
+#### 11.7. Standar Keselamatan Anak (Child Safety Standards / CSAE) ⚠️ LEGAL
+
+Papan Kerja menerapkan **kebijakan tanpa toleransi (zero tolerance)** terhadap materi pelecehan dan eksploitasi seksual anak (*Child Sexual Abuse and Exploitation*/CSAE) serta segala bentuk konten atau perilaku yang menyeksualisasi, mengeksploitasi, atau membahayakan anak.
+
+1. **Platform khusus dewasa.** Aplikasi hanya diperuntukkan bagi pengguna berusia **18 (delapan belas) tahun ke atas** (lihat Pasal 3). Papan Kerja tidak ditujukan untuk dan tidak boleh digunakan oleh anak di bawah umur.
+2. **Dilarang keras.** Dilarang membuat, mengunggah, menyimpan, mengirim, membagikan, menautkan, atau memfasilitasi CSAE atau konten apa pun yang mengeksploitasi atau membahayakan anak melalui chat, ulasan, profil, deskripsi Tugas, bukti pekerjaan, atau bagian mana pun dari Aplikasi.
+3. **Cara melapor.** Siapa pun dapat melaporkan dugaan CSAE atau masalah keselamatan anak melalui fitur **"Laporkan"** yang tersedia pada setiap konten dan profil (lihat Pasal 11.4), atau secara langsung melalui surel **support@papankerja.com** dengan subjek "Keselamatan Anak". Laporan dapat disampaikan kapan saja (24/7).
+4. **Tindakan kami.** Setiap laporan CSAE ditangani sebagai prioritas tertinggi. Papan Kerja akan: (a) menghapus konten dan menangguhkan/memblokir akun terkait secara permanen; (b) menyimpan bukti yang relevan sesuai ketentuan hukum; serta (c) melaporkan kepada pihak berwajib, termasuk Kepolisian Negara Republik Indonesia dan/atau lembaga perlindungan anak yang berwenang, sesuai peraturan perundang-undangan yang berlaku.
+5. **Narahubung keselamatan anak.** Pertanyaan, pemberitahuan, atau permintaan dari pihak berwenang maupun dari penyedia platform distribusi (misalnya Google Play) terkait keselamatan anak dan CSAE dapat ditujukan kepada narahubung keselamatan anak Papan Kerja di **support@papankerja.com**.
 
 ### 12. Strike, Penangguhan, dan Pemblokiran Akun
 
@@ -514,7 +525,7 @@ These Terms are effective from **[Tanggal publikasi resmi di Google Play Store]*
 | **Service Commission** | The service fee Papan Kerja collects on each completed Task: 10% (ten percent) of the Task value |
 | **App Wallet** | The User's virtual balance in the App, managed through payment partner Xendit |
 | **Escrow** | The temporary holding of Task payment funds by Papan Kerja (via Xendit) until the Task is completed |
-| **Xendit** | PT Xendit Indonesia, an OJK-licensed Payment System Service Provider (PJSP) processing payments in the App |
+| **Xendit** | A Bank Indonesia-licensed Payment Service Provider (PJP) processing payments in the App |
 | **Papan Kerja Team** | The official Papan Kerja team authorized to manage, moderate, and resolve disputes in the App |
 | **User Content** | Any text, photo, video, document, review, rating, or other information uploaded by Users to the App |
 
@@ -551,7 +562,7 @@ The relationship between Task Poster and Worker is an independent contractual re
 
 #### 4.2. Papan Kerja Is Not a Financial Institution
 
-Papan Kerja is **NOT** a bank, financial institution, payment service provider, or e-money issuer. All payment processing in the App is conducted by **Xendit**, an OJK-licensed PJSP. The App Wallet is a virtual balance ledger; actual funds are stored and managed by Xendit under OJK regulations.
+Papan Kerja is **NOT** a bank, financial institution, payment service provider, or e-money issuer. All payment processing in the App is conducted by **Xendit**, a Bank Indonesia-licensed PJP. The App Wallet is a virtual balance ledger; actual funds are stored and managed by Xendit under Bank Indonesia regulations.
 
 #### 4.3. No Employment Relationship
 
