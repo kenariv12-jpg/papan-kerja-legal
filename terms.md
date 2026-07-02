@@ -27,9 +27,9 @@ S&K ini berlaku efektif sejak **[Tanggal publikasi resmi di Google Play Store]**
 | **Pekerja** | Pengguna yang melamar untuk dan/atau melaksanakan Tugas dari Pemberi Tugas |
 | **Tugas** | Pekerjaan freelance atau tugas harian yang diposting oleh Pemberi Tugas di Aplikasi |
 | **Komisi Layanan** | Biaya layanan yang dipungut Papan Kerja dari setiap Tugas yang diselesaikan, sebesar 10% (sepuluh persen) dari nilai Tugas |
-| **Dompet Aplikasi** | Saldo virtual milik Pengguna di Aplikasi, yang dikelola melalui mitra pemroses pembayaran Xendit |
-| **Escrow** | Pemegangan sementara dana pembayaran Tugas oleh Papan Kerja (melalui Xendit) sampai Tugas diselesaikan |
-| **Xendit** | Penyedia Jasa Pembayaran (PJP) berlisensi Bank Indonesia yang memproses pembayaran di Aplikasi |
+| **Dompet Aplikasi** | Saldo virtual milik Pengguna di Aplikasi, yang dikelola melalui mitra pemroses pembayaran Durianpay |
+| **Escrow** | Pemegangan sementara dana pembayaran Tugas oleh Papan Kerja (melalui Durianpay) sampai Tugas diselesaikan |
+| **Durianpay** | Penyedia Jasa Pembayaran (PJP) berlisensi Bank Indonesia (dioperasikan oleh PT Durian Pay Indonesia) yang memproses pembayaran di Aplikasi |
 | **Tim Papan Kerja** | Tim resmi Papan Kerja yang berwenang mengelola, memoderasi, dan menyelesaikan sengketa di Aplikasi |
 | **Konten Pengguna** | Setiap teks, foto, video, dokumen, ulasan, rating, atau informasi lain yang diunggah Pengguna ke Aplikasi |
 
@@ -83,7 +83,7 @@ Pengguna menyetujui bahwa Papan Kerja hanya menyediakan platform teknologi untuk
 
 #### 4.2. Papan Kerja Bukan Lembaga Keuangan
 
-Papan Kerja **BUKAN** bank, lembaga keuangan, penyelenggara jasa pembayaran, atau penerbit uang elektronik. Seluruh pemrosesan pembayaran di Aplikasi dilaksanakan oleh **Xendit**, mitra Penyedia Jasa Pembayaran (PJP) berlisensi Bank Indonesia. Dompet Aplikasi berfungsi sebagai catatan saldo virtual; dana sebenarnya disimpan dan dikelola oleh Xendit sesuai izin dan ketentuan Bank Indonesia.
+Papan Kerja **BUKAN** bank, lembaga keuangan, penyelenggara jasa pembayaran, atau penerbit uang elektronik. Seluruh pemrosesan pembayaran di Aplikasi dilaksanakan oleh **Durianpay** (PT Durian Pay Indonesia), mitra Penyedia Jasa Pembayaran (PJP) berlisensi Bank Indonesia. Dompet Aplikasi berfungsi sebagai catatan saldo virtual; dana sebenarnya disimpan dan dikelola oleh Durianpay sesuai izin dan ketentuan Bank Indonesia.
 
 #### 4.3. Tanpa Hubungan Ketenagakerjaan ⚠️ LEGAL
 
@@ -163,19 +163,21 @@ Contoh: Tugas senilai Rp 100.000.
 - Diterima Pekerja: Rp 90.000
 
 
+**Biaya Tugas Mendesak.** Pemberi Tugas yang menandai Tugas sebagai "Mendesak" dikenakan biaya tambahan sebesar **Rp 15.000** per Tugas, di luar Komisi Layanan, yang dibayarkan saat memposting Tugas.
+
 #### 8.2. Top-up Dompet
 
 Pemberi Tugas dapat melakukan top-up Dompet melalui metode pembayaran yang tersedia di Aplikasi (QRIS, Virtual Account, e-wallet, kartu kredit, gerai retail, dsb.). Saldo Dompet dapat digunakan untuk membayar Tugas atau dicairkan ke rekening bank.
 
 #### 8.3. Penarikan Dana (Withdrawal)
 
-Pekerja dan Pemberi Tugas dapat menarik saldo Dompet ke rekening bank yang terdaftar dan tervalidasi, dengan ketentuan:
+Pekerja dan Pemberi Tugas dapat menarik saldo Dompet ke rekening bank atau akun e-wallet (GoPay/OVO/DANA) yang terdaftar dan tervalidasi, dengan ketentuan:
 - **Biaya penarikan**: Rp 5.000 flat untuk semua jumlah penarikan.
 - **Batas penarikan per transaksi**: Rp 15.000.000.
 - **Batas penarikan harian**: Rp 30.000.000 per pengguna per hari kalender WIB.
 - **Saldo minimum dana pencairan**: Penarikan akan ditolak jika saldo dana pencairan Papan Kerja di bawah ambang batas yang ditetapkan. Pemberitahuan akan ditampilkan di Aplikasi pada kondisi tersebut.
 - **Periode pemrosesan**: Umumnya 1×24 jam kerja setelah permintaan penarikan, tergantung jam operasional bank tujuan.
-- **Pencocokan nama wajib**: Nama pemilik rekening bank tujuan harus sesuai dengan nama di KTP Pengguna; rekening akan divalidasi melalui Xendit sebelum penarikan.
+- **Pencocokan nama wajib**: Nama pemilik rekening (bank maupun e-wallet) tujuan harus sesuai dengan nama di KTP Pengguna; rekening tujuan diverifikasi pada saat pendaftaran rekening melalui mitra pemroses pembayaran (Durianpay).
 
 Papan Kerja berhak menahan atau menolak permintaan penarikan yang ditemukan terkait dengan dugaan penipuan, pencucian uang, atau pelanggaran S&K.
 
@@ -335,9 +337,10 @@ Papan Kerja menerapkan **kebijakan tanpa toleransi (zero tolerance)** terhadap m
 
 #### 12.1. Sistem Strike Pembatalan
 
-Pembatalan Tugas setelah penerimaan oleh kedua pihak akan menghasilkan strike pembatalan. Akumulasi strike memicu:
-- **3 strike dalam 30 hari** → akun berstatus "locked_cancellations"; tidak dapat melamar/menerima Tugas baru sampai dibuka oleh Tim Papan Kerja.
-- **Pelanggaran berulang** → penangguhan 3 hari → 7 hari → blokir permanen.
+Pembatalan Tugas setelah penerimaan oleh kedua pihak akan menghasilkan strike pembatalan, dengan mekanisme bertingkat sebagai berikut:
+- Setiap **3 strike dalam kurun 7 hari** dihitung sebagai 1 (satu) pelanggaran pembatalan, dan penghitungan strike kemudian disetel ulang.
+- Pelanggaran pembatalan berlaku bertingkat: **pelanggaran ke-1 → penangguhan 3 hari; pelanggaran ke-2 → penangguhan 7 hari; pelanggaran ke-3 → akun berstatus "locked_cancellations"** dan tidak dapat melamar/menerima Tugas baru sampai dibuka kembali oleh Tim Papan Kerja.
+- Catatan strike pembatalan disimpan hingga 30 hari.
 
 #### 12.2. Status Akun
 
@@ -420,7 +423,7 @@ DALAM BATAS MAKSIMAL YANG DIIZINKAN OLEH HUKUM YANG BERLAKU:
   - Kehilangan, kerusakan, atau cedera selama pelaksanaan Tugas;
   - Sengketa antara Pengguna terkait Tugas;
   - Kerusakan, kehilangan, atau kebocoran data, infeksi virus/malware, atau gangguan pada perangkat atau sistem Anda yang diakibatkan oleh berkas (file), tautan, atau konten yang diunggah, dikirim, atau dibagikan oleh Pengguna lain melalui Aplikasi — Anda mengunduh dan membuka berkas dari Pengguna lain sepenuhnya atas risiko sendiri;
-  - Penundaan atau kegagalan pemrosesan pembayaran oleh Xendit atau mitra perbankan;
+  - Penundaan atau kegagalan pemrosesan pembayaran oleh Durianpay atau mitra perbankan;
   - Force majeure (lihat Pasal 19).
 
 Dalam batas yang diperbolehkan oleh hukum yang berlaku, Papan Kerja secara khusus tidak bertanggung jawab atas:
@@ -453,7 +456,7 @@ Setiap Pengguna bertanggung jawab atas kewajiban perpajakan masing-masing, terma
 
 ### 19. Force Majeure
 
-Papan Kerja tidak bertanggung jawab atas keterlambatan atau kegagalan dalam menyediakan Aplikasi yang disebabkan oleh keadaan di luar kendali wajar, termasuk namun tidak terbatas pada: bencana alam, perang, kerusuhan, terorisme, pandemi, gangguan jaringan/listrik, kegagalan infrastruktur cloud (Google, Xendit, dll.), pemberitahuan otoritas pemerintah, atau peraturan baru.
+Papan Kerja tidak bertanggung jawab atas keterlambatan atau kegagalan dalam menyediakan Aplikasi yang disebabkan oleh keadaan di luar kendali wajar, termasuk namun tidak terbatas pada: bencana alam, perang, kerusuhan, terorisme, pandemi, gangguan jaringan/listrik, kegagalan infrastruktur cloud (Google, Durianpay, dll.), pemberitahuan otoritas pemerintah, atau peraturan baru.
 
 ### 20. Pemberitahuan dan Komunikasi
 
@@ -530,9 +533,9 @@ These Terms are effective from **[Tanggal publikasi resmi di Google Play Store]*
 | **Worker** | A User who applies for and/or performs Tasks from a Task Poster |
 | **Task** | A freelance or daily-task job posted by a Task Poster on the App |
 | **Service Commission** | The service fee Papan Kerja collects on each completed Task: 10% (ten percent) of the Task value |
-| **App Wallet** | The User's virtual balance in the App, managed through payment partner Xendit |
-| **Escrow** | The temporary holding of Task payment funds by Papan Kerja (via Xendit) until the Task is completed |
-| **Xendit** | A Bank Indonesia-licensed Payment Service Provider (PJP) processing payments in the App |
+| **App Wallet** | The User's virtual balance in the App, managed through payment partner Durianpay |
+| **Escrow** | The temporary holding of Task payment funds by Papan Kerja (via Durianpay) until the Task is completed |
+| **Durianpay** | A Bank Indonesia-licensed Payment Service Provider (PJP), operated by PT Durian Pay Indonesia, processing payments in the App |
 | **Papan Kerja Team** | The official Papan Kerja team authorized to manage, moderate, and resolve disputes in the App |
 | **User Content** | Any text, photo, video, document, review, rating, or other information uploaded by Users to the App |
 
@@ -569,7 +572,7 @@ The relationship between Task Poster and Worker is an independent contractual re
 
 #### 4.2. Papan Kerja Is Not a Financial Institution
 
-Papan Kerja is **NOT** a bank, financial institution, payment service provider, or e-money issuer. All payment processing in the App is conducted by **Xendit**, a Bank Indonesia-licensed PJP. The App Wallet is a virtual balance ledger; actual funds are stored and managed by Xendit under Bank Indonesia regulations.
+Papan Kerja is **NOT** a bank, financial institution, payment service provider, or e-money issuer. All payment processing in the App is conducted by **Durianpay** (PT Durian Pay Indonesia), a Bank Indonesia-licensed PJP. The App Wallet is a virtual balance ledger; actual funds are stored and managed by Durianpay under Bank Indonesia regulations.
 
 #### 4.3. No Employment Relationship
 
