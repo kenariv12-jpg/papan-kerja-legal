@@ -15,7 +15,7 @@ Kebijakan ini berlaku efektif sejak **[Tanggal publikasi resmi di Google Play St
 ### 2. Definisi
 
 - **Data Pribadi**: setiap data tentang seseorang baik yang teridentifikasi dan/atau dapat diidentifikasi secara tersendiri atau dikombinasi dengan informasi lainnya.
-- **Data Pribadi Bersifat Spesifik** (sebagaimana didefinisikan dalam Pasal 4 UU PDP): mencakup data biometrik (foto KTP), data anak (kami tidak melayani anak di bawah 18 tahun), dan data keuangan pribadi.
+- **Data Pribadi Bersifat Spesifik** (sebagaimana didefinisikan dalam Pasal 4 UU PDP): mencakup data biometrik (foto KTP dan foto selfie wajah), data anak (kami tidak melayani anak di bawah 18 tahun), dan data keuangan pribadi.
 - **Pemberi Tugas**: pengguna yang memposting pekerjaan/tugas pada Aplikasi.
 - **Pekerja**: pengguna yang melamar dan/atau mengerjakan tugas dari Pemberi Tugas.
 - **Subjek Data**: Anda, sebagai pengguna Aplikasi.
@@ -27,9 +27,10 @@ Kebijakan ini berlaku efektif sejak **[Tanggal publikasi resmi di Google Play St
 | Kategori | Contoh data | Saat dikumpulkan |
 |---|---|---|
 | Identitas akun | Nomor telepon, nama tampilan, tanggal lahir, alamat email (opsional jika menggunakan Google Sign-In) | Saat pendaftaran |
-| **Identitas terverifikasi (data spesifik)** ⚠️ LEGAL | Foto KTP, Nomor Induk Kependudukan (NIK), nama lengkap dari KTP, alamat dari KTP, tanggal lahir dari KTP | Saat verifikasi KTP |
+| **Identitas terverifikasi (data spesifik)** ⚠️ LEGAL | Foto KTP dan foto selfie wajah (untuk pencocokan identitas dengan KTP); foto KTP memuat NIK, nama lengkap, alamat, dan tanggal lahir sebagaimana tertera pada KTP | Saat verifikasi KTP |
 | Lokasi tugas | Alamat lengkap pekerjaan, koordinat (latitude/longitude) | Saat memposting atau melamar tugas |
-| Informasi pembayaran | Nama bank, nomor rekening, nama pemilik rekening (untuk pencairan ke Pekerja) | Saat menambahkan akun pembayaran |
+| **Lokasi real-time saat bekerja (data spesifik)** ⚠️ LEGAL | Koordinat posisi (latitude/longitude) Pekerja yang diperbarui secara berkala **hanya selama tugas berstatus sedang berjalan**. Fitur ini: (a) hanya aktif setelah Pekerja memberikan persetujuan eksplisit satu kali di dalam aplikasi; (b) hanya berjalan saat aplikasi sedang dibuka — tidak ada pelacakan di latar belakang; (c) hanya dapat dilihat oleh Pemberi Tugas dari tugas yang bersangkutan; (d) tidak menyimpan riwayat perjalanan — hanya posisi terakhir; (e) dihapus otomatis saat tugas selesai atau dibatalkan; dan (f) dapat dimatikan kapan saja melalui Pengaturan | Saat mengerjakan tugas aktif, jika fitur berbagi lokasi diaktifkan |
+| Informasi pembayaran | Untuk pencairan dana ke Pekerja: nama bank, nomor rekening, dan nama pemilik rekening; atau penyedia e-wallet (GoPay/OVO/DANA) dan nomor akun e-wallet | Saat menambahkan akun pembayaran |
 | Konten pengguna | Teks dan media dalam obrolan, foto/video/dokumen bukti pekerjaan, deskripsi tugas, rating dan ulasan | Saat menggunakan fitur terkait |
 | Laporan dan keluhan | Isi laporan terhadap pengguna lain, tiket dukungan, banding terhadap keputusan | Saat melaporkan atau membuat tiket |
 
@@ -43,7 +44,7 @@ Kebijakan ini berlaku efektif sejak **[Tanggal publikasi resmi di Google Play St
 | Saldo dan riwayat dompet | Saldo dompet aplikasi, riwayat top-up, riwayat penarikan, riwayat transaksi |
 
 #### 3.3. Data yang TIDAK kami kumpulkan
-Kami tidak mengumpulkan: data kesehatan, orientasi seksual, keyakinan politik atau agama, data kartu kredit (transaksi pembayaran ditangani sepenuhnya oleh Xendit), data biometrik selain foto KTP.
+Kami tidak mengumpulkan: data kesehatan, orientasi seksual, keyakinan politik atau agama, data kartu kredit (transaksi pembayaran ditangani sepenuhnya oleh Durianpay), data biometrik selain foto KTP dan foto selfie.
 
 ### 4. Tujuan Pengumpulan dan Dasar Hukum Pemrosesan
 
@@ -53,7 +54,9 @@ Kami memproses Data Pribadi Anda untuk tujuan berikut:
 |---|---|
 | Menyediakan layanan inti Aplikasi (mempertemukan Pemberi Tugas dan Pekerja, memfasilitasi transaksi, mengelola dompet) | Pelaksanaan perjanjian (Pasal 20 ayat 2 huruf b) |
 | Verifikasi identitas pengguna untuk keamanan transaksi (KTP/NIK) | Persetujuan tegas Subjek Data (Pasal 20 ayat 2 huruf a) — Anda secara eksplisit menyetujui unggah KTP pada saat onboarding |
-| Memfasilitasi pembayaran dan pencairan dana melalui Xendit | Pelaksanaan perjanjian |
+| Membagikan posisi real-time Pekerja kepada Pemberi Tugas dari tugas yang sedang berjalan (fitur berbagi lokasi) | Persetujuan tegas Subjek Data (Pasal 20 ayat 2 huruf a) — diminta secara eksplisit di dalam aplikasi sebelum fitur pertama kali aktif; persetujuan dapat dicabut kapan saja melalui Pengaturan tanpa memengaruhi layanan lainnya |
+| Membagikan posisi real-time Pekerja kepada Pemberi Tugas dari tugas yang sedang berjalan (fitur berbagi lokasi saat bekerja) | Persetujuan tegas Subjek Data (Pasal 20 ayat 2 huruf a) — diminta satu kali di dalam aplikasi sebelum fitur pertama kali aktif; persetujuan dapat dicabut kapan saja melalui Pengaturan tanpa memengaruhi fitur lain |
+| Memfasilitasi pembayaran dan pencairan dana melalui Durianpay | Pelaksanaan perjanjian |
 | Mencegah penipuan, pelanggaran ketentuan layanan, atau aktivitas mencurigakan | Kepentingan sah pengendali (Pasal 20 ayat 2 huruf f) |
 | Komunikasi terkait layanan (notifikasi pesanan, status verifikasi, peringatan keamanan) | Pelaksanaan perjanjian |
 | Analisis penggunaan dan peningkatan layanan (agregat dan/atau anonim) | Kepentingan sah pengendali |
@@ -67,7 +70,7 @@ Data Anda dapat dibagikan kepada pihak ketiga berikut, hanya sebatas yang diperl
 | Pihak ketiga | Tujuan | Lokasi pemrosesan |
 |---|---|---|
 | **Google LLC (Firebase)** — Firebase Authentication, Firestore, Cloud Storage, Cloud Functions, Cloud Messaging, Crashlytics, Analytics | Infrastruktur teknis: penyimpanan data, autentikasi, fungsi backend, analitik | Asia Tenggara (region `asia-southeast2`, Jakarta), Amerika Serikat untuk beberapa layanan |
-| **Xendit** | Pemrosesan pembayaran (top-up dompet, pembayaran pekerjaan, pencairan dana ke Pekerja). Xendit adalah Penyedia Jasa Pembayaran (PJP) berlisensi Bank Indonesia. | Indonesia |
+| **Durianpay** (PT Durian Pay Indonesia) | Pemrosesan pembayaran (top-up dompet, pembayaran pekerjaan, pencairan dana ke Pekerja). Data yang dibagikan: alamat email Anda (saat top-up/pembayaran), nama serta nomor rekening bank atau akun e-wallet tujuan pencairan, dan jumlah transaksi. Durianpay adalah Penyedia Jasa Pembayaran (PJP) berlisensi Bank Indonesia. | Indonesia |
 | **Google LLC (Google Play Services, Google Sign-In, Google Maps API)** | Verifikasi keaslian aplikasi (Play Integrity), otentikasi opsional dengan akun Google, pemetaan lokasi tugas | Global |
 | **Fazpass** (penyedia layanan verifikasi OTP) | Pengiriman kode OTP (One-Time Password) untuk verifikasi nomor telepon, dikirim melalui WhatsApp | Indonesia; pengiriman WhatsApp melalui infrastruktur Meta Platforms (global) |
 
@@ -94,6 +97,7 @@ Sebagian Data Pribadi Anda dapat ditransfer ke negara di luar Indonesia (khususn
 | Lamaran kerja status terminal (ditolak/dibatalkan) | 60 hari setelah status final |
 | Saldo dompet historis (`/balanceHistory`) | 90 hari setelah pencatatan |
 | Kunci idempotensi pembayaran (`/idempotencyKeys`) | Sampai kedaluwarsa (~24 jam) |
+| Lokasi real-time saat bekerja | Hanya posisi terakhir yang disimpan (tanpa riwayat perjalanan); dihapus otomatis oleh sistem segera setelah tugas selesai atau dibatalkan |
 | Foto KTP dan data verifikasi identitas | Selama akun aktif; setelah penghapusan akun, dihapus permanen kecuali ada kewajiban hukum untuk mempertahankan (penyelidikan, sengketa, audit pajak) |
 | Ulasan dan rating | Disimpan permanen untuk akurasi reputasi pasar (pengguna lain dapat melihat rating historis pihak yang diulas) — bahkan setelah akun yang diulas dihapus, ulasan tetap muncul atas akun penulis ulasan |
 
@@ -173,7 +177,7 @@ This policy is effective as of **[Tanggal publikasi resmi di Google Play Store]*
 ### 2. Definitions
 
 - **Personal Data**: any data about an identified or identifiable natural person.
-- **Specific Personal Data** (as defined in Article 4 of the PDP Law): includes biometric data (KTP photos), children's data (we do not serve users under 18), and personal financial data.
+- **Specific Personal Data** (as defined in Article 4 of the PDP Law): includes biometric data (KTP photos and a face selfie), children's data (we do not serve users under 18), and personal financial data.
 - **Task Poster**: a user who posts a job/task on the App.
 - **Worker**: a user who applies for and/or performs a Task Poster's task.
 - **Data Subject**: you, as a user of the App.
@@ -185,9 +189,10 @@ This policy is effective as of **[Tanggal publikasi resmi di Google Play Store]*
 | Category | Examples | When collected |
 |---|---|---|
 | Account identity | Phone number, display name, date of birth, email (optional with Google Sign-In) | At registration |
-| **Verified identity (specific data)** | KTP photo, National Identification Number (NIK), full name and address from KTP, date of birth from KTP | During KTP verification |
+| **Verified identity (specific data)** | KTP photo and a face selfie (for identity matching with the KTP); the KTP photo contains the NIK, full name, address, and date of birth as printed on the KTP | During KTP verification |
 | Job location | Job address, coordinates (latitude/longitude) | When posting or applying for jobs |
-| Payment information | Bank name, account number, account holder name (for disbursements to Workers) | When adding a payout account |
+| **Real-time location while working (specific data)** | The Worker's position coordinates (latitude/longitude), updated periodically **only while a job is in progress**. This feature: (a) activates only after the Worker gives one-time explicit in-app consent; (b) runs only while the app is open — no background tracking; (c) is visible only to the Task Poster of that specific job; (d) stores no movement history — only the latest position; (e) is deleted automatically when the job completes or is cancelled; and (f) can be turned off at any time in Settings | While working on an active job, if location sharing is enabled |
+| Payment information | For disbursements to Workers: bank name, account number, and account holder name; or e-wallet provider (GoPay/OVO/DANA) and e-wallet account number | When adding a payout account |
 | User-generated content | Text and media in chats, proof photos/videos/documents, job descriptions, ratings and reviews | When using related features |
 | Reports and complaints | Report content against other users, support tickets, appeals against decisions | When reporting or creating tickets |
 
@@ -201,7 +206,7 @@ This policy is effective as of **[Tanggal publikasi resmi di Google Play Store]*
 | Wallet and transaction history | App wallet balance, top-up history, withdrawal history, transaction history |
 
 #### 3.3. Data we do NOT collect
-We do not collect: health data, sexual orientation, political or religious beliefs, credit card data (payment transactions are handled entirely by Xendit), biometric data other than KTP photos.
+We do not collect: health data, sexual orientation, political or religious beliefs, credit card data (payment transactions are handled entirely by Durianpay), biometric data other than KTP photos and the face selfie.
 
 ### 4. Purposes and Lawful Basis for Processing
 
@@ -211,7 +216,9 @@ We process your Personal Data for the following purposes:
 |---|---|
 | Providing core App services (matching Task Posters and Workers, facilitating transactions, managing wallets) | Performance of a contract |
 | Identity verification for transaction safety (KTP/NIK) | Explicit consent of the Data Subject — given during onboarding |
-| Facilitating payments and disbursements via Xendit | Performance of a contract |
+| Sharing the Worker's real-time position with the Task Poster of an in-progress job (location-sharing feature) | Explicit consent of the Data Subject — requested explicitly in-app before the feature first activates; revocable at any time via Settings without affecting other services |
+| Sharing the Worker's real-time position with the Task Poster of an in-progress job (location-sharing feature) | Explicit consent of the Data Subject — requested once in-app before the feature first activates; revocable at any time in Settings without affecting other features |
+| Facilitating payments and disbursements via Durianpay | Performance of a contract |
 | Preventing fraud, terms-of-service violations, or suspicious activity | Legitimate interest of the controller |
 | Service-related communications (order notifications, verification status, security alerts) | Performance of a contract |
 | Usage analytics and service improvement (aggregated/anonymized) | Legitimate interest of the controller |
@@ -225,7 +232,7 @@ Your data may be shared with the following third parties, only to the extent nec
 | Third party | Purpose | Processing location |
 |---|---|---|
 | **Google LLC (Firebase)** — Firebase Authentication, Firestore, Cloud Storage, Cloud Functions, Cloud Messaging, Crashlytics, Analytics | Technical infrastructure: data storage, authentication, backend functions, analytics | Southeast Asia (`asia-southeast2`, Jakarta), United States for some services |
-| **Xendit** | Payment processing (wallet top-up, job payments, disbursements to Workers). Xendit is a Bank Indonesia-licensed Payment Service Provider (PJP). | Indonesia |
+| **Durianpay** (PT Durian Pay Indonesia) | Payment processing (wallet top-up, job payments, disbursements to Workers). Data shared: your email address (at top-up/payment), the destination bank or e-wallet account name and number for disbursements, and the transaction amount. Durianpay is a Bank Indonesia-licensed Payment Service Provider (PJP). | Indonesia |
 | **Google LLC (Google Play Services, Google Sign-In, Google Maps API)** | App integrity verification (Play Integrity), optional authentication with Google account, location mapping for jobs | Global |
 | **Fazpass** (OTP verification service provider) | Delivery of OTP (One-Time Password) codes for phone number verification, sent via WhatsApp | Indonesia; WhatsApp delivery via Meta Platforms infrastructure (global) |
 
@@ -251,6 +258,7 @@ Some of your Personal Data may be transferred to countries outside Indonesia (in
 | Terminal-state job applications (rejected/cancelled) | 60 days after final status |
 | Historical wallet balance (`/balanceHistory`) | 90 days after the snapshot |
 | Payment idempotency keys (`/idempotencyKeys`) | Until expiry (~24 hours) |
+| Real-time location while working | Only the latest position is stored (no movement history); deleted automatically by the system as soon as the job completes or is cancelled |
 | KTP photos and identity verification data | While the account is active; permanently deleted after account deletion unless a legal hold applies |
 | Reviews and ratings | Retained permanently for marketplace reputation accuracy (other users can see historical ratings of the reviewed party) — even after the reviewed account is deleted, reviews remain attached to the reviewer's account |
 
