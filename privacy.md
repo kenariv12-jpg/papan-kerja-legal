@@ -55,7 +55,6 @@ Kami memproses Data Pribadi Anda untuk tujuan berikut:
 | Menyediakan layanan inti Aplikasi (mempertemukan Pemberi Tugas dan Pekerja, memfasilitasi transaksi, mengelola dompet) | Pelaksanaan perjanjian (Pasal 20 ayat 2 huruf b) |
 | Verifikasi identitas pengguna untuk keamanan transaksi (KTP/NIK) | Persetujuan tegas Subjek Data (Pasal 20 ayat 2 huruf a) — Anda secara eksplisit menyetujui unggah KTP pada saat onboarding |
 | Membagikan posisi real-time Pekerja kepada Pemberi Tugas dari tugas yang sedang berjalan (fitur berbagi lokasi) | Persetujuan tegas Subjek Data (Pasal 20 ayat 2 huruf a) — diminta secara eksplisit di dalam aplikasi sebelum fitur pertama kali aktif; persetujuan dapat dicabut kapan saja melalui Pengaturan tanpa memengaruhi layanan lainnya |
-| Membagikan posisi real-time Pekerja kepada Pemberi Tugas dari tugas yang sedang berjalan (fitur berbagi lokasi saat bekerja) | Persetujuan tegas Subjek Data (Pasal 20 ayat 2 huruf a) — diminta satu kali di dalam aplikasi sebelum fitur pertama kali aktif; persetujuan dapat dicabut kapan saja melalui Pengaturan tanpa memengaruhi fitur lain |
 | Memfasilitasi pembayaran dan pencairan dana melalui Durianpay | Pelaksanaan perjanjian |
 | Mencegah penipuan, pelanggaran ketentuan layanan, atau aktivitas mencurigakan | Kepentingan sah pengendali (Pasal 20 ayat 2 huruf f) |
 | Komunikasi terkait layanan (notifikasi pesanan, status verifikasi, peringatan keamanan) | Pelaksanaan perjanjian |
