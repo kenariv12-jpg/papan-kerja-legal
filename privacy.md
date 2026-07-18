@@ -86,11 +86,12 @@ Sebagian Data Pribadi Anda dapat ditransfer ke negara di luar Indonesia (khususn
 |---|---|
 | Akun aktif (data dasar pengguna) | Selama akun masih aktif |
 | Foto dan media obrolan | 365 hari sejak diunggah (kebijakan siklus hidup Cloud Storage) |
-| Pesan obrolan tugas (teks) | Diarsipkan 12 jam setelah pekerjaan ditutup ATAU 122 jam setelah pesan terakhir (mana yang lebih dulu); akses pengguna terbatas setelah arsip; penghapusan total mengikuti retensi 365 hari |
-| Pesan langsung dari Tim Papan Kerja (admin↔pengguna) | Disimpan tanpa pengarsipan otomatis untuk menjaga kelanjutan riwayat dukungan; pengguna dapat membalas kapan saja; penghapusan total mengikuti retensi 365 hari |
+| Pesan obrolan tugas (teks) | Diarsipkan 12 jam setelah pekerjaan ditutup ATAU 122 jam setelah pesan terakhir (mana yang lebih dulu); akses pengguna terbatas setelah arsip; penghapusan total setelah 5 tahun, sesuai kewajiban penyimpanan data terkait transaksi PMSE (PP 80/2019 Pasal 25) |
+| Pesan langsung dari Tim Papan Kerja (admin↔pengguna) | Disimpan tanpa pengarsipan otomatis untuk menjaga kelanjutan riwayat dukungan; pengguna dapat membalas kapan saja; penghapusan total setelah 5 tahun sejak pesan terakhir |
+| Riwayat tugas (judul, deskripsi, hasil penyelesaian) | 5 tahun setelah tugas selesai atau dibatalkan, sebagai bagian dari data transaksi PMSE (PP 80/2019 Pasal 25); foto tugas dan media bukti tetap mengikuti retensi media 365 hari |
 | Riwayat notifikasi dalam aplikasi (`/notifications`) | 90 hari setelah notifikasi dibuat |
 | Foto dan media bukti pekerjaan | 365 hari sejak pekerjaan diselesaikan |
-| Riwayat transaksi dompet dan pembayaran | Disimpan untuk keperluan audit dan kepatuhan pajak, sekurang-kurangnya 5 tahun sebagaimana disyaratkan oleh peraturan perpajakan Indonesia |
+| Riwayat transaksi dompet dan pembayaran | Disimpan untuk keperluan audit, pembukuan, dan kepatuhan pajak sekurang-kurangnya 10 tahun, sebagaimana disyaratkan UU Dokumen Perusahaan (UU 8/1997 Pasal 11) dan ketentuan perpajakan (UU KUP Pasal 28 ayat 11) |
 | Log audit administratif (`/userAccountLog`, `/walletReviewLog`) | 365 hari setelah pencatatan |
 | Notifikasi peringatan sistem (`/alerts`) yang terselesaikan | 30 hari setelah resolusi |
 | Lamaran kerja status terminal (ditolak/dibatalkan) | 60 hari setelah status final |
@@ -99,6 +100,7 @@ Sebagian Data Pribadi Anda dapat ditransfer ke negara di luar Indonesia (khususn
 | Lokasi real-time saat bekerja | Hanya posisi terakhir yang disimpan (tanpa riwayat perjalanan); dihapus otomatis oleh sistem segera setelah tugas selesai atau dibatalkan |
 | Foto KTP dan data verifikasi identitas | Selama akun aktif; setelah penghapusan akun, dihapus permanen kecuali ada kewajiban hukum untuk mempertahankan (penyelidikan, sengketa, audit pajak) |
 | Ulasan dan rating | Disimpan permanen untuk akurasi reputasi pasar (pengguna lain dapat melihat rating historis pihak yang diulas) — bahkan setelah akun yang diulas dihapus, ulasan tetap muncul atas akun penulis ulasan |
+| Salinan cadangan (backup) sistem | Cadangan basis data disimpan hingga 14 minggu untuk pemulihan bencana; data yang telah dihapus dari sistem utama dapat bertahan di dalam cadangan selama periode tersebut sebelum terhapus permanen |
 
 ### 8. Keamanan Data
 
@@ -247,11 +249,12 @@ Some of your Personal Data may be transferred to countries outside Indonesia (in
 |---|---|
 | Active account (basic user data) | While the account is active |
 | Chat photos and media | 365 days from upload (Cloud Storage lifecycle policy) |
-| Job chat messages (text) | Archived 12 hours after job closure OR 122 hours after last message (whichever earlier); user access limited post-archive; full deletion follows 365-day retention |
-| Direct messages from Tim Papan Kerja (admin↔user) | Retained without automatic archival to preserve support history continuity; users may reply at any time; full deletion follows 365-day retention |
+| Job chat messages (text) | Archived 12 hours after job closure OR 122 hours after last message (whichever earlier); user access limited post-archive; full deletion after 5 years, per the PMSE transaction-data retention obligation (PP 80/2019 Art. 25) |
+| Direct messages from Tim Papan Kerja (admin↔user) | Retained without automatic archival to preserve support history continuity; users may reply at any time; full deletion 5 years after the last message |
+| Job history (title, description, completion outcome) | 5 years after the job completes or is cancelled, as part of the PMSE transaction data (PP 80/2019 Art. 25); job photos and proof media remain on the 365-day media retention |
 | In-app notification history (`/notifications`) | 90 days after the notification is created |
 | Proof photos and media | 365 days after job completion |
-| Wallet and payment transaction history | Retained for audit and tax compliance, minimum 5 years as required by Indonesian tax regulations |
+| Wallet and payment transaction history | Retained for audit, bookkeeping, and tax compliance for a minimum of 10 years, as required by the Company Documents Law (Law 8/1997 Art. 11) and tax provisions (General Tax Law Art. 28(11)) |
 | Administrative audit logs (`/userAccountLog`, `/walletReviewLog`) | 365 days after the event |
 | Resolved system alerts (`/alerts`) | 30 days after resolution |
 | Terminal-state job applications (rejected/cancelled) | 60 days after final status |
@@ -260,6 +263,7 @@ Some of your Personal Data may be transferred to countries outside Indonesia (in
 | Real-time location while working | Only the latest position is stored (no movement history); deleted automatically by the system as soon as the job completes or is cancelled |
 | KTP photos and identity verification data | While the account is active; permanently deleted after account deletion unless a legal hold applies |
 | Reviews and ratings | Retained permanently for marketplace reputation accuracy (other users can see historical ratings of the reviewed party) — even after the reviewed account is deleted, reviews remain attached to the reviewer's account |
+| System backup copies | Database backups are kept up to 14 weeks for disaster recovery; data already deleted from the primary systems may persist inside backups for that period before being permanently removed |
 
 ### 8. Data Security
 
