@@ -175,9 +175,9 @@ Pekerja dan Pemberi Tugas dapat menarik saldo Dompet ke rekening bank atau akun 
 - **Biaya penarikan**: Rp 5.000 flat untuk semua jumlah penarikan.
 - **Batas penarikan per transaksi**: Rp 15.000.000.
 - **Batas penarikan harian**: Rp 30.000.000 per pengguna per hari kalender WIB.
-- **Saldo minimum dana pencairan**: Penarikan akan ditolak jika saldo dana pencairan Papan Kerja di bawah ambang batas yang ditetapkan. Pemberitahuan akan ditampilkan di Aplikasi pada kondisi tersebut.
+- **Saldo dana pencairan Papan Kerja**: Permintaan penarikan Anda tidak diblokir oleh kondisi saldo dana pencairan Papan Kerja. Jika dana pencairan tidak mencukupi, mitra pemroses pembayaran akan menolak transfer tersebut dan permintaan Anda diperlakukan seperti penarikan gagal lain: dana kembali ke saldo dompet Anda dan Anda dapat mencoba lagi.
 - **Periode pemrosesan**: Estimasi 1–3 hari kerja setelah permintaan penarikan, dapat lebih lama pada akhir pekan atau hari libur, tergantung jam operasional bank atau e-wallet tujuan.
-- **Pencocokan nama wajib**: Nama pemilik rekening (bank maupun e-wallet) tujuan harus sesuai dengan nama di KTP Pengguna; rekening tujuan diverifikasi pada saat pendaftaran rekening melalui mitra pemroses pembayaran (Durianpay).
+- **Pencocokan nama wajib**: Nama pemilik rekening (bank maupun e-wallet) tujuan harus sesuai dengan nama di KTP Pengguna. Bila layanan verifikasi rekening dari mitra pemroses pembayaran (Durianpay) tersedia, rekening diverifikasi saat pendaftaran rekening; bila tidak tersedia, rekening disimpan tanpa verifikasi otomatis dan ketidaksesuaian nama baru diketahui saat transfer diproses - transfer akan gagal dan rekening ditandai tidak valid sampai Anda memperbaikinya.
 
 Papan Kerja berhak menahan atau menolak permintaan penarikan yang ditemukan terkait dengan dugaan penipuan, pencucian uang, atau pelanggaran S&K.
 
