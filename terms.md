@@ -376,12 +376,11 @@ Papan Kerja berhak meminta bukti pendukung yang wajar sebelum menyetujui pembata
 
 #### 13.1. Penghentian oleh Pengguna
 
-Anda dapat menghapus Akun Anda kapan saja melalui menu Pengaturan → Hapus Akun. Penghapusan akan:
+Anda dapat menghapus Akun Anda kapan saja melalui menu Profil → Pengaturan → Hapus Akun (panduan lengkap di [halaman Hapus Akun](hapus-akun.html)). Penghapusan akan:
 - Menghapus data pribadi Anda sesuai Kebijakan Privasi;
-- Membatalkan otomatis Tugas aktif yang Anda buat (refund ke escrow untuk Tugas yang belum diterima);
-- Tidak menghapus catatan transaksi keuangan, log audit, dan ulasan/rating yang Anda berikan kepada pihak lain.
+- Tidak menghapus data yang wajib atau perlu kami simpan untuk jangka waktu tertentu, yaitu catatan transaksi keuangan, riwayat Tugas yang sudah selesai atau dibatalkan termasuk keberatan dan sengketanya, pesan obrolan, pesan kepada Tim Papan Kerja, laporan, rating, dan log audit, sebagaimana diatur dalam Kebijakan Privasi bagian 7.
 
-Jika Anda masih memiliki saldo Dompet positif pada saat penghapusan, saldo tersebut harus dicairkan terlebih dahulu. Penghapusan Akun dengan saldo positif akan ditangguhkan menunggu instruksi pencairan.
+Aplikasi akan menolak penghapusan Akun sampai: saldo Dompet yang masih dapat dicairkan sudah dicairkan dan tidak ada penarikan yang sedang diproses; tidak ada Tugas yang belum selesai, baik sebagai Pemberi Tugas maupun Pekerja, termasuk Tugas yang masih dibuka menunggu pelamar, sedang berjalan, menunggu konfirmasi, atau dalam negosiasi, keberatan, maupun sengketa; dan Akun tidak sedang ditangguhkan, diblokir, atau dalam proses penghapusan oleh Papan Kerja. Sisa saldo di bawah batas minimum penarikan (Rp35.000) yang tidak dapat dicairkan akan hangus saat Akun dihapus.
 
 #### 13.2. Penghentian oleh Papan Kerja
 
