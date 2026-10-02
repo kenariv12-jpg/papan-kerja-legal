@@ -22,11 +22,11 @@ S&K ini berlaku efektif sejak **[Tanggal publikasi resmi di Google Play Store]**
 | Istilah | Pengertian |
 |---|---|
 | **Aplikasi / Platform** | Aplikasi seluler Papan Kerja, sistem backend, dan seluruh layanan yang disediakan oleh Papan Kerja |
-| **Akun** | Akun pengguna yang dibuat di Aplikasi, terikat pada nomor telepon dan identitas terverifikasi (KTP) |
+| **Akun** | Akun pengguna yang dibuat di Aplikasi, terikat pada nomor telepon dan, bagi Pekerja, identitas yang diverifikasi melalui KTP |
 | **Pemberi Tugas (PT)** | Pengguna yang memposting Tugas di Aplikasi dan membayar Pekerja untuk pelaksanaannya |
 | **Pekerja** | Pengguna yang melamar untuk dan/atau melaksanakan Tugas dari Pemberi Tugas |
 | **Tugas** | Pekerjaan freelance atau tugas harian yang diposting oleh Pemberi Tugas di Aplikasi |
-| **Komisi Layanan** | Biaya layanan yang dipungut Papan Kerja dari setiap Tugas yang diselesaikan, sebesar 10% (sepuluh persen) dari nilai Tugas |
+| **Komisi Layanan** | Biaya layanan yang dipungut Papan Kerja dari setiap Tugas yang diselesaikan, sebesar 10% (sepuluh persen) dari nilai Tugas, kecuali ditetapkan lain untuk Tugas tertentu sesuai Pasal 8.1 |
 | **Dompet Aplikasi** | Saldo virtual milik Pengguna di Aplikasi, yang dikelola melalui mitra pemroses pembayaran Durianpay |
 | **Escrow** | Pemegangan sementara dana pembayaran Tugas oleh Papan Kerja (melalui Durianpay) sampai Tugas diselesaikan |
 | **Durianpay** | Penyedia Jasa Pembayaran (PJP) berlisensi Bank Indonesia (dioperasikan oleh PT Durian Pay Indonesia) yang memproses pembayaran di Aplikasi |
@@ -40,16 +40,17 @@ S&K ini berlaku efektif sejak **[Tanggal publikasi resmi di Google Play Store]**
 Untuk menggunakan Aplikasi, Anda harus:
 - Berusia minimal 18 tahun pada saat pendaftaran;
 - Berdomisili di Indonesia dan memiliki nomor telepon seluler aktif Indonesia;
-- Memiliki Kartu Tanda Penduduk (KTP) Indonesia yang masih berlaku;
+- Untuk melamar dan mengerjakan Tugas sebagai Pekerja, memiliki Kartu Tanda Penduduk (KTP) Indonesia yang masih berlaku (lihat Pasal 3.2);
 - Tidak sedang dalam status diblokir, dilarang, atau ditangguhkan oleh Papan Kerja;
 - Setuju untuk mematuhi seluruh hukum dan peraturan yang berlaku di Indonesia.
 
 #### 3.2. Verifikasi Identitas
 
-Anda wajib melakukan verifikasi identitas dengan menggugah foto KTP dan foto selfie sesuai instruksi di Aplikasi. Verifikasi ini diperlukan untuk:
-- Mengkonfirmasi usia dan identitas Anda;
-- Mencegah penipuan dan penyalahgunaan platform;
-- Mematuhi kewajiban hukum Papan Kerja terkait pencegahan tindak pidana pencucian uang (APU/PPT).
+Untuk melamar dan mengerjakan Tugas sebagai Pekerja, Anda wajib melakukan verifikasi identitas dengan mengunggah foto KTP dan foto selfie sesuai instruksi di Aplikasi. Pemberi Tugas tidak wajib melakukan verifikasi KTP untuk memposting Tugas. Verifikasi ini diperlukan untuk:
+- Mengkonfirmasi usia dan identitas Pekerja;
+- Mencegah penipuan dan penyalahgunaan platform.
+
+Foto KTP dan selfie dapat diunggah hingga 3 (tiga) kali. Apabila pengajuan ditolak sebanyak 3 kali, hubungi Tim Papan Kerja melalui menu Bantuan agar kesempatan mengunggah dapat dibuka kembali.
 
 Anda menyatakan bahwa seluruh data yang Anda berikan adalah benar, akurat, dan terkini. Papan Kerja berhak menolak verifikasi, menangguhkan, atau membatalkan Akun yang ditemukan menyampaikan data palsu.
 
@@ -128,7 +129,7 @@ Sebagai Pekerja, Anda wajib:
 7. **Mematuhi peraturan keselamatan kerja** dan menggunakan peralatan pelindung diri yang sesuai untuk Tugas berisiko fisik.
 8. **Tidak membatalkan Tugas yang telah diterima tanpa alasan yang sah** — pembatalan akan memicu strike sesuai sistem di Pasal 12.
 
-**Lamaran ganda.** Pekerja dapat melamar beberapa Tugas secara bersamaan untuk meningkatkan peluang diterima. Begitu Anda diterima pada sebanyak batas "Tugas Bersamaan" yang berlaku bagi Rangking Anda (lihat Pasal 10.2), sistem secara otomatis menarik seluruh lamaran Anda yang masih berstatus tertunda pada Tugas lain agar Anda dapat fokus menyelesaikan Tugas yang sudah diterima. Pemberi Tugas akan melihat jumlah pelamar pada Tugas mereka diperbarui secara otomatis.
+**Lamaran ganda.** Pekerja dapat melamar beberapa Tugas secara bersamaan untuk meningkatkan peluang diterima, dengan paling banyak 10 (sepuluh) lamaran yang menunggu keputusan pada saat yang sama. Setiap Tugas menerima paling banyak 5 (lima) pelamar. Begitu Anda diterima pada sebanyak batas "Tugas Bersamaan" yang berlaku bagi Rangking Anda (lihat Pasal 10.2), sistem secara otomatis menarik seluruh lamaran Anda yang masih berstatus tertunda pada Tugas lain agar Anda dapat fokus menyelesaikan Tugas yang sudah diterima. Pemberi Tugas akan melihat jumlah pelamar pada Tugas mereka diperbarui secara otomatis.
 
 ### 7. Tindakan Terlarang ⚠️ LEGAL
 
@@ -155,19 +156,29 @@ Pelanggaran Pasal 7 dapat berakibat pada penangguhan langsung, pemblokiran perma
 
 #### 8.1. Komisi Layanan
 
-Papan Kerja memungut **Komisi Layanan sebesar 10% (sepuluh persen)** dari nilai setiap Tugas yang berhasil diselesaikan. Komisi dipotong otomatis dari pembayaran Pemberi Tugas sebelum dana dirilis ke Pekerja.
+Papan Kerja memungut **Komisi Layanan sebesar 10% (sepuluh persen)** dari nilai setiap Tugas yang berhasil diselesaikan. Komisi dipotong otomatis dari nilai Tugas di escrow sebelum dana dirilis ke Pekerja. Tim Papan Kerja dapat menetapkan persentase Komisi Layanan yang berbeda untuk Tugas tertentu, antara 0% dan 50%, sebelum Tugas tersebut diselesaikan.
 
-Contoh: Tugas senilai Rp 100.000.
-- Pemberi Tugas membayar: Rp 100.000 (masuk ke escrow)
-- Komisi Layanan Papan Kerja: Rp 10.000
+**Biaya Layanan Posting.** Saat memposting Tugas, Pemberi Tugas membayar Biaya Layanan Posting di luar nilai Tugas:
+- **Rp 2.000** apabila dibayar dari saldo Dompet;
+- apabila dibayar langsung (bank, e-wallet, atau QRIS), biayanya bertingkat sesuai nilai Tugas: Rp 5.000 untuk nilai Rp 35.000 sampai Rp 250.000; Rp 10.000 untuk nilai di atas Rp 250.000 sampai Rp 500.000; Rp 20.000 untuk nilai di atas Rp 500.000 sampai Rp 1.000.000; dan selanjutnya bertambah Rp 10.000 untuk setiap kenaikan nilai Rp 500.000.
+
+Biaya Layanan Posting tidak dikembalikan, kecuali Tugas dibatalkan oleh Pemberi Tugas dalam 1 (satu) menit setelah diposting dan belum ada pelamar.
+
+Contoh: Tugas senilai Rp 100.000 yang diposting dengan saldo Dompet.
+- Pemberi Tugas membayar: Rp 100.000 (masuk ke escrow) + Biaya Layanan Posting Rp 2.000 = Rp 102.000
+- Komisi Layanan Papan Kerja: Rp 10.000 (10% dari Rp 100.000)
 - Diterima Pekerja: Rp 90.000
 
+Apabila Tugas yang sama dibayar langsung, Biaya Layanan Posting-nya Rp 5.000, sehingga Pemberi Tugas membayar Rp 105.000; jumlah yang diterima Pekerja tetap Rp 90.000.
 
-**Biaya Tugas Mendesak.** Pemberi Tugas yang menandai Tugas sebagai "Mendesak" dikenakan biaya tambahan sebesar **Rp 15.000** per Tugas, di luar Komisi Layanan, yang dibayarkan saat memposting Tugas.
+
+**Biaya Tugas Mendesak.** Pemberi Tugas yang menandai Tugas sebagai "Mendesak" dikenakan biaya tambahan sebesar **Rp 15.000** per Tugas, di luar Komisi Layanan dan Biaya Layanan Posting, yang dibayarkan saat memposting Tugas.
 
 #### 8.2. Top-up Dompet
 
-Pemberi Tugas dapat melakukan top-up Dompet melalui metode pembayaran yang tersedia di Aplikasi (QRIS, Virtual Account, e-wallet, kartu kredit, gerai retail, dsb.). Saldo Dompet dapat digunakan untuk membayar Tugas atau dicairkan ke rekening bank.
+Pengguna dapat melakukan top-up Dompet melalui metode pembayaran yang tersedia di halaman pembayaran Durianpay, yaitu QRIS, transfer bank melalui Virtual Account, dan e-wallet. Saldo Dompet dapat digunakan untuk membayar Tugas atau dicairkan ke rekening bank atau e-wallet.
+
+**Biaya Layanan Top-up.** Setiap top-up dikenakan Biaya Layanan Top-up yang dibayar di luar jumlah yang masuk ke Dompet, dengan tingkatan yang sama seperti Biaya Layanan Posting untuk pembayaran langsung (Pasal 8.1), dihitung dari jumlah top-up. Contoh: top-up Rp 100.000 dikenakan Biaya Layanan Top-up Rp 5.000, sehingga Anda membayar Rp 105.000 dan saldo Dompet bertambah Rp 100.000. Jumlah top-up paling banyak Rp 10.000.000 per transaksi.
 
 #### 8.3. Penarikan Dana (Withdrawal)
 
@@ -177,7 +188,7 @@ Pekerja dan Pemberi Tugas dapat menarik saldo Dompet ke rekening bank atau akun 
 - **Batas penarikan harian**: Rp 30.000.000 per pengguna per hari kalender WIB.
 - **Saldo dana pencairan Papan Kerja**: Permintaan penarikan Anda tidak diblokir oleh kondisi saldo dana pencairan Papan Kerja. Jika dana pencairan tidak mencukupi, mitra pemroses pembayaran akan menolak transfer tersebut dan permintaan Anda diperlakukan seperti penarikan gagal lain: dana kembali ke saldo dompet Anda dan Anda dapat mencoba lagi.
 - **Periode pemrosesan**: Estimasi 1–3 hari kerja setelah permintaan penarikan, dapat lebih lama pada akhir pekan atau hari libur, tergantung jam operasional bank atau e-wallet tujuan.
-- **Pencocokan nama wajib**: Nama pemilik rekening (bank maupun e-wallet) tujuan harus sesuai dengan nama di KTP Pengguna. Bila layanan verifikasi rekening dari mitra pemroses pembayaran (Durianpay) tersedia, rekening diverifikasi saat pendaftaran rekening; bila tidak tersedia, rekening disimpan tanpa verifikasi otomatis dan ketidaksesuaian nama baru diketahui saat transfer diproses - transfer akan gagal dan rekening ditandai tidak valid sampai Anda memperbaikinya.
+- **Data rekening**: Gunakan rekening (bank maupun e-wallet) atas nama Anda sendiri dan pastikan datanya benar. Bila layanan verifikasi rekening dari mitra pemroses pembayaran (Durianpay) tersedia, rekening diverifikasi saat pendaftaran rekening; bila tidak tersedia, rekening disimpan tanpa verifikasi otomatis. Apabila bank atau e-wallet tujuan menolak transfer karena data rekening tidak sesuai, transfer gagal, dana kembali ke saldo Dompet Anda, dan rekening ditandai tidak valid sampai Anda memperbaikinya.
 
 Papan Kerja berhak menahan atau menolak permintaan penarikan yang ditemukan terkait dengan dugaan penipuan, pencucian uang, atau pelanggaran S&K.
 
@@ -207,7 +218,7 @@ Apabila Pengguna tetap melakukan transaksi di luar Aplikasi, maka:
 2. Pekerja melamar; Pemberi Tugas memilih satu Pekerja → Tugas berstatus "diterima".
 3. Pekerja melaksanakan Tugas → mengunggah bukti pekerjaan via Aplikasi.
 4. Pemberi Tugas memiliki waktu 2 jam untuk menekan "Selesai" atau "Ajukan Keberatan" sejak bukti diunggah. Jika tidak ada tindakan, sistem akan secara otomatis melepas escrow ke Pekerja (pengakuan implisit selesai).
-5. Setelah escrow dirilis, Pekerja menerima 90% nilai Tugas; Papan Kerja menerima 10% Komisi Layanan.
+5. Setelah escrow dirilis, Pekerja menerima 90% nilai Tugas dan Papan Kerja menerima 10% Komisi Layanan (atau sesuai persentase Komisi Layanan yang berlaku untuk Tugas tersebut, lihat Pasal 8.1).
 
 #### 9.2. Keberatan dan Negosiasi
 
@@ -218,19 +229,23 @@ Jika Pemberi Tugas mengajukan keberatan dalam waktu 2 jam:
 
 #### 9.3. Negosiasi Pasca Tenggat Waktu
 
-Jika Pekerja tidak mengunggah bukti hingga tenggat waktu Tugas, Tugas akan masuk ke jendela negosiasi pasca-tenggat selama 1 jam. Jika tidak ada kesepakatan, escrow akan dikembalikan ke Pemberi Tugas, dan Pekerja menerima cancellation strike.
+Jika Pekerja tidak mengunggah bukti hingga tenggat waktu Tugas, Tugas akan masuk ke jendela negosiasi pasca-tenggat selama 3 (tiga) jam. Setelah tenggat terlewati, Pekerja tidak dapat lagi mengirim bukti pertama. Apabila Pemberi Tugas menekan "Batalkan" setelah tenggat terlewati, yang dibuka adalah negosiasi pasca-tenggat ini (bukan pembatalan oleh Pemberi Tugas sebagaimana Pasal 9.4), sehingga Pemberi Tugas tidak menerima strike pembatalan.
+
+Jika jendela 3 jam berakhir tanpa kesepakatan dan tanpa pengajuan sengketa, nilai Tugas di escrow dikembalikan penuh ke Dompet Pemberi Tugas dan Pekerja menerima strike pembatalan (Pasal 12.1). Pemberi Tugas juga dapat memberi rating dan ulasan kepada Pekerja atas Tugas tersebut (Pasal 10.1).
 
 #### 9.4. Pembatalan oleh Pemberi Tugas
 
-Pemberi Tugas yang membatalkan Tugas setelah lamaran diterima akan memicu jendela negosiasi 24 jam. Jika tidak ada kesepakatan, Pemberi Tugas menerima strike sesuai sistem di Pasal 12, dan escrow dikembalikan dengan potongan denda (jika berlaku).
+Pemberi Tugas yang membatalkan Tugas setelah lamaran diterima (sebelum tenggat waktu Tugas terlewati) akan memicu jendela negosiasi 24 jam, di mana kedua pihak dapat menyepakati pembagian dana atau mengajukan sengketa. Jika 24 jam berlalu tanpa kesepakatan dan tanpa pengajuan sengketa, nilai Tugas di escrow dikembalikan penuh ke Dompet Pemberi Tugas (Biaya Layanan Posting dan Biaya Tugas Mendesak tidak dikembalikan), Pekerja tidak menerima pembayaran, dan Pemberi Tugas menerima strike pembatalan sesuai Pasal 12.1.
 
 #### 9.5. Penyelesaian Sengketa oleh Tim Papan Kerja ⚠️ LEGAL
 
 Jika para pihak mengajukan sengketa formal ("disputeNegotiation"), Tim Papan Kerja akan meninjau dan memutuskan salah satu dari empat pilihan:
-- (a) **Penuh ke Pekerja** — dengan Komisi Layanan tetap 10% berlaku;
-- (b) **Penuh ke Pemberi Tugas** — pengembalian dana penuh, tanpa strike Pemberi Tugas;
+- (a) **Penuh ke Pekerja** — dengan Komisi Layanan tetap berlaku;
+- (b) **Penuh ke Pemberi Tugas** — pengembalian nilai Tugas secara penuh;
 - (c) **Pembagian 50/50**;
 - (d) **Pembagian khusus** — porsi yang ditentukan oleh Tim Papan Kerja berdasarkan kelayakan.
+
+Untuk sengketa yang berasal dari pembatalan oleh Pemberi Tugas (Pasal 9.4), Tim Papan Kerja juga memutuskan, bersama salah satu pilihan di atas, apakah Pemberi Tugas menerima strike pembatalan (Pasal 12.1). Untuk sengketa lainnya, keputusan sengketa tidak memberikan strike kepada pihak mana pun.
 
 Keputusan Tim Papan Kerja bersifat final dan mengikat untuk tujuan internal Aplikasi. Hal ini tidak menghilangkan hak Pengguna untuk menempuh upaya hukum sesuai Pasal 22.
 
@@ -238,7 +253,9 @@ Keputusan Tim Papan Kerja bersifat final dan mengikat untuk tujuan internal Apli
 
 #### 10.1. Rating Buta (Blind Rating)
 
-Setelah Tugas diselesaikan, kedua pihak memiliki waktu 12 jam untuk memberikan rating 1-5 bintang plus ulasan (maks 500 karakter). Rating tidak akan terbuka sampai kedua pihak telah mengirim, atau setelah jendela 12 jam berakhir. Ini untuk mencegah retaliasi.
+Setelah Tugas diselesaikan, kedua pihak memiliki waktu 12 jam untuk memberikan rating 1-5 bintang plus ulasan tertulis opsional (maks 500 karakter). Rating tidak akan terbuka sampai kedua pihak telah mengirim, atau setelah jendela 12 jam berakhir. Ini untuk mencegah retaliasi. Setelah terbuka, rating dan ulasan tampil di profil Pengguna yang dinilai dan dapat dilihat Pengguna lain. Tim Papan Kerja dapat menghapus ulasan yang melanggar S&K.
+
+Apabila Pekerja membatalkan Tugas setelah diterima, atau jendela negosiasi pasca-tenggat (Pasal 9.3) berakhir tanpa kesepakatan, Pemberi Tugas dapat memberi rating dan ulasan kepada Pekerja atas Tugas tersebut dalam 12 jam sejak pembatalan. Rating ini langsung tampil, dan Pekerja tidak dapat memberi rating balik atas Tugas tersebut.
 
 #### 10.2. Rangking Pekerja
 
@@ -247,7 +264,7 @@ Pekerja memiliki rangking berdasarkan kinerja: **Kayu → Perunggu → Perak →
 - Jumlah Tugas aktif yang dapat diambil secara bersamaan;
 - Visibilitas profil Pekerja kepada Pemberi Tugas.
 
-Rangking dihitung dari rata-rata 20 rating terakhir dikurangi penalti pembatalan, dengan ambang batas per tingkat yang ditentukan Papan Kerja dan dapat diperbarui dari waktu ke waktu.
+Rangking ditentukan dari jumlah Tugas yang diselesaikan dan rata-rata 20 rating terakhir sebagai Pekerja, dengan ambang batas per tingkat yang ditentukan Papan Kerja dan dapat diperbarui dari waktu ke waktu.
 
 #### 10.3. Larangan Manipulasi Rating
 
@@ -283,7 +300,9 @@ Papan Kerja berhak menghapus Konten Pengguna yang melanggar S&K tanpa pemberitah
 
 #### 11.4. Pelaporan dan Moderasi (UGC Moderation)
 
-**Hak melaporkan**. Setiap Pengguna dapat melaporkan Konten Pengguna lain (chat, ulasan, profil, deskripsi Tugas, bukti pekerjaan, dll.) yang dianggap melanggar S&K melalui menu "Laporkan" yang tersedia di setiap titik konten. Pelaporan tersedia 24 jam sehari, 7 hari seminggu.
+**Hak melaporkan**. Setiap Pengguna dapat melaporkan Konten Pengguna lain (chat, ulasan, profil, deskripsi Tugas, bukti pekerjaan, dll.) yang dianggap melanggar S&K melalui menu "Laporkan" yang tersedia di setiap titik konten. Pelapor memilih alasan laporan dan dapat menambahkan keterangan. Pelaporan tersedia 24 jam sehari, 7 hari seminggu.
+
+**Salinan bukti**. Saat laporan dikirim, Aplikasi menyimpan salinan bukti bersama laporan untuk ditinjau Tim Papan Kerja: untuk laporan chat, hingga 100 pesan terakhir beserta fotonya (hanya apabila pelapor adalah peserta chat tersebut); untuk laporan Tugas, judul, deskripsi, dan foto Tugas; untuk laporan profil, nama dan foto profil. Dengan melaporkan suatu chat, Anda memahami bahwa Tim Papan Kerja akan membaca percakapan tersebut.
 
 **Tingkat keparahan dan SLA tinjauan**.
 
@@ -293,9 +312,11 @@ Papan Kerja berhak menghapus Konten Pengguna yang melanggar S&K tanpa pemberitah
 | Tinggi | Pelecehan, ujaran kebencian, doxxing, manipulasi rating sistematis | Maksimal 12 jam kerja |
 | Standar | Spam, bahasa kasar, pelanggaran ringan S&K | Maksimal 24 jam kerja |
 
-Tim Papan Kerja akan mengambil salah satu tindakan berikut tergantung temuan: penghapusan/penyembunyian konten, peringatan tertulis kepada pelaku, penangguhan sementara Akun, atau pemblokiran permanen Akun. Pelapor akan menerima notifikasi hasil melalui Aplikasi atau email.
+Tim Papan Kerja akan mengambil salah satu tindakan berikut tergantung temuan: penghapusan/penyembunyian konten, peringatan tertulis kepada pelaku, penangguhan sementara Akun, atau pemblokiran permanen Akun. Pengguna yang dilaporkan diberi tahu bila menerima peringatan, penangguhan, atau pemblokiran. Demi privasi para pihak, Pelapor tidak menerima pemberitahuan tentang hasil tinjauan.
 
-**Moderasi otomatis**. Aplikasi menerapkan sistem moderasi otomatis yang menyaring kata-kata terlarang dan pola komunikasi mencurigakan dalam fitur chat. Pesan yang teridentifikasi melanggar dapat disembunyikan secara otomatis sambil menunggu tinjauan manusia.
+**Penghapusan postingan Tugas**. Tim Papan Kerja dapat menghapus postingan Tugas yang melanggar S&K. Tugas tersebut dibatalkan, nilai Tugas di escrow dikembalikan ke Dompet Pemberi Tugas, dan Pekerja yang sudah diterima dilepas tanpa sanksi. Penghapusan ini tidak dilakukan apabila Pekerja sudah mengirim bukti pekerjaan atau pembayarannya sedang dalam keberatan, negosiasi, atau sengketa; kasus seperti itu diselesaikan melalui Pasal 9.
+
+**Moderasi otomatis**. Aplikasi menyaring kata-kata terlarang dalam fitur chat secara otomatis. Pesan yang mengandung kata terlarang diganti dengan tulisan "[pesan disaring otomatis]". Tim Papan Kerja tidak membaca chat secara rutin; chat Tugas hanya dibaca oleh Tim Papan Kerja apabila Tugasnya sedang dalam sengketa, apabila chat tersebut dilaporkan, atau (khusus admin Master) setelah chat diarsipkan.
 
 **Pesan langsung dari Tim Papan Kerja**. Tim Papan Kerja dapat memulai percakapan pribadi (direct message) dengan Pengguna untuk keperluan dukungan, verifikasi tambahan, atau klarifikasi atas suatu laporan/sengketa. Percakapan ini muncul di Kotak Pesan Anda dengan label "Tim Papan Kerja" dan Anda dapat membalas kapan saja. Percakapan tersebut tidak dianggap sebagai komunikasi pemasaran. Berbeda dengan obrolan tugas yang otomatis ditutup setelah 122 jam tanpa aktivitas, percakapan dengan Tim Papan Kerja tetap aktif tanpa pengarsipan otomatis.
 
@@ -303,13 +324,13 @@ Tim Papan Kerja akan mengambil salah satu tindakan berikut tergantung temuan: pe
 
 #### 11.5. Hak Memblokir Pengguna Lain
 
-Setiap Pengguna berhak memblokir Pengguna lain melalui fitur "Blokir Pengguna" yang tersedia pada profil Pengguna. Pengguna yang diblokir:
-- Tidak dapat mengirim pesan chat kepada Anda;
-- Tidak dapat melamar Tugas yang Anda posting (sebagai Pekerja yang diblokir oleh Pemberi Tugas);
-- Tidak dapat menerima lamaran Anda (sebagai Pemberi Tugas yang diblokir oleh Pekerja);
-- Tidak melihat profil dan rating Anda dalam daftar pencarian.
+Setiap Pengguna berhak memblokir Pengguna lain melalui fitur "Blokir Pengguna" yang tersedia pada profil Pengguna. Setelah pemblokiran:
+- Anda dan Pengguna yang diblokir tidak dapat saling mengirim pesan chat (berlaku dua arah), kecuali chat Tugas yang sedang berjalan di antara Anda berdua, yang tetap terbuka sampai Tugas tersebut selesai;
+- Lamaran yang masih menunggu keputusan di antara Anda berdua otomatis ditutup;
+- Anda dan Pengguna yang diblokir tidak dapat melamar Tugas yang diposting pihak lainnya, dan tidak dapat diterima untuk Tugas pihak lainnya;
+- Tugas dan lamaran dari Pengguna yang diblokir tidak ditampilkan kepada Anda.
 
-Pemblokiran bersifat sepihak dan dapat dibatalkan kapan saja oleh pemblokir. Pemblokiran tidak menghapus riwayat interaksi sebelumnya, tidak membatalkan Tugas yang sedang berjalan, dan tidak mempengaruhi pembayaran yang sedang dalam escrow. Untuk kasus yang lebih berat, gunakan fitur "Laporkan" pada Pasal 11.4.
+Pemblokiran dapat dibatalkan kapan saja oleh pemblokir. Pemblokiran tidak menghapus riwayat interaksi sebelumnya, tidak membatalkan Tugas yang sedang berjalan, dan tidak mempengaruhi pembayaran yang sedang dalam escrow. Untuk kasus yang lebih berat, gunakan fitur "Laporkan" pada Pasal 11.4.
 
 #### 11.6. Tanggung Jawab Pengguna saat Berinteraksi ⚠️ LEGAL
 
@@ -337,17 +358,25 @@ Papan Kerja menerapkan **kebijakan tanpa toleransi (zero tolerance)** terhadap m
 
 #### 12.1. Sistem Strike Pembatalan
 
-Pembatalan Tugas setelah penerimaan oleh kedua pihak akan menghasilkan strike pembatalan, dengan mekanisme bertingkat sebagai berikut:
+Strike pembatalan diberikan kepada:
+- **Pekerja** yang membatalkan Tugas setelah diterima, atau yang tidak mengirim bukti hingga jendela negosiasi pasca-tenggat berakhir tanpa kesepakatan (Pasal 9.3);
+- **Pemberi Tugas** yang membatalkan Tugas setelah lamaran diterima dan jendela negosiasi 24 jam berakhir tanpa kesepakatan maupun sengketa (Pasal 9.4), atau yang dikenai strike melalui keputusan sengketa (Pasal 9.5).
+
+Mekanismenya bertingkat sebagai berikut:
+- Setiap strike langsung memberlakukan larangan selama 3 jam (melamar Tugas bagi Pekerja; memposting Tugas bagi Pemberi Tugas).
 - Setiap **3 strike dalam kurun 7 hari** dihitung sebagai 1 (satu) pelanggaran pembatalan, dan penghitungan strike kemudian disetel ulang.
-- Pelanggaran pembatalan berlaku bertingkat: **pelanggaran ke-1 → penangguhan 3 hari; pelanggaran ke-2 → penangguhan 7 hari; pelanggaran ke-3 → akun berstatus "locked_cancellations"** dan tidak dapat melamar/menerima Tugas baru sampai dibuka kembali oleh Tim Papan Kerja.
-- Catatan strike pembatalan disimpan hingga 30 hari.
+- Pelanggaran pembatalan berlaku bertingkat: **pelanggaran ke-1 → larangan 3 hari; pelanggaran ke-2 → larangan 7 hari; pelanggaran ke-3 → akun berstatus "locked_cancellations"** dan tidak dapat melamar/menerima atau memposting Tugas baru sampai dibuka kembali oleh Tim Papan Kerja.
+- Catatan strike pembatalan disimpan hingga 30 hari, dan catatan pelanggaran pembatalan hingga 90 hari.
+- Pembatalan tidak mengurangi rating Pekerja. Sebagai gantinya, Pemberi Tugas dapat memberi rating kepada Pekerja atas Tugas yang dibatalkan Pekerja (Pasal 10.1).
 
 #### 12.2. Status Akun
 
 - **Aktif (user)** — Akun normal.
 - **Locked Cancellations** — terkunci sementara akibat strike pembatalan; saldo Dompet tetap dapat ditarik dengan persetujuan Tim Papan Kerja.
-- **Suspended (Ditangguhkan)** — penangguhan sementara (maks 1 tahun) akibat pelanggaran S&K; tidak dapat menggunakan fitur Aplikasi sampai berakhirnya periode.
+- **Suspended (Ditangguhkan)** — penangguhan sementara (maks 1 tahun) akibat pelanggaran S&K; tidak dapat memposting atau melamar Tugas baru, dan saldo Dompet tidak dapat ditarik sendiri sampai berakhirnya periode (pencairan hanya melalui tinjauan Tim Papan Kerja).
 - **Banned (Diblokir)** — pemblokiran permanen akibat pelanggaran berat; saldo Dompet menjadi subjek tinjauan Tim Papan Kerja sebelum dapat dicairkan.
+
+Saat Akun ditangguhkan atau diblokir: Tugas terbuka milik Akun tersebut yang belum memiliki Pekerja dibatalkan dan nilai Tugasnya dikembalikan ke Dompet; lamaran yang masih menunggu ditutup; sedangkan Tugas yang sudah berjalan tetap berlanjut dan dapat diselesaikan, termasuk melalui chat Tugas tersebut. Pihak lain dalam Tugas yang sedang berjalan akan diberi tahu bahwa akun pihak tersebut sedang dibatasi.
 - **Pending Deletion** — Akun yang diajukan untuk penghapusan paksa dengan masa tenggang 30 hari.
 
 #### 12.3. Banding
@@ -461,14 +490,14 @@ Papan Kerja tidak bertanggung jawab atas keterlambatan atau kegagalan dalam meny
 
 Pemberitahuan resmi dari Papan Kerja akan disampaikan melalui:
 - Notifikasi dalam Aplikasi;
-- Email ke alamat email yang terdaftar di Akun;
+- Email, untuk percakapan yang Anda mulai dengan Tim Papan Kerja melalui support@papankerja.com;
 - Notifikasi push (push notification) ke perangkat Anda, apabila Anda mengizinkan notifikasi.
 
 Anda setuju untuk menerima komunikasi tersebut secara elektronik, yang memiliki kekuatan hukum setara dengan komunikasi tertulis.
 
 ### 21. Perubahan Syarat dan Ketentuan
 
-Papan Kerja dapat memperbarui S&K dari waktu ke waktu. Perubahan material akan diberitahukan paling lambat **7 hari kalender** sebelum berlaku, melalui notifikasi in-app dan/atau email terdaftar. Penggunaan Aplikasi setelah tanggal berlaku perubahan menunjukkan persetujuan Anda atas versi terbaru. Jika Anda tidak setuju, Anda dapat menghentikan penggunaan dan menghapus Akun sebelum tanggal berlaku.
+Papan Kerja dapat memperbarui S&K dari waktu ke waktu. Perubahan material akan diberitahukan paling lambat **7 hari kalender** sebelum berlaku, melalui notifikasi di Aplikasi. Penggunaan Aplikasi setelah tanggal berlaku perubahan menunjukkan persetujuan Anda atas versi terbaru. Jika Anda tidak setuju, Anda dapat menghentikan penggunaan dan menghapus Akun sebelum tanggal berlaku.
 
 ### 22. Hukum yang Berlaku dan Penyelesaian Sengketa ⚠️ LEGAL
 
@@ -527,11 +556,11 @@ These Terms are effective from **[Tanggal publikasi resmi di Google Play Store]*
 | Term | Meaning |
 |---|---|
 | **App / Platform** | The Papan Kerja mobile application, backend systems, and all services provided by Papan Kerja |
-| **Account** | The user account created in the App, tied to a phone number and verified identity (KTP) |
+| **Account** | The user account created in the App, tied to a phone number and, for Workers, an identity verified through a KTP |
 | **Task Poster (PT)** | A User who posts Tasks on the App and pays a Worker for performance |
 | **Worker** | A User who applies for and/or performs Tasks from a Task Poster |
 | **Task** | A freelance or daily-task job posted by a Task Poster on the App |
-| **Service Commission** | The service fee Papan Kerja collects on each completed Task: 10% (ten percent) of the Task value |
+| **Service Commission** | The service fee Papan Kerja collects on each completed Task: 10% (ten percent) of the Task value, unless a different rate is set for a specific Task (see Section 8.1 of the Indonesian text) |
 | **App Wallet** | The User's virtual balance in the App, managed through payment partner Durianpay |
 | **Escrow** | The temporary holding of Task payment funds by Papan Kerja (via Durianpay) until the Task is completed |
 | **Durianpay** | A Bank Indonesia-licensed Payment Service Provider (PJP), operated by PT Durian Pay Indonesia, processing payments in the App |
@@ -545,13 +574,13 @@ These Terms are effective from **[Tanggal publikasi resmi di Google Play Store]*
 To use the App, you must:
 - Be at least 18 years old at registration;
 - Reside in Indonesia and have an active Indonesian mobile number;
-- Possess a valid Indonesian KTP;
+- To apply for and perform Tasks as a Worker, possess a valid Indonesian KTP;
 - Not be currently blocked, banned, or suspended by Papan Kerja;
 - Agree to comply with all applicable Indonesian laws and regulations.
 
 #### 3.2. Identity Verification
 
-You must verify your identity by uploading a KTP photo and a selfie per the App's instructions. Verification is required to confirm your age and identity, prevent fraud, and comply with Papan Kerja's anti-money-laundering obligations.
+To apply for and perform Tasks as a Worker, you must verify your identity by uploading a KTP photo and a selfie per the App's instructions. Task Posters do not need KTP verification to post Tasks. Verification is required to confirm the Worker's age and identity and to prevent fraud. A KTP may be submitted up to 3 times; after a third rejection, contact the Papan Kerja Team through the Help menu to reopen submissions.
 
 You represent that all information you provide is true, accurate, and current. Papan Kerja may refuse verification or suspend/cancel Accounts found to have submitted false data.
 

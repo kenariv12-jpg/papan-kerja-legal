@@ -28,12 +28,12 @@ Kebijakan ini berlaku efektif sejak **[Tanggal publikasi resmi di Google Play St
 | Kategori | Contoh data | Saat dikumpulkan |
 |---|---|---|
 | Identitas akun | Nomor telepon, nama tampilan, foto profil (wajib untuk melamar tugas), tanggal lahir; jika Anda masuk dengan atau menghubungkan akun Google: alamat email serta nama dan foto akun Google | Saat pendaftaran, saat mengubah profil, atau saat menghubungkan akun Google |
-| **Identitas terverifikasi (data spesifik)** | Foto KTP dan foto selfie wajah (untuk pencocokan identitas dengan KTP); foto KTP memuat NIK, nama lengkap, alamat, dan tanggal lahir sebagaimana tertera pada KTP | Saat verifikasi KTP |
+| **Identitas terverifikasi (data spesifik)** | Foto KTP dan foto selfie wajah (untuk pencocokan identitas dengan KTP); foto KTP memuat NIK, nama lengkap, alamat, dan tanggal lahir sebagaimana tertera pada KTP | Saat verifikasi KTP (hanya bagi Pekerja, untuk dapat melamar tugas) |
 | Lokasi tugas | Alamat lengkap pekerjaan, koordinat (latitude/longitude) | Saat memposting tugas |
 | **Lokasi real-time saat bekerja** | Koordinat posisi Pekerja yang diperbarui secara berkala **hanya selama tugas berstatus sedang berjalan**. Fitur ini: (a) hanya aktif setelah Pekerja memberikan persetujuan eksplisit satu kali di dalam aplikasi; (b) hanya berjalan saat aplikasi sedang dibuka, tidak ada pelacakan di latar belakang; (c) hanya dapat dilihat oleh Pemberi Tugas dari tugas yang bersangkutan; (d) tidak menyimpan riwayat perjalanan, hanya posisi terakhir; (e) dihapus otomatis saat tugas selesai atau dibatalkan; dan (f) dapat dimatikan kapan saja melalui Pengaturan | Saat mengerjakan tugas aktif, jika fitur berbagi lokasi diaktifkan |
 | Informasi pembayaran | Untuk pencairan dana ke Pekerja: nama bank, nomor rekening, dan nama pemilik rekening; atau penyedia e-wallet (GoPay/OVO/DANA) dan nomor akun e-wallet | Saat menambahkan akun pembayaran |
 | Konten pengguna | Teks dan media dalam obrolan, foto/video/dokumen bukti pekerjaan, judul dan deskripsi tugas, rating bintang | Saat menggunakan fitur terkait |
-| Laporan, pesan, dan keluhan | Isi laporan terhadap pengguna lain, pesan kepada Tim Papan Kerja, keberatan dan sengketa atas tugas | Saat melaporkan, mengirim pesan, atau mengajukan keberatan/sengketa |
+| Laporan, pesan, dan keluhan | Isi laporan terhadap pengguna lain (alasan dan keterangan), salinan bukti yang disimpan otomatis saat laporan dikirim (hingga 100 pesan chat terakhir beserta fotonya bila pelapor adalah peserta chat tersebut, judul, deskripsi, dan foto tugas yang dilaporkan, atau nama dan foto profil yang dilaporkan), pesan kepada Tim Papan Kerja, keberatan dan sengketa atas tugas | Saat melaporkan, mengirim pesan, atau mengajukan keberatan/sengketa |
 | Daftar pengguna yang Anda blokir | Pengguna yang Anda pilih untuk diblokir | Saat Anda memblokir pengguna |
 
 #### 3.2. Data yang dikumpulkan atau dibuat secara otomatis
@@ -100,7 +100,7 @@ Setiap jangka waktu di bawah ini dihitung sejak data diperoleh kecuali disebutka
 | Foto dan media obrolan | 365 hari sejak diunggah |
 | Pesan obrolan tugas (teks) | Diarsipkan 12 jam setelah pekerjaan ditutup ATAU 122 jam setelah pesan terakhir (mana yang lebih dulu); akses pengguna terbatas setelah arsip; dihapus 5 tahun setelah diarsipkan (PP 80/2019 Pasal 25) |
 | Pesan langsung dari Tim Papan Kerja (admin dan pengguna) | Dihapus 5 tahun sejak pesan terakhir |
-| Pesan kepada Tim Papan Kerja dan laporan terhadap pengguna | 5 tahun sejak dibuat, sebagai catatan keluhan (PP 80/2019 Pasal 25); tetap disimpan selama jangka waktu ini walaupun akun dihapus |
+| Pesan kepada Tim Papan Kerja dan laporan terhadap pengguna (termasuk salinan bukti yang disimpan bersama laporan) | 5 tahun sejak dibuat, sebagai catatan keluhan (PP 80/2019 Pasal 25); tetap disimpan selama jangka waktu ini walaupun akun dihapus |
 | Rating bintang | 5 tahun sejak dibuat; tetap tampil pada profil pengguna yang dinilai selama jangka waktu ini walaupun akun pemberi rating dihapus |
 | Riwayat transaksi dompet dan pembayaran | 11 tahun, untuk audit, pembukuan, dan kewajiban pajak minimal 10 tahun (UU 8/1997 Pasal 11, UU KUP Pasal 28 ayat 11, PP 80/2019 Pasal 25) |
 | Perkiraan area pengguna dan kategori yang dilamar | 180 hari sejak terakhir diperbarui; dihapus seketika saat akun dihapus |
@@ -119,7 +119,7 @@ Kami menerapkan langkah-langkah teknis dan organisasi untuk melindungi Data Prib
 
 - **Enkripsi dalam transit**: semua komunikasi antara aplikasi dan server menggunakan HTTPS/TLS.
 - **Enkripsi saat disimpan**: data di Firestore dan Cloud Storage dienkripsi otomatis menggunakan kunci yang dikelola Google.
-- **Kontrol akses berbasis aturan**: aturan keamanan basis data dan penyimpanan file membatasi akses data hanya untuk pemilik dan pihak yang berwenang. Foto KTP hanya dapat dilihat oleh pemiliknya dan Tim Papan Kerja.
+- **Kontrol akses berbasis aturan**: aturan keamanan basis data dan penyimpanan file membatasi akses data hanya untuk pemilik dan pihak yang berwenang. Foto KTP hanya dapat dilihat oleh pemiliknya dan Tim Papan Kerja. Chat tugas hanya dapat dibaca oleh kedua pihak dalam tugas tersebut; Tim Papan Kerja dapat membacanya hanya bila tugasnya sedang dalam sengketa, bila chat tersebut dilaporkan (melalui salinan bukti yang disimpan bersama laporan), atau oleh admin Master setelah chat diarsipkan.
 - **Verifikasi keaslian aplikasi**: melalui Google Play Integrity API untuk mencegah aplikasi tiruan.
 - **Pencatatan**: tindakan administratif yang sensitif dicatat dalam log audit.
 - **Pembatasan akses internal**: anggota Tim Papan Kerja memiliki akses berbasis peran melalui akun staf terpisah.
@@ -139,7 +139,7 @@ Sesuai dengan UU PDP, Anda memiliki hak-hak berikut atas Data Pribadi Anda:
 | **Hak untuk menarik kembali persetujuan** | Berbagi lokasi: Aplikasi → Pengaturan. Persetujuan lainnya: hubungi `support@papankerja.com`. Penarikan persetujuan dapat berarti penghentian sebagian atau seluruh layanan |
 | **Hak untuk mengajukan keberatan atas pemrosesan** | Hubungi `support@papankerja.com` |
 | **Hak untuk menunda atau membatasi pemrosesan** | Hubungi `support@papankerja.com` |
-| **Hak terkait keputusan otomatis** | Aplikasi menerapkan sanksi pembatalan secara otomatis. Setiap pembatalan tugas yang sudah diterima dikenai larangan mengambil tugas selama 3 jam dan, bagi Pekerja, pengurangan rating 0,1 yang hilang setelah 90 hari. Tiga pembatalan dalam 7 hari mengakibatkan larangan 3 hari; pelanggaran kedua dalam 90 hari mengakibatkan larangan 7 hari; pelanggaran ketiga dalam 90 hari mengakibatkan akun dikunci sampai dibuka oleh Tim Papan Kerja. Sanksi yang sama, tanpa pengurangan rating, berlaku bagi Pemberi Tugas yang pembatalannya berakhir otomatis karena batas waktu negosiasi habis. Anda dapat meminta peninjauan oleh manusia melalui Aplikasi → Pengaturan → Bantuan → Kirim Pesan Baru, atau `support@papankerja.com` |
+| **Hak terkait keputusan otomatis** | Aplikasi menerapkan sanksi pembatalan secara otomatis. Strike pembatalan diberikan kepada Pekerja yang membatalkan tugas yang sudah diterima atau tidak mengirim bukti sampai negosiasi pasca-tenggat berakhir tanpa kesepakatan, dan kepada Pemberi Tugas yang pembatalannya berakhir otomatis karena batas waktu negosiasi habis. Setiap strike dikenai larangan 3 jam (bagi Pekerja: mengambil tugas; bagi Pemberi Tugas: memposting tugas). Tiga strike dalam 7 hari mengakibatkan larangan 3 hari; pelanggaran kedua dalam 90 hari mengakibatkan larangan 7 hari; pelanggaran ketiga dalam 90 hari mengakibatkan akun dikunci sampai dibuka oleh Tim Papan Kerja. Pembatalan tidak mengurangi rating secara otomatis. Anda dapat meminta peninjauan oleh manusia melalui Aplikasi → Pengaturan → Bantuan → Kirim Pesan Baru, atau `support@papankerja.com` |
 | **Hak untuk mengajukan gugatan atas pelanggaran** | Anda dapat mengajukan pengaduan kepada lembaga pelindungan data pribadi (selama lembaga tersebut belum terbentuk, kepada Kementerian Komunikasi dan Digital) atau pengadilan |
 | **Hak untuk mendapatkan ganti rugi atas pelanggaran** | Sesuai mekanisme hukum yang berlaku |
 
@@ -203,12 +203,12 @@ This policy is effective as of **[the official publication date on the Google Pl
 | Category | Examples | When collected |
 |---|---|---|
 | Account identity | Phone number, display name, profile photo (required to apply for jobs), date of birth; if you sign in with or link a Google account: email address and the Google account's name and photo | At registration, when editing your profile, or when linking a Google account |
-| **Verified identity (specific data)** | KTP photo and a face selfie (for identity matching with the KTP); the KTP photo contains the NIK, full name, address, and date of birth as printed on the KTP | During KTP verification |
+| **Verified identity (specific data)** | KTP photo and a face selfie (for identity matching with the KTP); the KTP photo contains the NIK, full name, address, and date of birth as printed on the KTP | During KTP verification (Workers only, to be able to apply for jobs) |
 | Job location | Job address, coordinates (latitude/longitude) | When posting a job |
 | **Real-time location while working** | The Worker's position coordinates, updated periodically **only while a job is in progress**. This feature: (a) activates only after the Worker gives one-time explicit in-app consent; (b) runs only while the app is open, with no background tracking; (c) is visible only to the Task Poster of that specific job; (d) stores no movement history, only the latest position; (e) is deleted automatically when the job completes or is cancelled; and (f) can be turned off at any time in Settings | While working on an active job, if location sharing is enabled |
 | Payment information | For disbursements to Workers: bank name, account number, and account holder name; or e-wallet provider (GoPay/OVO/DANA) and e-wallet account number | When adding a payout account |
 | User-generated content | Text and media in chats, proof photos/videos/documents, job titles and descriptions, star ratings | When using related features |
-| Reports, messages, and complaints | Reports against other users, messages to the Papan Kerja Team, objections and disputes about jobs | When reporting, messaging, or raising an objection/dispute |
+| Reports, messages, and complaints | Reports against other users (reason and details), the evidence copy saved automatically when a report is sent (up to the last 100 chat messages with their photos when the reporter is a participant of that chat, the reported job's title, description and photos, or the reported profile's name and photo), messages to the Papan Kerja Team, objections and disputes about jobs | When reporting, messaging, or raising an objection/dispute |
 | Users you block | Users you choose to block | When you block a user |
 
 #### 3.2. Data collected or generated automatically
@@ -275,7 +275,7 @@ Each period below runs from when the data was obtained unless stated otherwise. 
 | Chat photos and media | 365 days after upload |
 | Job chat messages (text) | Archived 12 hours after the job closes OR 122 hours after the last message (whichever is earlier); user access is limited after archiving; deleted 5 years after archiving (GR 80/2019 Article 25) |
 | Direct messages from the Papan Kerja Team (admin and user) | Deleted 5 years after the last message |
-| Messages to the Papan Kerja Team and reports against users | 5 years after creation, as complaint records (GR 80/2019 Article 25); kept for this period even if the account is deleted |
+| Messages to the Papan Kerja Team and reports against users (including the evidence copy saved with a report) | 5 years after creation, as complaint records (GR 80/2019 Article 25); kept for this period even if the account is deleted |
 | Star ratings | 5 years after creation; they stay on the rated user's profile for this period even if the rater's account is deleted |
 | Wallet and payment transaction history | 11 years, for audit, bookkeeping, and the minimum 10-year tax obligations (Law 8/1997 Article 11, General Tax Law Article 28(11), GR 80/2019 Article 25) |
 | User's approximate area and categories applied to | 180 days after the last update; deleted immediately when the account is deleted |
@@ -294,7 +294,7 @@ We apply technical and organisational measures to protect your Personal Data:
 
 - **Encryption in transit**: all communication between the app and servers uses HTTPS/TLS.
 - **Encryption at rest**: data in Firestore and Cloud Storage is encrypted automatically with Google-managed keys.
-- **Rule-based access control**: database and file-storage security rules restrict access to the owner and authorised parties. KTP photos can be seen only by their owner and the Papan Kerja Team.
+- **Rule-based access control**: database and file-storage security rules restrict access to the owner and authorised parties. KTP photos can be seen only by their owner and the Papan Kerja Team. Job chats can be read only by the two parties of that job; the Papan Kerja Team can read one only while the job is in dispute, when the chat has been reported (through the evidence copy saved with the report), or, for the Master admin, after the chat is archived.
 - **App integrity verification**: via the Google Play Integrity API to prevent counterfeit apps.
 - **Logging**: sensitive administrative actions are recorded in an audit log.
 - **Internal access restriction**: Papan Kerja Team members have role-based access through separate staff accounts.
@@ -314,7 +314,7 @@ Under the PDP Law, you have the following rights over your Personal Data:
 | **Withdraw consent** | Location sharing: App → Settings. Other consents: email `support@papankerja.com`. Withdrawing consent may mean partial or full termination of the service |
 | **Object to processing** | Email `support@papankerja.com` |
 | **Postpone or restrict processing** | Email `support@papankerja.com` |
-| **Rights regarding automated decisions** | The App applies cancellation sanctions automatically. Every cancellation of an accepted job brings a 3-hour ban on taking jobs and, for Workers, a 0.1 rating reduction that expires after 90 days. Three cancellations within 7 days bring a 3-day ban; a second offence within 90 days brings a 7-day ban; a third offence within 90 days locks the account until the Papan Kerja Team unlocks it. The same sanctions, without the rating reduction, apply to Task Posters whose cancellation ends automatically because the negotiation deadline passed. You can request a human review through App → Settings → Bantuan → Kirim Pesan Baru, or at `support@papankerja.com` |
+| **Rights regarding automated decisions** | The App applies cancellation sanctions automatically. A cancellation strike is given to a Worker who cancels an accepted job or sends no proof before the post-deadline negotiation ends without agreement, and to a Task Poster whose cancellation ends automatically because the negotiation deadline passed. Each strike brings a 3-hour ban (Workers: taking jobs; Task Posters: posting jobs). Three strikes within 7 days bring a 3-day ban; a second offence within 90 days brings a 7-day ban; a third offence within 90 days locks the account until the Papan Kerja Team unlocks it. Cancellations do not automatically reduce ratings. You can request a human review through App → Settings → Bantuan → Kirim Pesan Baru, or at `support@papankerja.com` |
 | **File a claim for violations** | You may complain to the personal data protection agency (until it is established, to the Ministry of Communication and Digital Affairs) or to a court |
 | **Compensation for violations** | Under applicable legal mechanisms |
 
