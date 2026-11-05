@@ -16,7 +16,7 @@ Akun Anda langsung dihapus dan tidak bisa dikembalikan.
 **Aplikasi akan menolak penghapusan sampai:**
 - saldo dompet yang masih dapat dicairkan sudah ditarik dan tidak ada penarikan yang sedang diproses;
 - tidak ada tugas yang belum selesai, baik sebagai Pemberi Tugas maupun Pekerja, termasuk tugas yang masih dibuka menunggu pelamar, sedang berjalan, menunggu konfirmasi, atau dalam negosiasi, keberatan, maupun sengketa;
-- akun tidak sedang ditangguhkan, diblokir, atau dalam proses penghapusan oleh Tim Papan Kerja (hubungi kami lebih dulu); penangguhan otomatis karena strike pembatalan tidak menghalangi penghapusan;
+- akun tidak sedang ditangguhkan, diblokir, atau dalam proses penghapusan oleh Tim Papan Kerja (hubungi kami lebih dulu); penangguhan otomatis karena strike pembatalan tidak menghalangi penghapusan.
 
 Sisa saldo di bawah batas minimum penarikan (Rp35.000) yang tidak dapat dicairkan akan hangus saat akun dihapus.
 
@@ -42,13 +42,14 @@ Data berikut tetap disimpan setelah akun dihapus, sebagian karena kewajiban huku
 | Tugas yang sudah selesai, dibatalkan, atau kedaluwarsa, termasuk keberatan dan sengketanya, beserta lamaran yang selesai dikerjakan | 5 tahun setelah tugas selesai, dibatalkan, atau kedaluwarsa (PP 80/2019 Pasal 25) |
 | Pesan obrolan tugas yang sudah mempekerjakan Pekerja, serta obrolan tanya-jawab yang masih tersimpan, baik saat Anda sebagai pelamar maupun sebagai Pemberi Tugas (misalnya pada tugas yang kedaluwarsa atau diturunkan dan tidak Anda hapus) | 5 tahun setelah obrolan diarsipkan; obrolan tanya-jawab yang tidak pernah berisi pesan disimpan tanpa batas waktu otomatis, kecuali lamarannya ditolak, ditarik, Pekerja lain diterima, Pemberi Tugas membatalkan tugas sebelum ada Pekerja yang diterima, atau Pemberi Tugas menghapus tugas yang kedaluwarsa atau dibatalkan tanpa Pekerja yang diterima |
 | Pesan langsung dari atau kepada Tim Papan Kerja | 5 tahun sejak pesan terakhir |
-| Pesan kepada Tim Papan Kerja melalui menu Bantuan, dan laporan terhadap pengguna, termasuk salinan bukti yang disimpan bersama laporan (pesan obrolan, foto obrolan, dan foto tugas) | 5 tahun sejak dibuat |
+| Pesan kepada Tim Papan Kerja melalui menu Bantuan, dan laporan terhadap pengguna, termasuk salinan bukti yang disimpan bersama laporan (pesan obrolan, foto obrolan, data dan foto tugas, serta nama dan bio profil yang dilaporkan) | 5 tahun sejak dibuat |
 | Rating bintang yang Anda berikan atau terima | Catatan rating 5 tahun sejak dibuat; bintang yang Anda berikan tetap dihitung dalam rata-rata pengguna yang Anda nilai, kecuali bila rata-rata itu dihitung ulang setelah catatannya terhapus |
 | Foto tugas dan bukti pekerjaan | 90 hari setelah tugas selesai, dibatalkan, atau kedaluwarsa, atau sekitar 5 tahun sejak diunggah jika tugas mengalami keberatan atau sengketa; salinan yang disimpan sebagai bukti laporan disimpan 5 tahun sejak laporan dibuat |
 | Foto dan media obrolan | 365 hari sejak diunggah; salinan yang disimpan sebagai bukti laporan disimpan 5 tahun sejak laporan dibuat |
 | Riwayat notifikasi dalam aplikasi | 90 hari sejak dibuat |
 | Log audit tindakan Tim Papan Kerja dan catatan bahwa akun Anda dihapus | 365 hari |
 | Catatan pembatasan jumlah tindakan dan batas penarikan harian | 2 hari sampai 90 hari |
+| Catatan pemberitahuan berakhirnya penangguhan (ID akun, jenis penangguhan, dan waktu berakhirnya) | Sekitar 7 hari sejak dicatat |
 | Catatan percobaan validasi rekening pencairan dan peringatan sistem internal yang belum diselesaikan | Tanpa batas waktu otomatis (peringatan: sampai diselesaikan, lalu 30 hari) |
 | Catatan teknis server | 30 hari |
 | ID akun Anda di daftar blokir pengguna lain yang memblokir Anda | Tanpa batas waktu otomatis; terhapus saat pengguna itu membuka blokir atau menghapus akunnya |
@@ -77,7 +78,7 @@ Your account is deleted immediately and cannot be restored.
 **The app refuses deletion until:**
 - any wallet balance that can still be withdrawn has been withdrawn and no withdrawal is processing;
 - you have no unfinished job, as Task Poster or Worker, including a job still open for applicants, in progress, awaiting confirmation, or in negotiation, objection, or dispute;
-- the account is not suspended, banned, or being deleted by the Papan Kerja Team (contact us first); an automatic suspension for cancellation strikes does not block deletion;
+- the account is not suspended, banned, or being deleted by the Papan Kerja Team (contact us first); an automatic suspension for cancellation strikes does not block deletion.
 
 A remaining balance below the minimum withdrawal amount (Rp35,000) that cannot be withdrawn is forfeited when the account is deleted.
 
@@ -103,13 +104,14 @@ The following data is kept after account deletion, partly because of legal oblig
 | Completed, cancelled or expired jobs, including their objections and disputes, with the completed application | 5 years after the job completes, is cancelled, or expires (Government Regulation 80/2019 Article 25) |
 | Job chat messages for jobs with a hired Worker, and any Q&A chats that still exist, whether you were the applicant or the Task Poster (for example on a job that expired or was taken down and that you did not delete) | 5 years after the chat is archived; a Q&A chat that never received a message is kept with no automatic time limit, unless the application is rejected or withdrawn, another Worker is accepted, the Task Poster cancels the job before anyone is accepted, or the Task Poster deletes a job that expired or was cancelled without an accepted Worker |
 | Direct messages from or to the Papan Kerja Team | 5 years after the last message |
-| Messages to the Papan Kerja Team through the Help menu, and reports against users, including the evidence copy saved with a report (chat messages, chat photos and job photos) | 5 years after creation |
+| Messages to the Papan Kerja Team through the Help menu, and reports against users, including the evidence copy saved with a report (chat messages, chat photos, job details and photos, and the reported profile's name and bio) | 5 years after creation |
 | Star ratings you gave or received | Rating records 5 years after creation; stars you gave keep counting in the rated user's average unless that average is recalculated after the record has been deleted |
 | Job photos and proof of work | 90 days after the job completes, is cancelled, or expires, or about 5 years after upload if the job had an objection or dispute; copies saved as report evidence are kept 5 years after the report was made |
 | Chat photos and media | 365 days after upload; copies saved as report evidence are kept 5 years after the report was made |
 | In-app notification history | 90 days after creation |
 | Audit log of Papan Kerja Team actions and the record that your account was deleted | 365 days |
 | Action rate-limit and daily withdrawal-limit records | 2 to 90 days |
+| Records of "suspension ended" notices (account ID, kind of suspension, and its end time) | About 7 days after being recorded |
 | Payout-account validation attempt records and unresolved internal system alerts | No automatic time limit (alerts: until resolved, then 30 days) |
 | Server technical logs | 30 days |
 | Your account ID in the block lists of other users who blocked you | No automatic time limit; removed when that user unblocks you or deletes their account |

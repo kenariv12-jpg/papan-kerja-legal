@@ -15,7 +15,7 @@ Dengan mendaftarkan akun, mengakses, atau menggunakan Aplikasi, Anda menyatakan:
 
 **Jika Anda tidak menyetujui S&K ini, jangan mendaftar atau menggunakan Aplikasi.**
 
-S&K ini berlaku efektif sejak **[Tanggal publikasi resmi di Google Play Store]** (pembaruan terakhir: 15 Oktober 2026) dan menggantikan setiap versi sebelumnya.
+S&K ini berlaku efektif sejak **[Tanggal publikasi resmi di Google Play Store]** (pembaruan terakhir: 5 November 2026) dan menggantikan setiap versi sebelumnya.
 
 ### 2. Definisi
 
@@ -158,13 +158,13 @@ Pelanggaran Pasal 7 dapat berakibat pada penangguhan langsung, pemblokiran perma
 
 #### 8.1. Komisi Layanan
 
-Papan Kerja memungut **Komisi Layanan sebesar 10% (sepuluh persen)** dari nilai setiap Tugas yang berhasil diselesaikan. Komisi dipotong otomatis dari nilai Tugas di escrow sebelum dana dirilis ke Pekerja. Tim Papan Kerja dapat menetapkan persentase Komisi Layanan yang berbeda untuk Tugas tertentu, antara 0% dan 50%, sebelum Tugas tersebut diselesaikan.
+Papan Kerja memungut **Komisi Layanan sebesar 10% (sepuluh persen)** dari nilai setiap Tugas yang berhasil diselesaikan. Komisi dipotong otomatis dari nilai Tugas di escrow sebelum dana dirilis ke Pekerja. Tim Papan Kerja dapat menetapkan persentase Komisi Layanan yang berbeda untuk Tugas tertentu, antara 0% dan 50%, sebelum Tugas tersebut diselesaikan. Persentase yang berbeda tersebut hanya berlaku apabila seluruh nilai Tugas dirilis ke Pekerja, yaitu saat Tugas diselesaikan (Pasal 9.1 dan 9.2) atau saat sengketa diputuskan Penuh ke Pekerja (Pasal 9.5). Setiap pembagian dana, baik yang disepakati para pihak dalam negosiasi (Pasal 9.2 sampai 9.4) maupun yang diputuskan Tim Papan Kerja (Pembagian 50/50 atau Pembagian khusus, Pasal 9.5), selalu dipotong Komisi Layanan sebesar 10% dari bagian Pekerja, tanpa memperhatikan persentase yang berbeda tersebut.
 
 **Biaya Layanan Posting.** Saat memposting Tugas, Pemberi Tugas membayar Biaya Layanan Posting di luar nilai Tugas:
 - **Rp 2.000** apabila dibayar dari saldo Dompet;
 - apabila dibayar langsung (bank, e-wallet, atau QRIS), biayanya bertingkat sesuai nilai Tugas: Rp 5.000 untuk nilai Rp 35.000 sampai Rp 250.000; Rp 10.000 untuk nilai di atas Rp 250.000 sampai Rp 500.000; Rp 20.000 untuk nilai di atas Rp 500.000 sampai Rp 1.000.000; dan selanjutnya bertambah Rp 10.000 untuk setiap kenaikan nilai Rp 500.000.
 
-Biaya Layanan Posting tidak dikembalikan, kecuali Tugas dibatalkan oleh Pemberi Tugas dalam 1 (satu) menit setelah diposting dan belum ada pelamar.
+Biaya Layanan Posting tidak dikembalikan, kecuali Tugas dibatalkan oleh Pemberi Tugas dalam 1 (satu) menit setelah diposting dan belum ada pelamar; dalam hal tersebut Biaya Layanan Posting dikembalikan ke Dompet Pemberi Tugas, termasuk untuk Tugas yang dibayar langsung (bank, e-wallet, atau QRIS).
 
 Contoh: Tugas senilai Rp 100.000 yang diposting dengan saldo Dompet.
 - Pemberi Tugas membayar: Rp 100.000 (masuk ke escrow) + Biaya Layanan Posting Rp 2.000 = Rp 102.000
@@ -174,7 +174,9 @@ Contoh: Tugas senilai Rp 100.000 yang diposting dengan saldo Dompet.
 Apabila Tugas yang sama dibayar langsung, Biaya Layanan Posting-nya Rp 5.000, sehingga Pemberi Tugas membayar Rp 105.000; jumlah yang diterima Pekerja tetap Rp 90.000.
 
 
-**Biaya Tugas Mendesak.** Pemberi Tugas yang menandai Tugas sebagai "Mendesak" dikenakan biaya tambahan sebesar **Rp 15.000** per Tugas, di luar Komisi Layanan dan Biaya Layanan Posting, yang dibayarkan saat memposting Tugas.
+**Biaya Tugas Mendesak.** Pemberi Tugas yang menandai Tugas sebagai "Mendesak" dikenakan biaya tambahan sebesar **Rp 15.000** per Tugas, di luar Komisi Layanan dan Biaya Layanan Posting, yang dibayarkan saat memposting Tugas. Biaya Tugas Mendesak tidak dikembalikan apabila Tugas dibatalkan, termasuk pembatalan dalam 1 (satu) menit setelah diposting sebagaimana di atas (yang dikembalikan hanya Biaya Layanan Posting); satu-satunya pengecualian adalah pembayaran yang masuk setelah pembayaran langsung dibatalkan, sebagaimana diatur di bawah ini.
+
+**Pembayaran langsung yang dibatalkan.** Apabila Pemberi Tugas membatalkan pembayaran langsung tetapi pembayaran tetap diselesaikan pada halaman pembayaran yang masih terbuka, Tugas tidak dibuat. Dana yang masuk dikreditkan ke Dompet Pemberi Tugas seperti top-up: nilai Tugas dan Biaya Tugas Mendesak (bila ada) dikreditkan, sedangkan Biaya Layanan Posting untuk pembayaran langsung tidak dikembalikan. Pemberi Tugas diberi tahu melalui notifikasi. Layar posting Tugas menampilkan peringatan mengenai hal ini.
 
 #### 8.2. Top-up Dompet
 
@@ -192,6 +194,7 @@ Pekerja dan Pemberi Tugas dapat menarik saldo Dompet ke rekening bank atau akun 
 - **Saldo dana pencairan Papan Kerja**: Permintaan penarikan Anda tidak diblokir oleh kondisi saldo dana pencairan Papan Kerja. Jika dana pencairan tidak mencukupi, mitra pemroses pembayaran akan menolak transfer tersebut dan permintaan Anda diperlakukan seperti penarikan gagal lain: dana kembali ke saldo dompet Anda dan Anda dapat mencoba lagi.
 - **Periode pemrosesan**: Estimasi 1–3 hari kerja setelah permintaan penarikan, dapat lebih lama pada akhir pekan atau hari libur, tergantung jam operasional bank atau e-wallet tujuan.
 - **Data rekening**: Gunakan rekening (bank maupun e-wallet) atas nama Anda sendiri dan pastikan datanya benar. Bila layanan verifikasi rekening dari mitra pemroses pembayaran (Durianpay) tersedia, rekening diverifikasi saat pendaftaran rekening; bila tidak tersedia, rekening disimpan tanpa verifikasi otomatis. Verifikasi nama otomatis saat ini hanya berlaku untuk rekening bank; akun e-wallet disimpan tanpa verifikasi otomatis. Apabila bank atau e-wallet tujuan menolak transfer karena data rekening tidak sesuai, transfer gagal, dana kembali ke saldo Dompet Anda, dan rekening ditandai tidak valid sampai Anda memperbaikinya.
+- **Pengembalian oleh bank atau e-wallet**: Apabila bank atau e-wallet tujuan mengembalikan penarikan yang sebelumnya tercatat berhasil, seluruh jumlah penarikan, termasuk biaya penarikan, dikembalikan ke saldo Dompet Anda dan Anda diberi tahu melalui notifikasi. Tidak ada dana yang dikreditkan apabila Akun sudah tidak ada.
 
 Papan Kerja berhak menahan atau menolak permintaan penarikan yang ditemukan terkait dengan dugaan penipuan, pencucian uang, atau pelanggaran S&K.
 
@@ -240,13 +243,15 @@ Jika jendela 3 jam berakhir tanpa kesepakatan dan tanpa pengajuan sengketa, nila
 
 Pemberi Tugas yang membatalkan Tugas setelah lamaran diterima (sebelum tenggat waktu Tugas terlewati) akan memicu jendela negosiasi 24 jam, di mana kedua pihak dapat menyepakati pembagian dana atau mengajukan sengketa. Jika 24 jam berlalu tanpa kesepakatan dan tanpa pengajuan sengketa, nilai Tugas di escrow dikembalikan penuh ke Dompet Pemberi Tugas (Biaya Layanan Posting dan Biaya Tugas Mendesak tidak dikembalikan), Pekerja tidak menerima pembayaran, dan Pemberi Tugas menerima strike pembatalan sesuai Pasal 12.1.
 
+Apabila kedua pihak menyepakati pembagian dana dalam jendela tersebut, Komisi Layanan sebesar 10% dipotong dari bagian Pekerja (Pasal 8.1) dan kedua pihak dapat saling memberi rating (Pasal 10.1). Apabila kedua pihak menyepakati bahwa Pekerja menerima Rp 0, Tugas berakhir sebagai pembatalan oleh Pemberi Tugas: nilai Tugas di escrow dikembalikan penuh ke Dompet Pemberi Tugas (Biaya Layanan Posting dan Biaya Tugas Mendesak tidak dikembalikan), tanpa strike pembatalan, dan tidak ada pihak yang dapat memberi rating atas Tugas tersebut.
+
 #### 9.5. Penyelesaian Sengketa oleh Tim Papan Kerja ⚠️ LEGAL
 
 Jika salah satu pihak menekan "Ajukan Sengketa ke Tim Papan Kerja" (status Tugas menjadi "Menunggu peninjauan"), Tim Papan Kerja akan meninjau dan memutuskan salah satu dari empat pilihan:
 - (a) **Penuh ke Pekerja** — dengan Komisi Layanan tetap berlaku;
 - (b) **Penuh ke Pemberi Tugas** — pengembalian nilai Tugas secara penuh;
-- (c) **Pembagian 50/50**;
-- (d) **Pembagian khusus** — porsi yang ditentukan oleh Tim Papan Kerja berdasarkan kelayakan.
+- (c) **Pembagian 50/50** — Komisi Layanan sebesar 10% dipotong dari bagian Pekerja;
+- (d) **Pembagian khusus** — porsi yang ditentukan oleh Tim Papan Kerja berdasarkan kelayakan; Komisi Layanan sebesar 10% dipotong dari bagian Pekerja. Pembagian khusus yang memberikan seluruh nilai Tugas kepada Pekerja diperlakukan sebagai pilihan (a), dan yang memberikan Rp 0 kepada Pekerja diperlakukan sebagai pilihan (b).
 
 Untuk sengketa yang berasal dari pembatalan oleh Pemberi Tugas (Pasal 9.4), Tim Papan Kerja juga memutuskan, bersama salah satu pilihan di atas, apakah Pemberi Tugas menerima strike pembatalan (Pasal 12.1). Untuk sengketa yang berasal dari jendela negosiasi pasca-tenggat (Pasal 9.3), Tim Papan Kerja juga memutuskan apakah Pekerja menerima strike pembatalan (Pasal 12.1); bila sengketa tersebut diputuskan Penuh ke Pemberi Tugas, Pemberi Tugas dapat memberi rating kepada Pekerja atas Tugas tersebut (Pasal 10.1). Untuk sengketa lainnya, keputusan sengketa tidak memberikan strike kepada pihak mana pun.
 
@@ -262,7 +267,7 @@ Selama Aplikasi dalam mode pemeliharaan, seluruh hitungan waktu Tugas (masa taya
 
 Setelah Tugas diselesaikan, kedua pihak memiliki waktu 12 jam untuk memberikan rating 1-5 bintang. Rating tidak akan terbuka sampai kedua pihak telah mengirim, atau sampai 12 jam setelah rating tersebut dikirim apabila pihak lain tidak memberi rating. Ini untuk mencegah retaliasi. Setelah terbuka, rating dihitung ke dalam rata-rata bintang yang tampil di profil Pengguna yang dinilai (rata-rata dari seluruh rating yang pernah diterima dan jumlah seluruh rating; rating satu per satu tidak ditampilkan). Tim Papan Kerja dapat menghapus rating yang melanggar S&K.
 
-Apabila Pekerja membatalkan Tugas setelah diterima, atau jendela negosiasi pasca-tenggat (Pasal 9.3) berakhir tanpa kesepakatan, Pemberi Tugas dapat memberi rating bintang kepada Pekerja atas Tugas tersebut dalam 12 jam sejak pembatalan. Rating ini langsung tampil, dan Pekerja tidak dapat memberi rating balik atas Tugas tersebut.
+Apabila Pekerja membatalkan Tugas setelah diterima, jendela negosiasi pasca-tenggat (Pasal 9.3) berakhir tanpa kesepakatan, atau sengketa yang diajukan dari jendela tersebut diputuskan Penuh ke Pemberi Tugas (Pasal 9.5), Pemberi Tugas dapat memberi rating bintang kepada Pekerja atas Tugas tersebut dalam 12 jam sejak pembatalan atau keputusan sengketa tersebut. Rating ini langsung tampil, dan Pekerja tidak dapat memberi rating balik atas Tugas tersebut.
 
 #### 10.2. Rangking Pekerja
 
@@ -370,11 +375,12 @@ Strike pembatalan diberikan kepada:
 - **Pemberi Tugas** yang membatalkan Tugas setelah lamaran diterima dan jendela negosiasi 24 jam berakhir tanpa kesepakatan maupun sengketa (Pasal 9.4), atau yang dikenai strike melalui keputusan sengketa (Pasal 9.5).
 
 Mekanismenya sebagai berikut:
-- Setiap strike langsung memberlakukan penangguhan selama 3 jam (melamar Tugas bagi Pekerja; memposting Tugas bagi Pemberi Tugas).
+- Setiap strike langsung memberlakukan penangguhan selama 3 jam (bagi Pekerja: melamar Tugas dan diterima untuk Tugas; bagi Pemberi Tugas: memposting Tugas).
 - Setiap **3 strike dalam kurun 7 hari** dihitung sebagai 1 (satu) putaran dan memberlakukan **penangguhan 3 hari** dengan cakupan yang sama; penghitungan strike kemudian disetel ulang. Setiap putaran berikutnya juga memberlakukan penangguhan 3 hari.
 - Strike pembatalan tidak pernah membuat Akun terkunci atau diblokir. Pemblokiran Akun hanya dijatuhkan oleh Tim Papan Kerja (Pasal 12.2).
-- Strike pembatalan disimpan selama 30 hari, tetapi hanya strike dalam 7 hari terakhir yang dihitung untuk satu putaran; catatan putaran disimpan selama 90 hari sebagai riwayat. Catatan yang lebih lama dihapus saat strike berikutnya dicatat atau saat dibersihkan oleh Tim Papan Kerja.
-- Pengguna diberi tahu melalui notifikasi setiap kali menerima strike, beserta lama penangguhannya, dan ketika penangguhan berakhir. Jumlah strike dalam 7 hari terakhir dapat dilihat di halaman Profil.
+- Penangguhan karena strike bukan status "Akun ditangguhkan" sebagaimana Pasal 12.2: selama penangguhan ini, Tugas yang sedang berjalan tetap dapat diselesaikan dan saldo Dompet tetap dapat ditarik.
+- Hanya strike dalam 7 hari terakhir yang dihitung untuk satu putaran. Strike dikosongkan saat satu putaran tercapai; strike yang belum membentuk putaran disimpan sebagai riwayat selama 30 hari, dan catatan putaran disimpan selama 90 hari sebagai riwayat. Catatan yang lebih lama dihapus saat strike berikutnya dicatat atau saat disetel ulang oleh admin Master.
+- Pengguna diberi tahu melalui notifikasi setiap kali menerima strike, beserta lama penangguhannya, dan ketika penangguhan berakhir, kecuali apabila Akun sedang diblokir atau dalam proses penghapusan; berakhirnya penangguhan karena strike juga tidak diberitahukan selama penangguhan Akun oleh Tim Papan Kerja masih berjalan. Jumlah strike dalam 7 hari terakhir dapat dilihat di halaman Profil.
 - Tim Papan Kerja dapat mencabut penangguhan lebih awal.
 - Pembatalan tidak mengurangi rating Pekerja. Sebagai gantinya, Pemberi Tugas dapat memberi rating kepada Pekerja atas Tugas yang dibatalkan Pekerja (Pasal 10.1).
 
@@ -385,11 +391,11 @@ Mekanismenya sebagai berikut:
 - **Akun diblokir** — pemblokiran permanen akibat pelanggaran berat; saldo Dompet menjadi subjek tinjauan Tim Papan Kerja sebelum dapat dicairkan.
 
 Saat Akun ditangguhkan atau diblokir: Tugas terbuka milik Akun tersebut yang belum memiliki Pekerja dibatalkan dan nilai Tugasnya dikembalikan ke Dompet; lamaran yang masih menunggu ditutup; sedangkan Tugas yang sudah berjalan tetap berlanjut dan dapat diselesaikan, termasuk melalui chat Tugas tersebut. Pihak lain dalam Tugas yang sedang berjalan akan diberi tahu bahwa akun pihak tersebut sedang dibatasi.
-- **Menunggu penghapusan** — Akun yang diajukan untuk penghapusan paksa oleh Papan Kerja dengan masa tenggang 30 hari; selama masa ini Akun tidak dapat digunakan.
+- **Menunggu penghapusan** — Akun yang diajukan untuk penghapusan paksa oleh Papan Kerja dengan masa tenggang sekitar 30 hari (dapat dipersingkat oleh Tim Papan Kerja); Pengguna diberi tahu melalui notifikasi, dan selama masa ini Akun tidak dapat digunakan. Setelah masa tenggang berakhir, saldo Dompet dicairkan ke akun pencairan utama Pengguna yang valid dan aktif, dikurangi biaya penarikan (Pasal 8.3), lalu Akun dihapus. Saldo Dompet hangus dan tidak dicairkan apabila tidak ada akun pencairan utama yang valid dan aktif, saldo kosong atau lebih kecil dari biaya penarikan, Tim Papan Kerja memutuskan demikian karena pelanggaran berat (misalnya penipuan), atau mitra pemroses pembayaran menolak pencairan secara pasti. Apabila pencairan yang sudah diproses kemudian gagal, penanganannya dilakukan oleh Tim Papan Kerja.
 
 #### 12.3. Banding
 
-Pengguna yang Akunnya ditangguhkan atau diblokir dapat mengajukan banding melalui support@papankerja.com dalam waktu 14 hari kalender sejak pemberitahuan. Tim Papan Kerja akan meninjau dan memberikan keputusan akhir dalam waktu 14 hari kerja.
+Pengguna yang Akunnya ditangguhkan atau diblokir dapat mengajukan banding melalui support@papankerja.com dalam waktu 14 hari kalender sejak pemberitahuan. Tim Papan Kerja akan meninjau dan memberikan keputusan akhir dalam waktu 14 hari kerja. Banding ini berlaku untuk penangguhan dan pemblokiran Akun oleh Tim Papan Kerja (Pasal 12.2). Strike pembatalan dan penangguhan karena strike (Pasal 12.1) bukan penangguhan Akun; atas strike tersebut, Pengguna dapat meminta peninjauan oleh manusia sebagaimana diatur dalam Kebijakan Privasi bagian 9.
 
 #### 12.4. Penangguhan Karena Aktivitas Mencurigakan ⚠️ LEGAL
 
@@ -557,7 +563,7 @@ By registering, accessing, or using the App, you confirm that:
 
 **If you do not agree to these Terms, do not register or use the App.**
 
-These Terms are effective from **[the official publication date on the Google Play Store]** (last updated: 15 October 2026) and supersede all prior versions.
+These Terms are effective from **[the official publication date on the Google Play Store]** (last updated: 5 November 2026) and supersede all prior versions.
 
 ### 2. Definitions
 
