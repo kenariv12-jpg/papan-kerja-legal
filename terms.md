@@ -166,6 +166,8 @@ Papan Kerja memungut **Komisi Layanan sebesar 10% (sepuluh persen)** dari nilai 
 
 Biaya Layanan Posting tidak dikembalikan, kecuali Tugas dibatalkan oleh Pemberi Tugas dalam 1 (satu) menit setelah diposting dan belum ada pelamar; dalam hal tersebut Biaya Layanan Posting dikembalikan ke Dompet Pemberi Tugas, termasuk untuk Tugas yang dibayar langsung (bank, e-wallet, atau QRIS).
 
+**Pembatalan sebelum ada Pekerja dan Tugas kedaluwarsa.** Pemberi Tugas dapat membatalkan Tugas yang belum memiliki Pekerja yang diterima tanpa strike pembatalan. Apabila Tugas dibatalkan sebelum ada Pekerja yang diterima, atau masa tayang Tugas berakhir tanpa ada Pekerja yang diterima (kedaluwarsa), seluruh nilai Tugas di escrow dikembalikan ke Dompet Pemberi Tugas. Biaya Layanan Posting dan Biaya Tugas Mendesak tidak dikembalikan, kecuali Biaya Layanan Posting pada pembatalan dalam 1 (satu) menit sebagaimana di atas.
+
 Contoh: Tugas senilai Rp 100.000 yang diposting dengan saldo Dompet.
 - Pemberi Tugas membayar: Rp 100.000 (masuk ke escrow) + Biaya Layanan Posting Rp 2.000 = Rp 102.000
 - Komisi Layanan Papan Kerja: Rp 10.000 (10% dari Rp 100.000)
