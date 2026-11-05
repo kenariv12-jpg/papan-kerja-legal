@@ -214,7 +214,7 @@ Apabila Pengguna tetap melakukan transaksi di luar Aplikasi, maka:
 - transaksi tersebut sepenuhnya menjadi risiko para pihak;
 - Papan Kerja tidak memiliki kewajiban untuk membantu penagihan, pengembalian dana, atau penyelesaian sengketa;
 - Pengguna dapat kehilangan perlindungan escrow, sistem sengketa, dan fitur keamanan Platform;
-- Papan Kerja berhak menjatuhkan strike, penangguhan, atau pemblokiran Akun.
+- Papan Kerja berhak memberikan peringatan, menangguhkan, atau memblokir Akun (Pasal 12.2). Strike pembatalan hanya diberikan sebagaimana diatur dalam Pasal 12.1.
 
 ### 9. Pelaksanaan Tugas, Bukti, dan Pencairan Escrow
 
@@ -391,7 +391,7 @@ Mekanismenya sebagai berikut:
 - **Akun diblokir** — pemblokiran permanen akibat pelanggaran berat; saldo Dompet menjadi subjek tinjauan Tim Papan Kerja sebelum dapat dicairkan.
 
 Saat Akun ditangguhkan atau diblokir: Tugas terbuka milik Akun tersebut yang belum memiliki Pekerja dibatalkan dan nilai Tugasnya dikembalikan ke Dompet; lamaran yang masih menunggu ditutup; sedangkan Tugas yang sudah berjalan tetap berlanjut dan dapat diselesaikan, termasuk melalui chat Tugas tersebut. Pihak lain dalam Tugas yang sedang berjalan akan diberi tahu bahwa akun pihak tersebut sedang dibatasi.
-- **Menunggu penghapusan** — Akun yang diajukan untuk penghapusan paksa oleh Papan Kerja dengan masa tenggang sekitar 30 hari (dapat dipersingkat oleh Tim Papan Kerja); Pengguna diberi tahu melalui notifikasi, dan selama masa ini Akun tidak dapat digunakan. Setelah masa tenggang berakhir, saldo Dompet dicairkan ke akun pencairan utama Pengguna yang valid dan aktif, dikurangi biaya penarikan (Pasal 8.3), lalu Akun dihapus. Saldo Dompet hangus dan tidak dicairkan apabila tidak ada akun pencairan utama yang valid dan aktif, saldo kosong atau lebih kecil dari biaya penarikan, Tim Papan Kerja memutuskan demikian karena pelanggaran berat (misalnya penipuan), atau mitra pemroses pembayaran menolak pencairan secara pasti. Apabila pencairan yang sudah diproses kemudian gagal, penanganannya dilakukan oleh Tim Papan Kerja.
+- **Menunggu penghapusan** — Akun yang diajukan untuk penghapusan paksa oleh Papan Kerja dengan masa tenggang sekitar 30 hari (dapat dipersingkat oleh Tim Papan Kerja); Pengguna diberi tahu melalui notifikasi, dan selama masa ini Akun tidak dapat digunakan. Setelah masa tenggang berakhir, saldo Dompet dicairkan ke akun pencairan utama Pengguna yang valid dan aktif, dikurangi biaya penarikan (Pasal 8.3), lalu Akun dihapus. Saldo Dompet hangus dan tidak dicairkan apabila tidak ada akun pencairan utama yang valid dan aktif, saldo kosong atau lebih kecil dari biaya penarikan, Tim Papan Kerja memutuskan demikian karena pelanggaran berat (misalnya penipuan), atau mitra pemroses pembayaran menolak pencairan secara pasti. Apabila pencairan yang sudah diproses kemudian gagal, penanganannya dilakukan oleh Tim Papan Kerja. Saat penghapusan paksa diajukan, seluruh Tugas Akun tersebut yang belum selesai, baik sebagai Pemberi Tugas maupun Pekerja (termasuk yang masih dibuka, sedang berjalan, menunggu konfirmasi, atau dalam keberatan, negosiasi, maupun sengketa), langsung dibatalkan: nilai Tugas di escrow dikembalikan ke Dompet Pemberi Tugas, Pekerja yang sudah diterima dilepas tanpa strike dan tanpa pembayaran, dan sengketa yang masih terbuka ditutup tanpa keputusan.
 
 #### 12.3. Banding
 
