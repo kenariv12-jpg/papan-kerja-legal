@@ -168,6 +168,8 @@ Biaya Layanan Posting tidak dikembalikan, kecuali Tugas dibatalkan oleh Pemberi 
 
 **Pembatalan sebelum ada Pekerja dan Tugas kedaluwarsa.** Pemberi Tugas dapat membatalkan Tugas yang belum memiliki Pekerja yang diterima tanpa strike pembatalan. Apabila Tugas dibatalkan sebelum ada Pekerja yang diterima, atau masa tayang Tugas berakhir tanpa ada Pekerja yang diterima (kedaluwarsa), seluruh nilai Tugas di escrow dikembalikan ke Dompet Pemberi Tugas. Biaya Layanan Posting dan Biaya Tugas Mendesak tidak dikembalikan, kecuali Biaya Layanan Posting pada pembatalan dalam 1 (satu) menit sebagaimana di atas.
 
+**Pembatalan oleh Pekerja.** Apabila Pekerja membatalkan Tugas setelah diterima (sebelum mengirim bukti pekerjaan), seluruh nilai Tugas di escrow dikembalikan ke Dompet Pemberi Tugas dan Pekerja tidak menerima pembayaran. Biaya Layanan Posting dan Biaya Tugas Mendesak tidak dikembalikan. Pekerja menerima strike pembatalan (Pasal 12.1).
+
 Contoh: Tugas senilai Rp 100.000 yang diposting dengan saldo Dompet.
 - Pemberi Tugas membayar: Rp 100.000 (masuk ke escrow) + Biaya Layanan Posting Rp 2.000 = Rp 102.000
 - Komisi Layanan Papan Kerja: Rp 10.000 (10% dari Rp 100.000)
