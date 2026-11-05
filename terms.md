@@ -248,7 +248,7 @@ Jika salah satu pihak menekan "Ajukan Sengketa ke Tim Papan Kerja" (status Tugas
 - (c) **Pembagian 50/50**;
 - (d) **Pembagian khusus** — porsi yang ditentukan oleh Tim Papan Kerja berdasarkan kelayakan.
 
-Untuk sengketa yang berasal dari pembatalan oleh Pemberi Tugas (Pasal 9.4), Tim Papan Kerja juga memutuskan, bersama salah satu pilihan di atas, apakah Pemberi Tugas menerima strike pembatalan (Pasal 12.1). Untuk sengketa lainnya, keputusan sengketa tidak memberikan strike kepada pihak mana pun.
+Untuk sengketa yang berasal dari pembatalan oleh Pemberi Tugas (Pasal 9.4), Tim Papan Kerja juga memutuskan, bersama salah satu pilihan di atas, apakah Pemberi Tugas menerima strike pembatalan (Pasal 12.1). Untuk sengketa yang berasal dari jendela negosiasi pasca-tenggat (Pasal 9.3), Tim Papan Kerja juga memutuskan apakah Pekerja menerima strike pembatalan (Pasal 12.1); bila sengketa tersebut diputuskan Penuh ke Pemberi Tugas, Pemberi Tugas dapat memberi rating kepada Pekerja atas Tugas tersebut (Pasal 10.1). Untuk sengketa lainnya, keputusan sengketa tidak memberikan strike kepada pihak mana pun.
 
 Keputusan Tim Papan Kerja bersifat final dan mengikat untuk tujuan internal Aplikasi. Hal ini tidak menghilangkan hak Pengguna untuk menempuh upaya hukum sesuai Pasal 22.
 
@@ -366,20 +366,21 @@ Papan Kerja menerapkan **kebijakan tanpa toleransi (zero tolerance)** terhadap m
 #### 12.1. Sistem Strike Pembatalan
 
 Strike pembatalan diberikan kepada:
-- **Pekerja** yang membatalkan Tugas setelah diterima, atau yang tidak mengirim bukti hingga jendela negosiasi pasca-tenggat berakhir tanpa kesepakatan (Pasal 9.3);
+- **Pekerja** yang membatalkan Tugas setelah diterima, atau yang tidak mengirim bukti hingga jendela negosiasi pasca-tenggat berakhir tanpa kesepakatan (Pasal 9.3), atau yang dikenai strike melalui keputusan sengketa (Pasal 9.5);
 - **Pemberi Tugas** yang membatalkan Tugas setelah lamaran diterima dan jendela negosiasi 24 jam berakhir tanpa kesepakatan maupun sengketa (Pasal 9.4), atau yang dikenai strike melalui keputusan sengketa (Pasal 9.5).
 
-Mekanismenya bertingkat sebagai berikut:
-- Setiap strike langsung memberlakukan larangan selama 3 jam (melamar Tugas bagi Pekerja; memposting Tugas bagi Pemberi Tugas).
-- Setiap **3 strike dalam kurun 7 hari** dihitung sebagai 1 (satu) pelanggaran pembatalan, dan penghitungan strike kemudian disetel ulang.
-- Pelanggaran pembatalan berlaku bertingkat: **pelanggaran ke-1 → larangan 3 hari; pelanggaran ke-2 → larangan 7 hari; pelanggaran ke-3 → Akun berstatus "Akun terkunci" (terkunci karena pembatalan berulang)** dan tidak dapat melamar/menerima atau memposting Tugas baru sampai dibuka kembali oleh Tim Papan Kerja.
-- Strike pembatalan hanya diperhitungkan selama 30 hari, dan pelanggaran pembatalan selama 90 hari; catatan yang lebih lama tidak lagi berpengaruh dan dihapus saat strike berikutnya dicatat atau saat dibersihkan oleh Tim Papan Kerja.
+Mekanismenya sebagai berikut:
+- Setiap strike langsung memberlakukan penangguhan selama 3 jam (melamar Tugas bagi Pekerja; memposting Tugas bagi Pemberi Tugas).
+- Setiap **3 strike dalam kurun 7 hari** dihitung sebagai 1 (satu) putaran dan memberlakukan **penangguhan 3 hari** dengan cakupan yang sama; penghitungan strike kemudian disetel ulang. Setiap putaran berikutnya juga memberlakukan penangguhan 3 hari.
+- Strike pembatalan tidak pernah membuat Akun terkunci atau diblokir. Pemblokiran Akun hanya dijatuhkan oleh Tim Papan Kerja (Pasal 12.2).
+- Strike pembatalan disimpan selama 30 hari, tetapi hanya strike dalam 7 hari terakhir yang dihitung untuk satu putaran; catatan putaran disimpan selama 90 hari sebagai riwayat. Catatan yang lebih lama dihapus saat strike berikutnya dicatat atau saat dibersihkan oleh Tim Papan Kerja.
+- Pengguna diberi tahu melalui notifikasi setiap kali menerima strike, beserta lama penangguhannya, dan ketika penangguhan berakhir. Jumlah strike dalam 7 hari terakhir dapat dilihat di halaman Profil.
+- Tim Papan Kerja dapat mencabut penangguhan lebih awal.
 - Pembatalan tidak mengurangi rating Pekerja. Sebagai gantinya, Pemberi Tugas dapat memberi rating kepada Pekerja atas Tugas yang dibatalkan Pekerja (Pasal 10.1).
 
 #### 12.2. Status Akun
 
 - **Aktif** — Akun normal.
-- **Akun terkunci** — terkunci akibat strike pembatalan sampai dibuka kembali oleh Tim Papan Kerja; saldo Dompet tetap dapat ditarik dengan persetujuan Tim Papan Kerja.
 - **Akun ditangguhkan** — penangguhan sementara (maks 1 tahun) akibat pelanggaran S&K; tidak dapat memposting atau melamar Tugas baru, dan saldo Dompet tidak dapat ditarik sendiri sampai berakhirnya periode (pencairan hanya melalui tinjauan Tim Papan Kerja).
 - **Akun diblokir** — pemblokiran permanen akibat pelanggaran berat; saldo Dompet menjadi subjek tinjauan Tim Papan Kerja sebelum dapat dicairkan.
 
@@ -416,7 +417,7 @@ Anda dapat menghapus Akun Anda kapan saja melalui menu Profil → Pengaturan →
 - Menghapus data pribadi Anda sesuai Kebijakan Privasi;
 - Tidak menghapus data yang wajib atau perlu kami simpan untuk jangka waktu tertentu, yaitu catatan transaksi keuangan, riwayat Tugas yang sudah selesai, dibatalkan, atau kedaluwarsa termasuk keberatan dan sengketanya, pesan obrolan, pesan kepada Tim Papan Kerja, laporan, rating, dan log audit, sebagaimana diatur dalam Kebijakan Privasi bagian 7.
 
-Aplikasi akan menolak penghapusan Akun sampai: saldo Dompet yang masih dapat dicairkan sudah dicairkan dan tidak ada penarikan yang sedang diproses; tidak ada Tugas yang belum selesai, baik sebagai Pemberi Tugas maupun Pekerja, termasuk Tugas yang masih dibuka menunggu pelamar, sedang berjalan, menunggu konfirmasi, atau dalam negosiasi, keberatan, maupun sengketa; dan Akun tidak sedang ditangguhkan, diblokir, atau dalam proses penghapusan oleh Papan Kerja (Akun yang dikunci karena pembatalan berulang tidak dapat mencairkan saldonya sendiri; saldo Rp 35.000 atau lebih harus dicairkan dulu melalui persetujuan Tim Papan Kerja, atau Akun dibuka kembali, sebelum Akun dapat dihapus). Sisa saldo di bawah batas minimum penarikan (Rp35.000) yang tidak dapat dicairkan akan hangus saat Akun dihapus.
+Aplikasi akan menolak penghapusan Akun sampai: saldo Dompet yang masih dapat dicairkan sudah dicairkan dan tidak ada penarikan yang sedang diproses; tidak ada Tugas yang belum selesai, baik sebagai Pemberi Tugas maupun Pekerja, termasuk Tugas yang masih dibuka menunggu pelamar, sedang berjalan, menunggu konfirmasi, atau dalam negosiasi, keberatan, maupun sengketa; dan Akun tidak sedang ditangguhkan, diblokir, atau dalam proses penghapusan oleh Papan Kerja (penangguhan otomatis karena strike pembatalan, Pasal 12.1, tidak menghalangi penghapusan). Sisa saldo di bawah batas minimum penarikan (Rp35.000) yang tidak dapat dicairkan akan hangus saat Akun dihapus.
 
 #### 13.2. Penghentian oleh Papan Kerja
 

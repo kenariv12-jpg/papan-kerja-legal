@@ -16,8 +16,7 @@ Akun Anda langsung dihapus dan tidak bisa dikembalikan.
 **Aplikasi akan menolak penghapusan sampai:**
 - saldo dompet yang masih dapat dicairkan sudah ditarik dan tidak ada penarikan yang sedang diproses;
 - tidak ada tugas yang belum selesai, baik sebagai Pemberi Tugas maupun Pekerja, termasuk tugas yang masih dibuka menunggu pelamar, sedang berjalan, menunggu konfirmasi, atau dalam negosiasi, keberatan, maupun sengketa;
-- akun tidak sedang ditangguhkan, diblokir, atau dalam proses penghapusan oleh Tim Papan Kerja (hubungi kami lebih dulu);
-- bila akun dikunci karena pembatalan berulang dan saldo dompet Rp35.000 atau lebih, saldo tersebut tidak dapat Anda tarik sendiri; hubungi kami agar saldo dicairkan melalui persetujuan Tim Papan Kerja atau akun dibuka kembali.
+- akun tidak sedang ditangguhkan, diblokir, atau dalam proses penghapusan oleh Tim Papan Kerja (hubungi kami lebih dulu); penangguhan otomatis karena strike pembatalan tidak menghalangi penghapusan;
 
 Sisa saldo di bawah batas minimum penarikan (Rp35.000) yang tidak dapat dicairkan akan hangus saat akun dihapus.
 
@@ -78,8 +77,7 @@ Your account is deleted immediately and cannot be restored.
 **The app refuses deletion until:**
 - any wallet balance that can still be withdrawn has been withdrawn and no withdrawal is processing;
 - you have no unfinished job, as Task Poster or Worker, including a job still open for applicants, in progress, awaiting confirmation, or in negotiation, objection, or dispute;
-- the account is not suspended, banned, or being deleted by the Papan Kerja Team (contact us first);
-- if the account is locked for repeated cancellations and the wallet balance is Rp35,000 or more, you cannot withdraw that balance yourself; contact us so it can be paid out with the Papan Kerja Team's approval or the account can be unlocked.
+- the account is not suspended, banned, or being deleted by the Papan Kerja Team (contact us first); an automatic suspension for cancellation strikes does not block deletion;
 
 A remaining balance below the minimum withdrawal amount (Rp35,000) that cannot be withdrawn is forfeited when the account is deleted.
 
