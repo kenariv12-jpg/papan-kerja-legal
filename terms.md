@@ -15,7 +15,7 @@ Dengan mendaftarkan akun, mengakses, atau menggunakan Aplikasi, Anda menyatakan:
 
 **Jika Anda tidak menyetujui S&K ini, jangan mendaftar atau menggunakan Aplikasi.**
 
-S&K ini berlaku efektif sejak **[Tanggal publikasi resmi di Google Play Store]** (pembaruan terakhir: 5 November 2026) dan menggantikan setiap versi sebelumnya.
+S&K ini berlaku efektif sejak **[Tanggal publikasi resmi di Google Play Store]** (pembaruan terakhir: 7 November 2026) dan menggantikan setiap versi sebelumnya.
 
 ### 2. Definisi
 
@@ -567,7 +567,7 @@ By registering, accessing, or using the App, you confirm that:
 
 **If you do not agree to these Terms, do not register or use the App.**
 
-These Terms are effective from **[the official publication date on the Google Play Store]** (last updated: 5 November 2026) and supersede all prior versions.
+These Terms are effective from **[the official publication date on the Google Play Store]** (last updated: 7 November 2026) and supersede all prior versions.
 
 ### 2. Definitions
 

@@ -7,7 +7,7 @@
 
 Selamat datang di **Papan Kerja**, sebuah platform pasar (marketplace) yang menghubungkan pemberi tugas dengan pekerja harian/freelance di Indonesia. Kebijakan Privasi ini menjelaskan bagaimana **PT Papan Kerja Nusantara** ("Papan Kerja", "kami") mengumpulkan, menggunakan, menyimpan, dan melindungi data pribadi Anda saat Anda menggunakan aplikasi Papan Kerja (selanjutnya disebut "Aplikasi").
 
-Kebijakan ini berlaku efektif sejak **[Tanggal publikasi resmi di Google Play Store]** (pembaruan terakhir: 5 November 2026) dan disusun untuk mematuhi:
+Kebijakan ini berlaku efektif sejak **[Tanggal publikasi resmi di Google Play Store]** (pembaruan terakhir: 7 November 2026) dan disusun untuk mematuhi:
 - Undang-Undang Nomor 27 Tahun 2022 tentang Pelindungan Data Pribadi ("UU PDP") dan Peraturan Pemerintah Nomor 33 Tahun 2026 tentang peraturan pelaksanaannya (berlaku mulai 16 Januari 2027)
 - Peraturan Pemerintah Nomor 71 Tahun 2019 tentang Penyelenggaraan Sistem dan Transaksi Elektronik
 - Peraturan Pemerintah Nomor 80 Tahun 2019 tentang Perdagangan Melalui Sistem Elektronik ("PP 80/2019") dan Peraturan Menteri Perdagangan Nomor 19 Tahun 2026
@@ -195,7 +195,7 @@ Untuk pertanyaan, permintaan hak Subjek Data, atau keluhan terkait privasi:
 
 Welcome to **Papan Kerja**, a marketplace platform connecting task posters with freelance/daily workers in Indonesia. This Privacy Policy explains how **PT Papan Kerja Nusantara** ("Papan Kerja", "we") collects, uses, stores, and protects your personal data when you use the Papan Kerja application (the "App").
 
-This policy is effective as of **[the official publication date on the Google Play Store]** (last updated: 5 November 2026) and is designed to comply with:
+This policy is effective as of **[the official publication date on the Google Play Store]** (last updated: 7 November 2026) and is designed to comply with:
 - Law No. 27 of 2022 on Personal Data Protection ("PDP Law") and Government Regulation No. 33 of 2026 implementing it (in force from 16 January 2027)
 - Government Regulation No. 71 of 2019 on the Implementation of Electronic Systems and Transactions
 - Government Regulation No. 80 of 2019 on Trading Through Electronic Systems ("GR 80/2019") and Minister of Trade Regulation No. 19 of 2026
