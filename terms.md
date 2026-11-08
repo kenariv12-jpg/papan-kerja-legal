@@ -26,7 +26,7 @@ S&K ini berlaku efektif sejak **[Tanggal publikasi resmi di Google Play Store]**
 | **Pemberi Tugas (PT)** | Pengguna yang memposting Tugas di Aplikasi dan membayar Pekerja untuk pelaksanaannya |
 | **Pekerja** | Pengguna yang melamar untuk dan/atau melaksanakan Tugas dari Pemberi Tugas |
 | **Tugas** | Pekerjaan freelance atau tugas harian yang diposting oleh Pemberi Tugas di Aplikasi |
-| **Komisi Layanan** | Biaya layanan yang dipungut Papan Kerja dari setiap Tugas yang diselesaikan, sebesar 10% (sepuluh persen) dari nilai Tugas, kecuali ditetapkan lain untuk Tugas tertentu sesuai Pasal 8.1 |
+| **Biaya Platform** | Biaya layanan yang dipungut Papan Kerja dari setiap Tugas yang diselesaikan, sebesar 10% (sepuluh persen) dari nilai Tugas, kecuali ditetapkan lain untuk Tugas tertentu sesuai Pasal 8.1 |
 | **Dompet Aplikasi** | Saldo virtual milik Pengguna di Aplikasi, yang dikelola melalui mitra pemroses pembayaran Durianpay |
 | **Escrow** | Pemegangan sementara dana pembayaran Tugas oleh Papan Kerja (melalui Durianpay) sampai Tugas diselesaikan |
 | **Durianpay** | Penyedia Jasa Pembayaran (PJP) berlisensi Bank Indonesia (dioperasikan oleh PT Durian Pay Indonesia) yang memproses pembayaran di Aplikasi |
@@ -140,7 +140,7 @@ Dilarang menggunakan Aplikasi untuk:
 2. **Tugas Berbahaya** — pekerjaan yang membahayakan jiwa atau kesehatan Pekerja tanpa peralatan pelindung yang memadai;
 3. **Penipuan** — termasuk Tugas palsu untuk memancing Pekerja, atau pengeluaran palsu;
 4. **Pencucian uang** — menggunakan Aplikasi untuk menyamarkan asal dana ilegal;
-5. **Bypass Komisi Layanan** — meminta atau menyetujui pembayaran di luar Aplikasi untuk Tugas yang dimulai melalui Aplikasi;
+5. **Bypass Biaya Platform** — meminta atau menyetujui pembayaran di luar Aplikasi untuk Tugas yang dimulai melalui Aplikasi;
 6. **Penyalahgunaan sistem rating** — termasuk membeli, menukar, atau memanipulasi rating;
 7. **Pelecehan, ujaran kebencian, atau diskriminasi** — terhadap Pengguna lain di chat, profil, atau interaksi apapun;
 8. **Pengaksesan tanpa izin** — meretas, melakukan reverse engineering, atau merusak sistem Aplikasi;
@@ -154,11 +154,11 @@ Dilarang menggunakan Aplikasi untuk:
 
 Pelanggaran Pasal 7 dapat berakibat pada penangguhan langsung, pemblokiran permanen, pembekuan saldo Dompet, dan/atau pelaporan kepada pihak berwenang.
 
-### 8. Komisi Layanan dan Pembayaran
+### 8. Biaya Platform dan Pembayaran
 
-#### 8.1. Komisi Layanan
+#### 8.1. Biaya Platform
 
-Papan Kerja memungut **Komisi Layanan sebesar 10% (sepuluh persen)** dari nilai setiap Tugas yang berhasil diselesaikan. Komisi dipotong otomatis dari nilai Tugas di escrow sebelum dana dirilis ke Pekerja. Tim Papan Kerja dapat menetapkan persentase Komisi Layanan yang berbeda untuk Tugas tertentu, antara 0% dan 50%, sebelum Tugas tersebut diselesaikan. Persentase yang berbeda tersebut hanya berlaku apabila seluruh nilai Tugas dirilis ke Pekerja, yaitu saat Tugas diselesaikan (Pasal 9.1 dan 9.2) atau saat sengketa diputuskan Penuh ke Pekerja (Pasal 9.5). Setiap pembagian dana, baik yang disepakati para pihak dalam negosiasi (Pasal 9.2 sampai 9.4) maupun yang diputuskan Tim Papan Kerja (Pembagian 50/50 atau Pembagian khusus, Pasal 9.5), selalu dipotong Komisi Layanan sebesar 10% dari bagian Pekerja, tanpa memperhatikan persentase yang berbeda tersebut.
+Papan Kerja memungut **Biaya Platform sebesar 10% (sepuluh persen)** dari nilai setiap Tugas yang berhasil diselesaikan. Biaya Platform dipotong otomatis dari nilai Tugas di escrow sebelum dana dirilis ke Pekerja. Tim Papan Kerja dapat menetapkan persentase Biaya Platform yang berbeda untuk Tugas tertentu, antara 0% dan 50%, sebelum Tugas tersebut diselesaikan. Persentase yang berbeda tersebut hanya berlaku apabila seluruh nilai Tugas dirilis ke Pekerja, yaitu saat Tugas diselesaikan (Pasal 9.1 dan 9.2) atau saat sengketa diputuskan Penuh ke Pekerja (Pasal 9.5). Setiap pembagian dana, baik yang disepakati para pihak dalam negosiasi (Pasal 9.2 sampai 9.4) maupun yang diputuskan Tim Papan Kerja (Pembagian 50/50 atau Pembagian khusus, Pasal 9.5), selalu dipotong Biaya Platform sebesar 10% dari bagian Pekerja, tanpa memperhatikan persentase yang berbeda tersebut.
 
 **Biaya Layanan Posting.** Saat memposting Tugas, Pemberi Tugas membayar Biaya Layanan Posting di luar nilai Tugas:
 - **Rp 2.000** apabila dibayar dari saldo Dompet;
@@ -172,13 +172,13 @@ Biaya Layanan Posting tidak dikembalikan, kecuali Tugas dibatalkan oleh Pemberi 
 
 Contoh: Tugas senilai Rp 100.000 yang diposting dengan saldo Dompet.
 - Pemberi Tugas membayar: Rp 100.000 (masuk ke escrow) + Biaya Layanan Posting Rp 2.000 = Rp 102.000
-- Komisi Layanan Papan Kerja: Rp 10.000 (10% dari Rp 100.000)
+- Biaya Platform Papan Kerja: Rp 10.000 (10% dari Rp 100.000)
 - Diterima Pekerja: Rp 90.000
 
 Apabila Tugas yang sama dibayar langsung, Biaya Layanan Posting-nya Rp 5.000, sehingga Pemberi Tugas membayar Rp 105.000; jumlah yang diterima Pekerja tetap Rp 90.000.
 
 
-**Biaya Tugas Mendesak.** Pemberi Tugas yang menandai Tugas sebagai "Mendesak" dikenakan biaya tambahan sebesar **Rp 15.000** per Tugas, di luar Komisi Layanan dan Biaya Layanan Posting, yang dibayarkan saat memposting Tugas. Biaya Tugas Mendesak tidak dikembalikan apabila Tugas dibatalkan, termasuk pembatalan dalam 1 (satu) menit setelah diposting sebagaimana di atas (yang dikembalikan hanya Biaya Layanan Posting); satu-satunya pengecualian adalah pembayaran yang masuk setelah pembayaran langsung dibatalkan, sebagaimana diatur di bawah ini.
+**Biaya Tugas Mendesak.** Pemberi Tugas yang menandai Tugas sebagai "Mendesak" dikenakan biaya tambahan sebesar **Rp 15.000** per Tugas, di luar Biaya Platform dan Biaya Layanan Posting, yang dibayarkan saat memposting Tugas. Biaya Tugas Mendesak tidak dikembalikan apabila Tugas dibatalkan, termasuk pembatalan dalam 1 (satu) menit setelah diposting sebagaimana di atas (yang dikembalikan hanya Biaya Layanan Posting); satu-satunya pengecualian adalah pembayaran yang masuk setelah pembayaran langsung dibatalkan, sebagaimana diatur di bawah ini.
 
 **Pembayaran langsung yang dibatalkan.** Apabila Pemberi Tugas membatalkan pembayaran langsung tetapi pembayaran tetap diselesaikan pada halaman pembayaran yang masih terbuka, Tugas tidak dibuat. Dana yang masuk dikreditkan ke Dompet Pemberi Tugas seperti top-up: nilai Tugas dan Biaya Tugas Mendesak (bila ada) dikreditkan, sedangkan Biaya Layanan Posting untuk pembayaran langsung tidak dikembalikan. Pemberi Tugas diberi tahu melalui notifikasi. Layar posting Tugas menampilkan peringatan mengenai hal ini.
 
@@ -228,7 +228,7 @@ Apabila Pengguna tetap melakukan transaksi di luar Aplikasi, maka:
 2. Pekerja melamar; Pemberi Tugas memilih satu Pekerja → lamaran Pekerja diterima dan Tugas berstatus "Sedang Dikerjakan".
 3. Pekerja melaksanakan Tugas → mengunggah bukti pekerjaan via Aplikasi.
 4. Pemberi Tugas memiliki waktu 24 jam untuk menekan "Selesai" atau "Ajukan Keberatan" sejak bukti diunggah. Jika tidak ada tindakan, sistem akan secara otomatis melepas escrow ke Pekerja (pengakuan implisit selesai).
-5. Setelah escrow dirilis, Pekerja menerima 90% nilai Tugas dan Papan Kerja menerima 10% Komisi Layanan (atau sesuai persentase Komisi Layanan yang berlaku untuk Tugas tersebut, lihat Pasal 8.1).
+5. Setelah escrow dirilis, Pekerja menerima 90% nilai Tugas dan Papan Kerja menerima 10% Biaya Platform (atau sesuai persentase Biaya Platform yang berlaku untuk Tugas tersebut, lihat Pasal 8.1).
 
 #### 9.2. Keberatan dan Negosiasi
 
@@ -247,15 +247,15 @@ Jika jendela 3 jam berakhir tanpa kesepakatan dan tanpa pengajuan sengketa, nila
 
 Pemberi Tugas yang membatalkan Tugas setelah lamaran diterima (sebelum tenggat waktu Tugas terlewati) akan memicu jendela negosiasi 24 jam, di mana kedua pihak dapat menyepakati pembagian dana atau mengajukan sengketa. Jika 24 jam berlalu tanpa kesepakatan dan tanpa pengajuan sengketa, nilai Tugas di escrow dikembalikan penuh ke Dompet Pemberi Tugas (Biaya Layanan Posting dan Biaya Tugas Mendesak tidak dikembalikan), Pekerja tidak menerima pembayaran, dan Pemberi Tugas menerima strike pembatalan sesuai Pasal 12.1.
 
-Apabila kedua pihak menyepakati pembagian dana dalam jendela tersebut, Komisi Layanan sebesar 10% dipotong dari bagian Pekerja (Pasal 8.1) dan kedua pihak dapat saling memberi rating (Pasal 10.1). Apabila kedua pihak menyepakati bahwa Pekerja menerima Rp 0, Tugas berakhir sebagai pembatalan oleh Pemberi Tugas: nilai Tugas di escrow dikembalikan penuh ke Dompet Pemberi Tugas (Biaya Layanan Posting dan Biaya Tugas Mendesak tidak dikembalikan), tanpa strike pembatalan, dan tidak ada pihak yang dapat memberi rating atas Tugas tersebut.
+Apabila kedua pihak menyepakati pembagian dana dalam jendela tersebut, Biaya Platform sebesar 10% dipotong dari bagian Pekerja (Pasal 8.1) dan kedua pihak dapat saling memberi rating (Pasal 10.1). Apabila kedua pihak menyepakati bahwa Pekerja menerima Rp 0, Tugas berakhir sebagai pembatalan oleh Pemberi Tugas: nilai Tugas di escrow dikembalikan penuh ke Dompet Pemberi Tugas (Biaya Layanan Posting dan Biaya Tugas Mendesak tidak dikembalikan), tanpa strike pembatalan, dan tidak ada pihak yang dapat memberi rating atas Tugas tersebut.
 
 #### 9.5. Penyelesaian Sengketa oleh Tim Papan Kerja ⚠️ LEGAL
 
 Jika salah satu pihak menekan "Ajukan Sengketa ke Tim Papan Kerja" (status Tugas menjadi "Menunggu peninjauan"), Tim Papan Kerja akan meninjau dan memutuskan salah satu dari empat pilihan:
-- (a) **Penuh ke Pekerja** — dengan Komisi Layanan tetap berlaku;
+- (a) **Penuh ke Pekerja** — dengan Biaya Platform tetap berlaku;
 - (b) **Penuh ke Pemberi Tugas** — pengembalian nilai Tugas secara penuh;
-- (c) **Pembagian 50/50** — Komisi Layanan sebesar 10% dipotong dari bagian Pekerja;
-- (d) **Pembagian khusus** — porsi yang ditentukan oleh Tim Papan Kerja berdasarkan kelayakan; Komisi Layanan sebesar 10% dipotong dari bagian Pekerja. Pembagian khusus yang memberikan seluruh nilai Tugas kepada Pekerja diperlakukan sebagai pilihan (a), dan yang memberikan Rp 0 kepada Pekerja diperlakukan sebagai pilihan (b).
+- (c) **Pembagian 50/50** — Biaya Platform sebesar 10% dipotong dari bagian Pekerja;
+- (d) **Pembagian khusus** — porsi yang ditentukan oleh Tim Papan Kerja berdasarkan kelayakan; Biaya Platform sebesar 10% dipotong dari bagian Pekerja. Pembagian khusus yang memberikan seluruh nilai Tugas kepada Pekerja diperlakukan sebagai pilihan (a), dan yang memberikan Rp 0 kepada Pekerja diperlakukan sebagai pilihan (b).
 
 Untuk sengketa yang berasal dari pembatalan oleh Pemberi Tugas (Pasal 9.4), Tim Papan Kerja juga memutuskan, bersama salah satu pilihan di atas, apakah Pemberi Tugas menerima strike pembatalan (Pasal 12.1). Untuk sengketa yang berasal dari jendela negosiasi pasca-tenggat (Pasal 9.3), Tim Papan Kerja juga memutuskan apakah Pekerja menerima strike pembatalan (Pasal 12.1); bila sengketa tersebut diputuskan Penuh ke Pemberi Tugas, Pemberi Tugas dapat memberi rating kepada Pekerja atas Tugas tersebut (Pasal 10.1). Untuk sengketa lainnya, keputusan sengketa tidak memberikan strike kepada pihak mana pun.
 
@@ -462,7 +462,7 @@ Pemberi Tugas dan Pekerja melaksanakan Tugas atas risiko masing-masing.
 DALAM BATAS MAKSIMAL YANG DIIZINKAN OLEH HUKUM YANG BERLAKU:
 
 - Papan Kerja TIDAK bertanggung jawab atas kerugian tidak langsung, insidental, konsekuensial, khusus, atau hukuman (termasuk kehilangan keuntungan, kerusakan reputasi, atau hilangnya data) yang timbul dari atau terkait dengan penggunaan Aplikasi.
-- Total kewajiban Papan Kerja terhadap Anda untuk semua klaim yang timbul dari atau terkait dengan S&K ini dibatasi pada jumlah yang lebih kecil antara: (a) total Komisi Layanan yang telah Anda bayarkan kepada Papan Kerja dalam 6 (enam) bulan sebelum klaim, atau (b) Rp 5.000.000 (lima juta Rupiah).
+- Total kewajiban Papan Kerja terhadap Anda untuk semua klaim yang timbul dari atau terkait dengan S&K ini dibatasi pada jumlah yang lebih kecil antara: (a) total Biaya Platform yang telah Anda bayarkan kepada Papan Kerja dalam 6 (enam) bulan sebelum klaim, atau (b) Rp 5.000.000 (lima juta Rupiah).
 - Papan Kerja TIDAK bertanggung jawab atas:
   - Tindakan atau kelalaian Pengguna lain;
   - Hasil, kualitas, atau keamanan Tugas yang dilaksanakan;
@@ -497,7 +497,7 @@ Kewajiban ganti rugi ini juga mencakup, namun tidak terbatas pada, klaim yang ti
 
 ### 18. Pajak
 
-Setiap Pengguna bertanggung jawab atas kewajiban perpajakan masing-masing, termasuk PPh dan PPN (jika berlaku), atas pendapatan yang diperoleh atau biaya yang dikeluarkan melalui Aplikasi. Papan Kerja dapat memungut dan menyetorkan PPh atas Komisi Layanan kepada otoritas pajak Indonesia sesuai peraturan yang berlaku.
+Setiap Pengguna bertanggung jawab atas kewajiban perpajakan masing-masing, termasuk PPh dan PPN (jika berlaku), atas pendapatan yang diperoleh atau biaya yang dikeluarkan melalui Aplikasi. Papan Kerja dapat memungut dan menyetorkan PPh atas Biaya Platform kepada otoritas pajak Indonesia sesuai peraturan yang berlaku.
 
 
 ### 19. Force Majeure
@@ -578,7 +578,7 @@ These Terms are effective from **[the official publication date on the Google Pl
 | **Task Poster (PT)** | A User who posts Tasks on the App and pays a Worker for performance |
 | **Worker** | A User who applies for and/or performs Tasks from a Task Poster |
 | **Task** | A freelance or daily-task job posted by a Task Poster on the App |
-| **Service Commission** | The service fee Papan Kerja collects on each completed Task: 10% (ten percent) of the Task value, unless a different rate is set for a specific Task (see Section 8.1 of the Indonesian text) |
+| **Platform Fee** | The service fee Papan Kerja collects on each completed Task: 10% (ten percent) of the Task value, unless a different rate is set for a specific Task (see Section 8.1 of the Indonesian text) |
 | **App Wallet** | The User's virtual balance in the App, managed through payment partner Durianpay |
 | **Escrow** | The temporary holding of Task payment funds by Papan Kerja (via Durianpay) until the Task is completed |
 | **Durianpay** | A Bank Indonesia-licensed Payment Service Provider (PJP), operated by PT Durian Pay Indonesia, processing payments in the App |
@@ -637,7 +637,7 @@ Key headings:
 5. Task Poster Obligations
 6. Worker Obligations
 7. Prohibited Conduct
-8. Service Commission and Payment
+8. Platform Fee and Payment
 9. Task Performance, Proof, and Escrow Release
 10. Reputation System: Ratings and Rankings
 11. User Content, Moderation, and License
