@@ -15,7 +15,7 @@ Dengan mendaftarkan akun, mengakses, atau menggunakan Aplikasi, Anda menyatakan:
 
 **Jika Anda tidak menyetujui S&K ini, jangan mendaftar atau menggunakan Aplikasi.**
 
-S&K ini berlaku efektif sejak **[Tanggal publikasi resmi di Google Play Store]** (pembaruan terakhir: 7 November 2026) dan menggantikan setiap versi sebelumnya.
+S&K ini berlaku efektif sejak **[Tanggal publikasi resmi di Google Play Store]** (pembaruan terakhir: 8 November 2026) dan menggantikan setiap versi sebelumnya.
 
 ### 2. Definisi
 
@@ -227,12 +227,12 @@ Apabila Pengguna tetap melakukan transaksi di luar Aplikasi, maka:
 1. Pemberi Tugas memposting Tugas → biaya Tugas masuk ke escrow.
 2. Pekerja melamar; Pemberi Tugas memilih satu Pekerja → lamaran Pekerja diterima dan Tugas berstatus "Sedang Dikerjakan".
 3. Pekerja melaksanakan Tugas → mengunggah bukti pekerjaan via Aplikasi.
-4. Pemberi Tugas memiliki waktu 2 jam untuk menekan "Selesai" atau "Ajukan Keberatan" sejak bukti diunggah. Jika tidak ada tindakan, sistem akan secara otomatis melepas escrow ke Pekerja (pengakuan implisit selesai).
+4. Pemberi Tugas memiliki waktu 24 jam untuk menekan "Selesai" atau "Ajukan Keberatan" sejak bukti diunggah. Jika tidak ada tindakan, sistem akan secara otomatis melepas escrow ke Pekerja (pengakuan implisit selesai).
 5. Setelah escrow dirilis, Pekerja menerima 90% nilai Tugas dan Papan Kerja menerima 10% Komisi Layanan (atau sesuai persentase Komisi Layanan yang berlaku untuk Tugas tersebut, lihat Pasal 8.1).
 
 #### 9.2. Keberatan dan Negosiasi
 
-Jika Pemberi Tugas mengajukan keberatan dalam waktu 2 jam:
+Jika Pemberi Tugas mengajukan keberatan dalam waktu 24 jam:
 - Tugas berstatus "Keberatan - negosiasi 24 jam" dengan jendela waktu 24 jam.
 - Kedua belah pihak dapat mengajukan dan menerima usulan pembagian (negotiated split), atau salah satu pihak dapat mengajukan sengketa formal ("dispute").
 - Jika 24 jam berlalu tanpa kesepakatan dan tanpa pengajuan sengketa, sistem akan otomatis merilis escrow ke Pekerja (default pro-pekerja).
@@ -263,7 +263,7 @@ Keputusan Tim Papan Kerja bersifat final dan mengikat untuk tujuan internal Apli
 
 #### 9.6. Mode Pemeliharaan
 
-Selama Aplikasi dalam mode pemeliharaan, seluruh hitungan waktu Tugas (masa tayang Tugas, tenggat pengerjaan, jendela konfirmasi 2 jam, jendela keberatan dan negosiasi 24 jam, serta jendela pasca-tenggat 3 jam) dihentikan sementara, dan lamanya pemeliharaan ditambahkan kembali ke setiap hitungan waktu tersebut setelah pemeliharaan selesai.
+Selama Aplikasi dalam mode pemeliharaan, seluruh hitungan waktu Tugas (masa tayang Tugas, tenggat pengerjaan, jendela konfirmasi 24 jam, jendela keberatan dan negosiasi 24 jam, serta jendela pasca-tenggat 3 jam) dihentikan sementara, dan lamanya pemeliharaan ditambahkan kembali ke setiap hitungan waktu tersebut setelah pemeliharaan selesai.
 
 ### 10. Sistem Reputasi: Rating dan Rangking
 
@@ -567,7 +567,7 @@ By registering, accessing, or using the App, you confirm that:
 
 **If you do not agree to these Terms, do not register or use the App.**
 
-These Terms are effective from **[the official publication date on the Google Play Store]** (last updated: 7 November 2026) and supersede all prior versions.
+These Terms are effective from **[the official publication date on the Google Play Store]** (last updated: 8 November 2026) and supersede all prior versions.
 
 ### 2. Definitions
 
