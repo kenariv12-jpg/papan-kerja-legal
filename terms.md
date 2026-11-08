@@ -26,7 +26,7 @@ S&K ini berlaku efektif sejak **[Tanggal publikasi resmi di Google Play Store]**
 | **Pemberi Tugas (PT)** | Pengguna yang memposting Tugas di Aplikasi dan membayar Pekerja untuk pelaksanaannya |
 | **Pekerja** | Pengguna yang melamar untuk dan/atau melaksanakan Tugas dari Pemberi Tugas |
 | **Tugas** | Pekerjaan freelance atau tugas harian yang diposting oleh Pemberi Tugas di Aplikasi |
-| **Biaya Platform** | Biaya layanan yang dipungut Papan Kerja dari setiap Tugas yang diselesaikan, sebesar 10% (sepuluh persen) dari nilai Tugas, kecuali ditetapkan lain untuk Tugas tertentu sesuai Pasal 8.1 |
+| **Biaya Platform** | Biaya yang dipungut Papan Kerja dari setiap Tugas yang diselesaikan, sebesar 10% (sepuluh persen) dari nilai Tugas, kecuali ditetapkan lain untuk Tugas tertentu sesuai Pasal 8.1 |
 | **Dompet Aplikasi** | Saldo virtual milik Pengguna di Aplikasi, yang dikelola melalui mitra pemroses pembayaran Durianpay |
 | **Escrow** | Pemegangan sementara dana pembayaran Tugas oleh Papan Kerja (melalui Durianpay) sampai Tugas diselesaikan |
 | **Durianpay** | Penyedia Jasa Pembayaran (PJP) berlisensi Bank Indonesia (dioperasikan oleh PT Durian Pay Indonesia) yang memproses pembayaran di Aplikasi |
@@ -578,7 +578,7 @@ These Terms are effective from **[the official publication date on the Google Pl
 | **Task Poster (PT)** | A User who posts Tasks on the App and pays a Worker for performance |
 | **Worker** | A User who applies for and/or performs Tasks from a Task Poster |
 | **Task** | A freelance or daily-task job posted by a Task Poster on the App |
-| **Platform Fee** | The service fee Papan Kerja collects on each completed Task: 10% (ten percent) of the Task value, unless a different rate is set for a specific Task (see Section 8.1 of the Indonesian text) |
+| **Platform Fee** | The fee Papan Kerja collects on each completed Task: 10% (ten percent) of the Task value, unless a different rate is set for a specific Task (see Section 8.1 of the Indonesian text) |
 | **App Wallet** | The User's virtual balance in the App, managed through payment partner Durianpay |
 | **Escrow** | The temporary holding of Task payment funds by Papan Kerja (via Durianpay) until the Task is completed |
 | **Durianpay** | A Bank Indonesia-licensed Payment Service Provider (PJP), operated by PT Durian Pay Indonesia, processing payments in the App |
