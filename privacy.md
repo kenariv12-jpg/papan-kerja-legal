@@ -7,7 +7,7 @@
 
 Selamat datang di **Papan Kerja**, sebuah platform pasar (marketplace) yang menghubungkan pemberi tugas dengan pekerja harian/freelance di Indonesia. Kebijakan Privasi ini menjelaskan bagaimana **PT Papan Kerja Nusantara** ("Papan Kerja", "kami") mengumpulkan, menggunakan, menyimpan, dan melindungi data pribadi Anda saat Anda menggunakan aplikasi Papan Kerja (selanjutnya disebut "Aplikasi").
 
-Kebijakan ini berlaku efektif sejak **[Tanggal publikasi resmi di Google Play Store]** (pembaruan terakhir: 8 November 2026) dan disusun untuk mematuhi:
+Kebijakan ini berlaku efektif sejak **[Tanggal publikasi resmi di Google Play Store]** (pembaruan terakhir: 11 November 2026) dan disusun untuk mematuhi:
 - Undang-Undang Nomor 27 Tahun 2022 tentang Pelindungan Data Pribadi ("UU PDP") dan Peraturan Pemerintah Nomor 33 Tahun 2026 tentang peraturan pelaksanaannya (berlaku mulai 16 Januari 2027)
 - Peraturan Pemerintah Nomor 71 Tahun 2019 tentang Penyelenggaraan Sistem dan Transaksi Elektronik
 - Peraturan Pemerintah Nomor 80 Tahun 2019 tentang Perdagangan Melalui Sistem Elektronik ("PP 80/2019") dan Peraturan Menteri Perdagangan Nomor 19 Tahun 2026
@@ -33,7 +33,7 @@ Kebijakan ini berlaku efektif sejak **[Tanggal publikasi resmi di Google Play St
 | **Lokasi real-time saat bekerja** | Koordinat posisi Pekerja yang diperbarui secara berkala **hanya selama tugas berstatus sedang berjalan**. Fitur ini: (a) hanya aktif setelah Pekerja memberikan persetujuan eksplisit satu kali di dalam aplikasi; (b) hanya berjalan saat aplikasi sedang dibuka, tidak ada pelacakan di latar belakang; (c) hanya dapat dilihat oleh Pemberi Tugas dari tugas yang bersangkutan; (d) tidak menyimpan riwayat perjalanan, hanya posisi terakhir; (e) dihapus otomatis saat tugas selesai atau dibatalkan; dan (f) dapat dimatikan kapan saja melalui Pengaturan; mematikannya menghentikan pembaruan, tetapi posisi terakhir yang sudah terkirim tetap dapat dilihat Pemberi Tugas sampai tugas tidak lagi berstatus sedang berjalan | Saat mengerjakan tugas aktif, jika fitur berbagi lokasi diaktifkan |
 | Informasi pembayaran | Untuk pencairan dana ke Pekerja: nama bank, nomor rekening, dan nama pemilik rekening; atau penyedia e-wallet (GoPay/OVO/DANA) dan nomor akun e-wallet | Saat menambahkan akun pembayaran |
 | Konten pengguna | Teks dan media dalam obrolan, foto/video/dokumen bukti pekerjaan, judul dan deskripsi tugas, rating bintang | Saat menggunakan fitur terkait |
-| Laporan, pesan, dan keluhan | Isi laporan terhadap pengguna lain (alasan dan keterangan), salinan bukti yang disimpan otomatis saat laporan dikirim (untuk chat: hingga 100 pesan chat terakhir beserta fotonya bila pelapor adalah peserta chat tersebut; untuk tugas: judul, deskripsi, upah, kategori, status, waktu posting, nama dan ID akun Pemberi Tugas, ID akun Pekerja yang diterima, serta salinan foto tugas; untuk profil: nama, bio, dan tautan ke foto profil, tanpa menyalin fotonya), pesan kepada Tim Papan Kerja, keberatan dan sengketa atas tugas | Saat melaporkan, mengirim pesan, atau mengajukan keberatan/sengketa |
+| Laporan, pesan, dan keluhan | Isi laporan terhadap pengguna lain (alasan dan keterangan), salinan bukti yang disimpan otomatis saat laporan dikirim (untuk chat: hingga 100 pesan chat terakhir beserta fotonya bila pelapor adalah peserta chat tersebut; untuk tugas: judul, deskripsi, upah, kategori, status, waktu posting, nama dan ID akun Pemberi Tugas, ID akun Pekerja yang diterima, serta salinan foto tugas; untuk profil: nama dan tautan ke foto profil, tanpa menyalin fotonya), pesan kepada Tim Papan Kerja, keberatan dan sengketa atas tugas | Saat melaporkan, mengirim pesan, atau mengajukan keberatan/sengketa |
 | Daftar pengguna yang Anda blokir | Pengguna yang Anda pilih untuk diblokir | Saat Anda memblokir pengguna |
 
 #### 3.2. Data yang dikumpulkan atau dibuat secara otomatis
@@ -52,6 +52,17 @@ Kebijakan ini berlaku efektif sejak **[Tanggal publikasi resmi di Google Play St
 #### 3.3. Data yang TIDAK kami kumpulkan
 Kami tidak mengumpulkan: data kesehatan, orientasi seksual, keyakinan politik atau agama, data kartu kredit (transaksi pembayaran ditangani sepenuhnya oleh Durianpay), data biometrik selain foto KTP dan foto selfie.
 
+#### 3.4. Izin perangkat yang digunakan Aplikasi
+
+Aplikasi hanya meminta izin perangkat berikut, dan hanya untuk fitur yang disebutkan:
+
+- **Kamera**: untuk mengambil foto profil, foto KTP dan foto selfie verifikasi, serta foto tugas, obrolan, dan bukti pekerjaan. Aplikasi hanya mengambil foto dengan kamera; Aplikasi tidak merekam video maupun suara.
+- **Galeri foto dan berkas**: untuk mengambil foto, video bukti pekerjaan, atau dokumen yang Anda pilih sendiri. Aplikasi hanya mengambil berkas yang Anda pilih. Pada Android di bawah versi 13, sistem meminta izin akses penyimpanan agar Anda dapat memilih foto.
+- **Lokasi**: hanya dibaca saat Aplikasi sedang dibuka (lihat "Lokasi tugas", "Lokasi real-time saat bekerja", dan "Perkiraan area pengguna" di atas).
+- **Notifikasi**: untuk mengirim pemberitahuan tentang tugas, obrolan, dan akun Anda.
+
+Aplikasi tidak meminta akses ke mikrofon, kontak, SMS, atau riwayat panggilan Anda.
+
 ### 4. Tujuan Pengumpulan dan Dasar Hukum Pemrosesan
 
 Kami memproses Data Pribadi Anda untuk tujuan berikut:
@@ -59,7 +70,7 @@ Kami memproses Data Pribadi Anda untuk tujuan berikut:
 | Tujuan | Dasar hukum (UU PDP Pasal 20) |
 |---|---|
 | Menyediakan layanan inti Aplikasi (mempertemukan Pemberi Tugas dan Pekerja, memfasilitasi transaksi, mengelola dompet) | Pelaksanaan perjanjian (Pasal 20 ayat 2 huruf b) |
-| Verifikasi identitas pengguna untuk keamanan transaksi (KTP/NIK); verifikasi diperlukan untuk mengambil tugas | Pelaksanaan perjanjian (Pasal 20 ayat 2 huruf b) yang Anda setujui saat mendaftar, dan kepentingan sah pengendali untuk mencegah penipuan (Pasal 20 ayat 2 huruf f) |
+| Verifikasi identitas pengguna untuk keamanan transaksi (foto KTP, yang memuat NIK, dan foto selfie). Verifikasi hanya diperlukan untuk melamar tugas; foto KTP dan foto selfie Anda unggah sendiri saat memilih untuk diverifikasi, dan layar unggahnya menyebutkan bahwa keduanya dipakai untuk verifikasi identitas | Pelaksanaan perjanjian (Pasal 20 ayat 2 huruf b), yaitu Syarat & Ketentuan dan Kebijakan Privasi ini, yang Anda setujui dengan mencentang kotak persetujuan sebelum masuk ke Aplikasi; dan kepentingan sah pengendali untuk mencegah penipuan (Pasal 20 ayat 2 huruf f). Lama penyimpanan dan penghapusannya dijelaskan di bagian 7 |
 | Membagikan posisi real-time Pekerja kepada Pemberi Tugas dari tugas yang sedang berjalan (fitur berbagi lokasi) | Persetujuan tegas Subjek Data (Pasal 20 ayat 2 huruf a), diminta secara eksplisit di dalam aplikasi sebelum fitur pertama kali aktif; persetujuan dapat dicabut kapan saja melalui Pengaturan tanpa memengaruhi layanan lainnya |
 | Mengirim notifikasi tugas baru di sekitar Anda berdasarkan perkiraan area dan kategori yang pernah dilamar | Kepentingan sah pengendali (Pasal 20 ayat 2 huruf f). Anda dapat berhenti menerima notifikasi ini dengan mematikan izin notifikasi; untuk menghentikan pemrosesan perkiraan area, hubungi kami (lihat bagian 9) |
 | Memfasilitasi pembayaran dan pencairan dana melalui Durianpay | Pelaksanaan perjanjian |
@@ -80,13 +91,13 @@ Data Anda dapat dibagikan kepada pihak ketiga berikut, hanya sebatas yang diperl
 | **Google LLC (Google Play Services, Google Sign-In, Google Maps API)** | Verifikasi keaslian aplikasi (Play Integrity), otentikasi opsional dengan akun Google, pemetaan dan pencarian alamat lokasi tugas | Global |
 | **Apple Inc.** (Sign in with Apple, App Attest/DeviceCheck, Apple Push Notification service) | Khusus aplikasi iPhone: masuk opsional dengan akun Apple, verifikasi keaslian aplikasi, pengiriman notifikasi push ke iPhone, dan pencarian alamat cadangan dari titik lokasi tugas bila pencarian alamat Google tidak memberi hasil | Global |
 | **GitHub, Inc.** (GitHub Pages) | Menampilkan halaman Syarat & Ketentuan dan Kebijakan Privasi di dalam Aplikasi; menerima alamat IP dan informasi perangkat/browser saat halaman dibuka; halaman tersebut juga memuat huruf dari Google Fonts (Google LLC), yang menerima data yang sama | Global |
-| **Fazpass** (penyedia layanan verifikasi OTP) dan mitra pengiriman WhatsApp resminya, **Gupshup** | Pengiriman kode OTP (One-Time Password) untuk verifikasi nomor telepon melalui WhatsApp. Data yang dibagikan: nomor telepon Anda dan kode OTP | Indonesia; pengiriman pesan melalui infrastruktur Gupshup dan Meta Platforms (WhatsApp) yang bersifat global |
+| **Fazpass** (penyedia layanan verifikasi OTP) | Pengiriman kode OTP (One-Time Password) untuk verifikasi nomor telepon melalui WhatsApp. Data yang dibagikan: nomor telepon Anda dan kode OTP | Indonesia; pesan dikirim melalui WhatsApp (Meta Platforms), yang infrastrukturnya bersifat global |
 
 Kami **tidak menjual** Data Pribadi Anda kepada pihak ketiga manapun untuk tujuan pemasaran.
 
 ### 6. Transfer Data Lintas Batas Negara
 
-Sebagian Data Pribadi Anda disimpan atau diproses di luar Indonesia, yaitu di **Jepang** (penyimpanan file Firebase Cloud Storage, termasuk foto KTP dan selfie), di **Amerika Serikat** (beberapa layanan Firebase), dan di infrastruktur global Google (catatan sistem) serta Gupshup dan WhatsApp (pengiriman pesan OTP). Layanan global Apple (khusus aplikasi iPhone: masuk dengan Apple, verifikasi keaslian aplikasi, notifikasi push, dan pencarian alamat cadangan), layanan Google lainnya (Play Integrity, Google Sign-In, Google Maps, Google Fonts), dan GitHub (halaman Syarat & Ketentuan dan Kebijakan Privasi) juga memproses data di luar Indonesia sebagaimana tercantum di bagian 5. Sesuai Pasal 56 UU PDP, transfer lintas batas dilakukan dengan memastikan negara penerima memiliki tingkat pelindungan yang setara atau lebih tinggi; bila tidak, berdasarkan pelindungan yang memadai dan mengikat dengan penyedia layanan; dan bila keduanya tidak terpenuhi, dengan persetujuan Anda. Google LLC (induk Firebase) memiliki sertifikasi keamanan internasional (ISO 27001, SOC 2/3) dan menyediakan klausul kontraktual standar untuk transfer data.
+Sebagian Data Pribadi Anda disimpan atau diproses di luar Indonesia, yaitu di **Jepang** (penyimpanan file Firebase Cloud Storage, termasuk foto KTP dan selfie), di **Amerika Serikat** (beberapa layanan Firebase), dan di infrastruktur global Google (catatan sistem) serta WhatsApp (pengiriman pesan OTP). Layanan global Apple (khusus aplikasi iPhone: masuk dengan Apple, verifikasi keaslian aplikasi, notifikasi push, dan pencarian alamat cadangan), layanan Google lainnya (Play Integrity, Google Sign-In, Google Maps, Google Fonts), dan GitHub (halaman Syarat & Ketentuan dan Kebijakan Privasi) juga memproses data di luar Indonesia sebagaimana tercantum di bagian 5. Sesuai Pasal 56 UU PDP, transfer lintas batas dilakukan dengan memastikan negara penerima memiliki tingkat pelindungan yang setara atau lebih tinggi; bila tidak, berdasarkan pelindungan yang memadai dan mengikat dengan penyedia layanan; dan bila keduanya tidak terpenuhi, dengan persetujuan Anda. Google LLC (induk Firebase) memiliki sertifikasi keamanan internasional (ISO 27001, SOC 2/3) dan menyediakan klausul kontraktual standar untuk transfer data.
 
 ### 7. Lama Penyimpanan Data
 
@@ -195,7 +206,7 @@ Untuk pertanyaan, permintaan hak Subjek Data, atau keluhan terkait privasi:
 
 Welcome to **Papan Kerja**, a marketplace platform connecting task posters with freelance/daily workers in Indonesia. This Privacy Policy explains how **PT Papan Kerja Nusantara** ("Papan Kerja", "we") collects, uses, stores, and protects your personal data when you use the Papan Kerja application (the "App").
 
-This policy is effective as of **[the official publication date on the Google Play Store]** (last updated: 8 November 2026) and is designed to comply with:
+This policy is effective as of **[the official publication date on the Google Play Store]** (last updated: 11 November 2026) and is designed to comply with:
 - Law No. 27 of 2022 on Personal Data Protection ("PDP Law") and Government Regulation No. 33 of 2026 implementing it (in force from 16 January 2027)
 - Government Regulation No. 71 of 2019 on the Implementation of Electronic Systems and Transactions
 - Government Regulation No. 80 of 2019 on Trading Through Electronic Systems ("GR 80/2019") and Minister of Trade Regulation No. 19 of 2026
@@ -221,7 +232,7 @@ This policy is effective as of **[the official publication date on the Google Pl
 | **Real-time location while working** | The Worker's position coordinates, updated periodically **only while a job is in progress**. This feature: (a) activates only after the Worker gives one-time explicit in-app consent; (b) runs only while the app is open, with no background tracking; (c) is visible only to the Task Poster of that specific job; (d) stores no movement history, only the latest position; (e) is deleted automatically when the job completes or is cancelled; and (f) can be turned off at any time in Settings; turning it off stops updates, but the last position already sent stays visible to the Task Poster until the job is no longer in progress | While working on an active job, if location sharing is enabled |
 | Payment information | For disbursements to Workers: bank name, account number, and account holder name; or e-wallet provider (GoPay/OVO/DANA) and e-wallet account number | When adding a payout account |
 | User-generated content | Text and media in chats, proof photos/videos/documents, job titles and descriptions, star ratings | When using related features |
-| Reports, messages, and complaints | Reports against other users (reason and details), the evidence copy saved automatically when a report is sent (for a chat: up to the last 100 chat messages with their photos when the reporter is a participant of that chat; for a job: title, description, pay, category, status, posting time, the Task Poster's name and account ID, the accepted Worker's account ID, and copies of the job photos; for a profile: name, bio, and a link to the profile photo, without copying the photo), messages to the Papan Kerja Team, objections and disputes about jobs | When reporting, messaging, or raising an objection/dispute |
+| Reports, messages, and complaints | Reports against other users (reason and details), the evidence copy saved automatically when a report is sent (for a chat: up to the last 100 chat messages with their photos when the reporter is a participant of that chat; for a job: title, description, pay, category, status, posting time, the Task Poster's name and account ID, the accepted Worker's account ID, and copies of the job photos; for a profile: name and a link to the profile photo, without copying the photo), messages to the Papan Kerja Team, objections and disputes about jobs | When reporting, messaging, or raising an objection/dispute |
 | Users you block | Users you choose to block | When you block a user |
 
 #### 3.2. Data collected or generated automatically
@@ -240,6 +251,17 @@ This policy is effective as of **[the official publication date on the Google Pl
 #### 3.3. Data we do NOT collect
 We do not collect: health data, sexual orientation, political or religious beliefs, credit card data (payment transactions are handled entirely by Durianpay), or biometric data other than KTP photos and the selfie.
 
+#### 3.4. Device permissions the App uses
+
+The App asks only for the following device permissions, and only for the features named:
+
+- **Camera**: to take a profile photo, the KTP photo and verification selfie, and photos for jobs, chats, and proof of work. The App only takes photos with the camera; it does not record video or sound.
+- **Photo gallery and files**: to take a photo, a proof-of-work video, or a document that you choose yourself. The App only takes the files you choose. On Android below version 13, the system asks for storage access so that you can choose a photo.
+- **Location**: read only while the App is open (see "Job location", "Real-time location while working", and "User's approximate area" above).
+- **Notifications**: to send notices about your jobs, chats, and account.
+
+The App does not ask for access to your microphone, contacts, SMS, or call history.
+
 ### 4. Purposes and Legal Basis for Processing
 
 We process your Personal Data for the following purposes:
@@ -247,7 +269,7 @@ We process your Personal Data for the following purposes:
 | Purpose | Legal basis (PDP Law Article 20) |
 |---|---|
 | Providing the App's core service (matching Task Posters and Workers, facilitating transactions, managing the wallet) | Performance of a contract (Art. 20(2)(b)) |
-| User identity verification for transaction security (KTP/NIK); verification is required to take jobs | Performance of the contract you agree to at registration (Art. 20(2)(b)), and the controller's legitimate interest in preventing fraud (Art. 20(2)(f)) |
+| User identity verification for transaction security (the KTP photo, which shows the NIK, and a selfie). Verification is required only to apply for jobs; you upload the KTP photo and selfie yourself when you choose to be verified, and the upload screen states that both are used for identity verification | Performance of a contract (Art. 20(2)(b)), namely the Terms and this Privacy Policy, which you accept by ticking the consent box before signing in to the App; and the controller's legitimate interest in preventing fraud (Art. 20(2)(f)). How long they are kept and when they are deleted is set out in section 7 |
 | Sharing a Worker's real-time position with the Task Poster of an in-progress job (location sharing) | Explicit consent of the Data Subject (Art. 20(2)(a)), requested in the app before the feature first activates; consent can be withdrawn at any time in Settings without affecting other services |
 | Sending notifications about new jobs near you, based on the approximate area and the categories applied to | Legitimate interest of the controller (Art. 20(2)(f)). You can stop receiving these notifications by turning off notification permission; to stop the processing of your approximate area, contact us (see section 9) |
 | Facilitating payments and disbursements through Durianpay | Performance of a contract |
@@ -268,13 +290,13 @@ Your data may be shared with the following third parties, only as far as needed 
 | **Google LLC (Google Play Services, Google Sign-In, Google Maps API)** | App integrity verification (Play Integrity), optional sign-in with a Google account, mapping and address search for job locations | Global |
 | **Apple Inc.** (Sign in with Apple, App Attest/DeviceCheck, Apple Push Notification service) | iPhone app only: optional sign-in with an Apple account, app integrity verification, delivery of push notifications to iPhones, and a fallback address lookup for a job's map point when Google's address lookup returns no result | Global |
 | **GitHub, Inc.** (GitHub Pages) | Serving the Terms and Privacy pages shown in the App; receives IP address and device/browser info when a page is opened; the pages also load fonts from Google Fonts (Google LLC), which receives the same data | Global |
-| **Fazpass** (OTP verification provider) and its official WhatsApp delivery partner, **Gupshup** | Delivery of One-Time Password (OTP) codes for phone number verification via WhatsApp. Data shared: your phone number and the OTP code | Indonesia; messages are delivered through Gupshup and Meta Platforms (WhatsApp) global infrastructure |
+| **Fazpass** (OTP verification provider) | Delivery of One-Time Password (OTP) codes for phone number verification via WhatsApp. Data shared: your phone number and the OTP code | Indonesia; messages are delivered through WhatsApp (Meta Platforms), whose infrastructure is global |
 
 We **do not sell** your Personal Data to any third party for marketing purposes.
 
 ### 6. Cross-Border Data Transfers
 
-Some of your Personal Data is stored or processed outside Indonesia: in **Japan** (Firebase Cloud Storage files, including KTP photos and selfies), in the **United States** (some Firebase services), on Google's global infrastructure (system logs), and on Gupshup's and WhatsApp's (OTP message delivery). Apple's global services (iPhone app only: Sign in with Apple, app integrity verification, push notifications and fallback address lookup), other Google services (Play Integrity, Google Sign-In, Google Maps, Google Fonts) and GitHub (the Terms and Privacy pages) also process data outside Indonesia, as listed in section 5. Under Article 56 of the PDP Law, transfers are made by ensuring the receiving country has an equal or higher level of protection; failing that, under adequate and binding safeguards with the service provider; and failing both, with your consent. Google LLC (Firebase's parent) holds international security certifications (ISO 27001, SOC 2/3) and provides standard contractual clauses for data transfers.
+Some of your Personal Data is stored or processed outside Indonesia: in **Japan** (Firebase Cloud Storage files, including KTP photos and selfies), in the **United States** (some Firebase services), on Google's global infrastructure (system logs), and on WhatsApp's (OTP message delivery). Apple's global services (iPhone app only: Sign in with Apple, app integrity verification, push notifications and fallback address lookup), other Google services (Play Integrity, Google Sign-In, Google Maps, Google Fonts) and GitHub (the Terms and Privacy pages) also process data outside Indonesia, as listed in section 5. Under Article 56 of the PDP Law, transfers are made by ensuring the receiving country has an equal or higher level of protection; failing that, under adequate and binding safeguards with the service provider; and failing both, with your consent. Google LLC (Firebase's parent) holds international security certifications (ISO 27001, SOC 2/3) and provides standard contractual clauses for data transfers.
 
 ### 7. Data Retention
 

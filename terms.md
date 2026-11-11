@@ -15,7 +15,7 @@ Dengan mendaftarkan akun, mengakses, atau menggunakan Aplikasi, Anda menyatakan:
 
 **Jika Anda tidak menyetujui S&K ini, jangan mendaftar atau menggunakan Aplikasi.**
 
-S&K ini berlaku efektif sejak **[Tanggal publikasi resmi di Google Play Store]** (pembaruan terakhir: 8 November 2026) dan menggantikan setiap versi sebelumnya.
+S&K ini berlaku efektif sejak **[Tanggal publikasi resmi di Google Play Store]** (pembaruan terakhir: 11 November 2026) dan menggantikan setiap versi sebelumnya.
 
 ### 2. Definisi
 
@@ -318,7 +318,7 @@ Papan Kerja berhak menghapus Konten Pengguna yang melanggar S&K tanpa pemberitah
 
 **Hak melaporkan**. Setiap Pengguna dapat melaporkan chat, profil Pengguna lain, atau postingan Tugas yang dianggap melanggar S&K melalui tombol "Laporkan" pada profil Pengguna, atau ikon bendera (Laporkan) pada layar chat dan detail Tugas. Pelapor memilih alasan laporan dan dapat menambahkan keterangan. Pelaporan tersedia 24 jam sehari, 7 hari seminggu.
 
-**Salinan bukti**. Saat laporan dikirim, Aplikasi menyimpan salinan bukti bersama laporan untuk ditinjau Tim Papan Kerja: untuk laporan chat, hingga 100 pesan terakhir beserta fotonya (hanya apabila pelapor adalah peserta chat tersebut); untuk laporan Tugas, judul, deskripsi, dan foto Tugas; untuk laporan profil, nama, bio, dan tautan foto profil saat laporan dikirim (foto profil tidak disalin, sehingga dapat tidak tersedia lagi apabila Pengguna yang dilaporkan menggantinya). Dengan melaporkan suatu chat, Anda memahami bahwa Tim Papan Kerja akan membaca percakapan tersebut.
+**Salinan bukti**. Saat laporan dikirim, Aplikasi menyimpan salinan bukti bersama laporan untuk ditinjau Tim Papan Kerja: untuk laporan chat, hingga 100 pesan terakhir beserta fotonya (hanya apabila pelapor adalah peserta chat tersebut); untuk laporan Tugas, judul, deskripsi, dan foto Tugas; untuk laporan profil, nama dan tautan foto profil saat laporan dikirim (foto profil tidak disalin, sehingga dapat tidak tersedia lagi apabila Pengguna yang dilaporkan menggantinya). Dengan melaporkan suatu chat, Anda memahami bahwa Tim Papan Kerja akan membaca percakapan tersebut.
 
 **Tingkat keparahan dan SLA tinjauan**.
 
@@ -567,7 +567,7 @@ By registering, accessing, or using the App, you confirm that:
 
 **If you do not agree to these Terms, do not register or use the App.**
 
-These Terms are effective from **[the official publication date on the Google Play Store]** (last updated: 8 November 2026) and supersede all prior versions.
+These Terms are effective from **[the official publication date on the Google Play Store]** (last updated: 11 November 2026) and supersede all prior versions.
 
 ### 2. Definitions
 
