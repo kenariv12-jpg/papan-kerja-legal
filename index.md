@@ -13,6 +13,7 @@ This page hosts the official legal documents for Papan Kerja.
 
 - **[Syarat dan Ketentuan / Terms and Conditions](terms.html)**
 - **[Kebijakan Privasi / Privacy Policy](privacy.html)**
+- **[Hapus Akun / Delete Your Account](hapus-akun.html)**
 
 ---
 

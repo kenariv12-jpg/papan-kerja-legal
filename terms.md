@@ -15,7 +15,7 @@ Dengan mendaftarkan akun, mengakses, atau menggunakan Aplikasi, Anda menyatakan:
 
 **Jika Anda tidak menyetujui S&K ini, jangan mendaftar atau menggunakan Aplikasi.**
 
-S&K ini berlaku efektif sejak **[Tanggal publikasi resmi di Google Play Store]** (pembaruan terakhir: 11 November 2026) dan menggantikan setiap versi sebelumnya.
+S&K ini berlaku efektif sejak **11 November 2026** (pembaruan terakhir: 11 November 2026) dan menggantikan setiap versi sebelumnya.
 
 ### 2. Definisi
 
@@ -70,7 +70,7 @@ Pengguna wajib segera menghubungi Tim Papan Kerja apabila mengetahui atau mencur
 
 Satu nomor telepon dan satu KTP hanya dapat dikaitkan dengan satu Akun. Pembuatan Akun ganda dilarang.
 
-### 4. Sifat dan Lingkup Layanan ⚠️ LEGAL
+### 4. Sifat dan Lingkup Layanan
 
 #### 4.1. Papan Kerja adalah Penyedia Platform, Bukan Pihak dalam Tugas
 
@@ -88,7 +88,7 @@ Pengguna menyetujui bahwa Papan Kerja hanya menyediakan platform teknologi untuk
 
 Papan Kerja **BUKAN** bank, lembaga keuangan, penyelenggara jasa pembayaran, atau penerbit uang elektronik. Seluruh pemrosesan pembayaran di Aplikasi dilaksanakan oleh **Durianpay** (PT Durian Pay Indonesia), mitra Penyedia Jasa Pembayaran (PJP) berlisensi Bank Indonesia. Dompet Aplikasi berfungsi sebagai catatan saldo virtual; dana sebenarnya disimpan dan dikelola oleh Durianpay sesuai izin dan ketentuan Bank Indonesia.
 
-#### 4.3. Tanpa Hubungan Ketenagakerjaan ⚠️ LEGAL
+#### 4.3. Tanpa Hubungan Ketenagakerjaan
 
 Pekerja secara tegas mengakui bahwa:
 - Tidak ada hubungan ketenagakerjaan, kemitraan, atau usaha bersama (joint venture) antara Pekerja dengan Papan Kerja;
@@ -133,7 +133,7 @@ Sebagai Pekerja, Anda wajib:
 
 **Lamaran ganda.** Pekerja dapat melamar beberapa Tugas secara bersamaan untuk meningkatkan peluang diterima, dengan paling banyak 10 (sepuluh) lamaran yang menunggu keputusan pada saat yang sama. Setiap Tugas dapat memiliki paling banyak 5 (lima) pelamar yang menunggu keputusan pada saat yang sama. Begitu Anda diterima pada sebanyak batas "Tugas Bersamaan" yang berlaku bagi Rangking Anda (lihat Pasal 10.2), sistem secara otomatis menarik seluruh lamaran Anda yang masih berstatus tertunda pada Tugas lain agar Anda dapat fokus menyelesaikan Tugas yang sudah diterima. Pemberi Tugas akan melihat jumlah pelamar pada Tugas mereka diperbarui secara otomatis.
 
-### 7. Tindakan Terlarang ⚠️ LEGAL
+### 7. Tindakan Terlarang
 
 Dilarang menggunakan Aplikasi untuk:
 1. **Tugas Ilegal** — pekerjaan yang melanggar hukum Indonesia (perdagangan obat-obatan terlarang, perjudian, prostitusi, kekerasan, dll.);
@@ -151,6 +151,7 @@ Dilarang menggunakan Aplikasi untuk:
 13. **Menggunakan kata-kata terlarang** yang dimoderasi oleh sistem Papan Kerja dalam chat atau Konten Pengguna.
 14. **Materi pelecehan atau eksploitasi seksual anak (CSAE)** atau konten apa pun yang menyeksualisasi, mengeksploitasi, atau membahayakan anak — berlaku kebijakan tanpa toleransi (zero tolerance), lihat Pasal 11.7.
 15. **Mengunggah, mengirim, atau menyebarkan perangkat lunak atau berkas berbahaya** — termasuk virus, malware, ransomware, spyware, kode berbahaya, tautan berbahaya, atau berkas (file) yang dirancang atau berpotensi merusak, mengganggu, mengakses secara tidak sah, atau membahayakan perangkat, data, akun, atau sistem Pengguna lain maupun Papan Kerja, baik melalui bukti pekerjaan, lampiran obrolan, maupun fitur lain di Aplikasi.
+16. **Tugas terkait barang terlarang** — Tugas yang melibatkan pembelian, penjualan, pengantaran, atau penyediaan: (a) rokok, produk tembakau, rokok elektrik (vape), atau produk lain yang mengandung nikotin; (b) minuman beralkohol; (c) senjata api, amunisi, bahan peledak, atau senjata lain yang dilarang atau dibatasi oleh hukum; (d) obat keras atau obat yang memerlukan resep dokter, tanpa resep yang sah; (e) barang palsu atau tiruan yang melanggar merek atau hak kekayaan intelektual pihak lain.
 
 Pelanggaran Pasal 7 dapat berakibat pada penangguhan langsung, pemblokiran permanen, pembekuan saldo Dompet, dan/atau pelaporan kepada pihak berwenang.
 
@@ -202,7 +203,7 @@ Pekerja dan Pemberi Tugas dapat menarik saldo Dompet ke rekening bank atau akun 
 
 Papan Kerja berhak menahan atau menolak permintaan penarikan yang ditemukan terkait dengan dugaan penipuan, pencucian uang, atau pelanggaran S&K.
 
-#### 8.4. Pembayaran Wajib Melalui Aplikasi ⚠️ LEGAL
+#### 8.4. Pembayaran Wajib Melalui Aplikasi
 
 Seluruh pembayaran untuk Tugas yang berasal dari Aplikasi wajib dilakukan melalui sistem pembayaran resmi yang tersedia di Papan Kerja.
 
@@ -249,7 +250,7 @@ Pemberi Tugas yang membatalkan Tugas setelah lamaran diterima (sebelum tenggat w
 
 Apabila kedua pihak menyepakati pembagian dana dalam jendela tersebut, Biaya Platform sebesar 10% dipotong dari bagian Pekerja (Pasal 8.1) dan kedua pihak dapat saling memberi rating (Pasal 10.1). Apabila kedua pihak menyepakati bahwa Pekerja menerima Rp 0, Tugas berakhir sebagai pembatalan oleh Pemberi Tugas: nilai Tugas di escrow dikembalikan penuh ke Dompet Pemberi Tugas (Biaya Layanan Posting dan Biaya Tugas Mendesak tidak dikembalikan), tanpa strike pembatalan, dan tidak ada pihak yang dapat memberi rating atas Tugas tersebut.
 
-#### 9.5. Penyelesaian Sengketa oleh Tim Papan Kerja ⚠️ LEGAL
+#### 9.5. Penyelesaian Sengketa oleh Tim Papan Kerja
 
 Jika salah satu pihak menekan "Ajukan Sengketa ke Tim Papan Kerja" (status Tugas menjadi "Menunggu peninjauan"), Tim Papan Kerja akan meninjau dan memutuskan salah satu dari empat pilihan:
 - (a) **Penuh ke Pekerja** — dengan Biaya Platform tetap berlaku;
@@ -348,7 +349,7 @@ Setiap Pengguna berhak memblokir Pengguna lain melalui fitur "Blokir Pengguna" y
 
 Pemblokiran dapat dibatalkan kapan saja oleh pemblokir. Pemblokiran tidak menghapus riwayat interaksi sebelumnya, tidak membatalkan Tugas yang sedang berjalan, dan tidak mempengaruhi pembayaran yang sedang dalam escrow. Untuk kasus yang lebih berat, gunakan fitur "Laporkan" pada Pasal 11.4.
 
-#### 11.6. Tanggung Jawab Pengguna saat Berinteraksi ⚠️ LEGAL
+#### 11.6. Tanggung Jawab Pengguna saat Berinteraksi
 
 Setiap Pengguna bertanggung jawab untuk menggunakan pertimbangan dan kehati-hatian yang wajar saat berinteraksi, berkomunikasi, atau bertemu secara langsung dengan Pengguna lain, termasuk namun tidak terbatas pada:
 
@@ -360,7 +361,7 @@ Setiap Pengguna bertanggung jawab untuk menggunakan pertimbangan dan kehati-hati
 
 Pengguna dianjurkan untuk segera melaporkan aktivitas mencurigakan kepada Tim Papan Kerja dan/atau pihak berwenang yang berwenang.
 
-#### 11.7. Standar Keselamatan Anak (Child Safety Standards / CSAE) ⚠️ LEGAL
+#### 11.7. Standar Keselamatan Anak (Child Safety Standards / CSAE)
 
 Papan Kerja menerapkan **kebijakan tanpa toleransi (zero tolerance)** terhadap materi pelecehan dan eksploitasi seksual anak (*Child Sexual Abuse and Exploitation*/CSAE) serta segala bentuk konten atau perilaku yang menyeksualisasi, mengeksploitasi, atau membahayakan anak.
 
@@ -401,7 +402,7 @@ Saat Akun ditangguhkan atau diblokir: Tugas terbuka milik Akun tersebut yang bel
 
 Pengguna yang Akunnya ditangguhkan atau diblokir dapat mengajukan banding melalui support@papankerja.com dalam waktu 14 hari kalender sejak pemberitahuan. Tim Papan Kerja akan meninjau dan memberikan keputusan akhir dalam waktu 14 hari kerja. Banding ini berlaku untuk penangguhan dan pemblokiran Akun oleh Tim Papan Kerja (Pasal 12.2). Strike pembatalan dan penangguhan karena strike (Pasal 12.1) bukan penangguhan Akun; atas strike tersebut, Pengguna dapat meminta peninjauan oleh manusia sebagaimana diatur dalam Kebijakan Privasi bagian 9.
 
-#### 12.4. Penangguhan Karena Aktivitas Mencurigakan ⚠️ LEGAL
+#### 12.4. Penangguhan Karena Aktivitas Mencurigakan
 
 Kami berhak meninjau, membatasi, menangguhkan, atau menahan sementara transaksi, saldo, atau akun apabila terdeteksi aktivitas mencurigakan, dugaan penipuan, pelanggaran hukum, pelanggaran Ketentuan Layanan, atau ancaman terhadap keamanan platform.
 
@@ -445,7 +446,7 @@ Aplikasi Papan Kerja, termasuk seluruh kode sumber, desain antarmuka, logo, nama
 - Menggunakan nama atau logo Papan Kerja secara tidak sah;
 - Melakukan reverse engineering atau dekompilasi.
 
-### 15. Penolakan Jaminan ⚠️ LEGAL
+### 15. Penolakan Jaminan
 
 APLIKASI DAN SELURUH LAYANAN DISEDIAKAN "SEBAGAIMANA ADANYA" (AS IS) DAN "SEBAGAIMANA TERSEDIA" (AS AVAILABLE). DALAM BATAS YANG DIIZINKAN OLEH HUKUM YANG BERLAKU, PAPAN KERJA TIDAK MEMBERIKAN JAMINAN APAPUN, BAIK TERSURAT, TERSIRAT, ATAU STATUTER, TERMASUK NAMUN TIDAK TERBATAS PADA:
 
@@ -457,7 +458,7 @@ APLIKASI DAN SELURUH LAYANAN DISEDIAKAN "SEBAGAIMANA ADANYA" (AS IS) DAN "SEBAGA
 
 Pemberi Tugas dan Pekerja melaksanakan Tugas atas risiko masing-masing.
 
-### 16. Pembatasan Tanggung Jawab ⚠️ LEGAL
+### 16. Pembatasan Tanggung Jawab
 
 DALAM BATAS MAKSIMAL YANG DIIZINKAN OLEH HUKUM YANG BERLAKU:
 
@@ -484,7 +485,7 @@ Dalam batas yang diperbolehkan oleh hukum yang berlaku, Papan Kerja secara khusu
 - atau tindakan melawan hukum lainnya yang dilakukan oleh Pengguna terhadap Pengguna lain.
 
 
-### 17. Ganti Rugi (Indemnification) ⚠️ LEGAL
+### 17. Ganti Rugi (Indemnification)
 
 Para Pengguna setuju untuk membela, mengganti rugi, dan membebaskan Papan Kerja, direktur-direkturnya, manajer-manajernya, pejabat-pejabatnya, karyawan-karyawannya, dan para pemegang sahamnya ("Penerima Ganti Rugi") dari dan terhadap semua klaim, tanggung jawab, kerusakan, kerugian, dan biaya, termasuk tanpa batasan, biaya hukum dan akuntansi yang wajar, yang timbul dari atau dengan cara apapun terkait dengan Layanan Pengguna yang dilakukan oleh Papan Kerja berdasarkan perjanjian yang akan ditandatangani oleh Anda dan kami selain dari yang timbul karena kelalaian berat (culpa lata) atau kesalahan yang disengaja oleh kami atau pejabat, agen, direktur atau karyawan kami dan/atau afiliasi kami; segala kerusakan atau perusakan properti oleh Para Pengguna, pihak ketiga, atau terorisme, bencana alam, atau takdir Tuhan apa pun; cedera atau kematian seseorang karena sebab apa pun; dan kesalahan penilaian oleh Penerima Ganti Rugi atau kesesatan hukum atau fakta oleh Penerima Ganti Rugi.
 
@@ -517,7 +518,7 @@ Anda setuju untuk menerima komunikasi tersebut secara elektronik, yang memiliki 
 
 Papan Kerja dapat memperbarui S&K dari waktu ke waktu. Perubahan material akan diberitahukan paling lambat **7 hari kalender** sebelum berlaku, di halaman ini dengan tanggal pembaruan, dan bila memungkinkan juga melalui Aplikasi. Penggunaan Aplikasi setelah tanggal berlaku perubahan menunjukkan persetujuan Anda atas versi terbaru. Jika Anda tidak setuju, Anda dapat menghentikan penggunaan dan menghapus Akun sebelum tanggal berlaku.
 
-### 22. Hukum yang Berlaku dan Penyelesaian Sengketa ⚠️ LEGAL
+### 22. Hukum yang Berlaku dan Penyelesaian Sengketa
 
 #### 22.1. Hukum yang Berlaku
 
@@ -567,7 +568,7 @@ By registering, accessing, or using the App, you confirm that:
 
 **If you do not agree to these Terms, do not register or use the App.**
 
-These Terms are effective from **[the official publication date on the Google Play Store]** (last updated: 11 November 2026) and supersede all prior versions.
+These Terms are effective from **11 November 2026** (last updated: 11 November 2026) and supersede all prior versions.
 
 ### 2. Definitions
 
@@ -630,7 +631,7 @@ Workers independently decide whether to accept a Task, their availability, how t
 
 ### 5–24
 
-[For brevity in this English reference translation, sections 5 through 24 mirror the structure and substantive content of the Bahasa Indonesia version above. The Indonesian text is authoritative and controlling in case of any discrepancy.]
+Sections 5 through 24 are not translated in full in this English reference. Their headings are listed below, and the governing-law, dispute and contact sections follow. The Bahasa Indonesia text above is the authoritative and controlling version.
 
 Key headings:
 
